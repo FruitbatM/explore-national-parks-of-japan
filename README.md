@@ -42,3 +42,12 @@ Mockup responsive image was created with [Techsini](http://techsini.com/multi-mo
 # User Experience (UX)
 ## User Stories
 ### Visitor Stories
+1. As a site visitior, I would like to gain an understanding of the website's purpose from the landing page.
+2. As a site visitor, I would like to easily navigate through the site and find what I'm looking for with an ease.
+3. As a site visitor, I would like to find the aesthetics of the website enjoyable.
+4. As a site visitor, I 
+5. As a site visitor,I want to use interactive elements on the website.
+6. As a site visitor, I would like to be able to easily find and navigate to the company's social media.
+7. As a site visitor, I want to get in touch if I might have any queries.
+8. As a site visitor, I want to use map to find exciting national parks in Japan and based on the provided information make a decision what places to visit.
+9. As a site visitor, I want to use map to find accomondation near the national parks.
