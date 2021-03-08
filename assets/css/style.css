@@ -51,12 +51,8 @@
     top: 0;
 }
 
-.hero-image-container {
-    position: relative;
-}
-
 #hero-image {
-    position: absolute;
+    position: relative;
     display: block;
     background: url(/assets/images/hero-image.jpg) no-repeat center;
     background-size: cover;
@@ -67,11 +63,14 @@
 
 .hero-text {
     text-align: center;
-    margin-top: 14rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 3.2rem;
     font-weight: 500;
     letter-spacing: 0.2rem;
+    padding-top: 2.1rem;
+    color: #f23332;
+    text-shadow: 0.15rem 0.15rem #f1f1f1;
+    -webkit-text-stroke: 2px #c60a09;
 }
 
 /* code resource: Nathan Schmidt
@@ -85,11 +84,16 @@
     background: -ms-linear-gradient(289deg, #c60a09 0%, #f23332 36%, #c60a09 100%);
     opacity: 0.3;
     position: absolute; 
-    z-index: 0;
     left: 0;
     top: 11.5rem;
-
 }
+
+.para-explore {
+    margin-top: 2rem;
+}
+
+
+
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links 
 and position the close button again, so they don't overlap */
