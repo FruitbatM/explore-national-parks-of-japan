@@ -92,7 +92,23 @@
     margin-top: 2rem;
 }
 
-
+/* Back to top arrow - code with small modification taken from: 
+https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+#arrow_2top {
+    position: fixed;
+    bottom: 0.1rem;
+    right: 1rem;
+    z-index: 99; /* Make sure it does not overlap */
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #f23332;
+    opacity: 0.4;
+    cursor: pointer; /* Add a mouse pointer on hover */
+}
+#arrow_2top:hover {
+    color:#916750;
+}
 
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links 
