@@ -253,6 +253,13 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     color: #000000;
 }
 
+.footer-section {
+    background-color: #f23332;
+    color: #fafafa;
+    font-size: 0.9rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 200;
+}
 
 /* Media Queries */
 /* Display on medium screens (tablet devices) */
