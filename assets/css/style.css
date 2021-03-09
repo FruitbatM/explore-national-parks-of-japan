@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
+/* Add a smooth scrolling effect to the document */
+html {
+    scroll-behavior: smooth;
+}
+
+/* The Overlay (background) */
 .overlay {
     height: 100%;
     width: 0;
@@ -13,6 +19,7 @@
     transition: 0.5s;
 }
 
+/* Content positioning inside the overlay */
 .overlay-content {
     position: relative;
     top: 25%;
@@ -142,10 +149,11 @@
     -webkit-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
+
   80% {
     -webkit-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
-    }
+}
   90% {
     -webkit-transform: translateX(1px) rotate(0);
     transform: translateX(1px) rotate(0);
@@ -180,7 +188,7 @@
     background: url(/assets/images/hero-image.jpg) no-repeat center;
     background-size: cover;
     width: 100vw;
-    height: 100vh;
+    height: 92vh;
     margin: auto;
 }
 
@@ -233,6 +241,19 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     color:#916750;
 }
 
+.icon {
+    margin-top: 5rem;
+}
+
+.text-header {
+    color: #c60a09;
+}
+
+.para-explore {
+    color: #000000;
+}
+
+
 /* Media Queries */
 /* Display on medium screens (tablet devices) */
 @media screen and (min-width: 764px) {
@@ -245,6 +266,9 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 .social-media i {
     font-size: 1.8rem;
     }
+
+#hero-image {
+    height: 95vh;
 }
 
 /* Display on large devices */
@@ -258,6 +282,11 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 .social-media i {
     font-size: 2rem;
     }
+
+#hero-image {
+    height: 90vh;
+}
+
 }
 
 /* w3schools.com 
