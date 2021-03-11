@@ -66,9 +66,15 @@ html {
     right: 0;
 }
 
+a {
+    text-decoration: none !important;
+    color: #fafafa;
+}
+
 .social-media i {
     color: #c60a09;
     font-size: 1.3rem;
+    text-decoration: none;
 }
 
 /* Hover effect for social media icons 
@@ -253,9 +259,17 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     color: #000000;
 }
 
+.np-img {
+    max-width: 100%;
+    height: auto;
+    padding: 0.6rem;
+    vertical-align: left;
+    margin: 0 auto 2rem;
+}
+
 #map {
-    position: absolute;
-    height: 50%;
+    position: relative;
+    min-height: 360px;
     width: 50%;
     display: flex;
 }
