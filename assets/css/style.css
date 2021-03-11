@@ -66,9 +66,9 @@ html {
     right: 0;
 }
 
-a {
+/* Remove underline for font-awsome social media icons - NOT WORKING */
+social-media > a {
     text-decoration: none !important;
-    color: #fafafa;
 }
 
 .social-media i {
@@ -244,7 +244,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     cursor: pointer; /* Add a mouse pointer on hover */
 }
 #arrow_2top:hover {
-    color:#916750;
+    color:#c60a09;
 }
 
 .icon {
@@ -262,16 +262,16 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 .np-img {
     max-width: 100%;
     height: auto;
-    padding: 0.6rem;
+    padding: 1rem;
     vertical-align: left;
-    margin: 0 auto 2rem;
 }
 
+
+
 #map {
-    position: relative;
-    min-height: 360px;
-    width: 50%;
-    display: flex;
+    min-height: 400px;
+    width: 100%;
+    margin-top: 3rem;
 }
 
 .footer-section {
@@ -281,6 +281,9 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 200;
 }
+
+
+
 
 /* Media Queries */
 /* Display on medium screens (tablet devices) */
