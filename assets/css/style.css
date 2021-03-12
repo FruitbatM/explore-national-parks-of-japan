@@ -274,13 +274,16 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     margin-top: 3rem;
 }
 
-
-
 .form-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 4.5rem;
+}
+
+form input {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .btn-contact {
@@ -290,10 +293,10 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     display: block;
     text-align: center;
     line-height: 1rem;
-    padding: 0.7rem 1.3rem;
-    font-size: 1rem;
-    border-radius: 0.4rem;
+    padding: 0.6rem 1.8rem;
+    border-radius: 0.7rem;
     text-transform: uppercase;
+    font-size: 1.1rem;
     margin: auto;
 }
 
