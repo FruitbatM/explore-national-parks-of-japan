@@ -133,24 +133,25 @@
     </section>
     <!--Contact section-->
     <section class="contact-section">
-        <div class="container">
+        <div class="form-container col-12 mt-4">
             <div class="row text-center">
                 <i class="far fa-envelope fa-3x icon" aria-hidden="true"></i>
-                <div class="col-12 mt-4 mb-4">
-                    <div class="text-header m-2">
+                    <div class="text-header mt-2 mb-4">
                         <h2>Get in touch!</h2>
                     </div>
-                </div>
-            </div>
-            <form id="contact-form">
-                <input type="text" name="name" id="full-name" class="form-control" placeholder="Your Full Name" required>
-                <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" required>
-                <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject">
-                <textarea class="form-control" name="message" id="message" rows="7" placeholder="Message" required></textarea>
-                    <div class="form-button">
-                        <button type="submit" class=" btn-secondaray btn-contact mt-3">Send</button>
+            
+                    <div class="col-12 justify-content-center">
+                        <form method="POST" action="" target="_blank" id="contact-form">
+                            <input type="text" name="name" id="full-name" class="form-control" placeholder="Your Full Name" required>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" required>
+                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject">
+                            <textarea class="form-control" name="message" id="message" rows="7" placeholder="Message" required></textarea>
+                                <div class="form-button">
+                                    <button type="submit" class="btn-contact mt-4">Send</button>
+                                </div>
+                        </form>
                     </div>
-            </form>
+            </div>
         </div>
     </section>
     <footer class="container-fluid footer-section pt-3">

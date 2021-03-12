@@ -274,21 +274,18 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     margin-top: 3rem;
 }
 
-.footer-section {
-    background-color: #f23332;
-    color: #fafafa;
-    font-size: 0.9rem;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 200;
-}
 
-.contact-form {
-    text-align: center;
-    width: 70%;
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4.5rem;
 }
 
 .btn-contact {
     background-color: #c60a09;
+    color: #fafafa;
     border: none;
     display: block;
     text-align: center;
@@ -300,6 +297,22 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     margin: auto;
 }
 
+.btn-contact:hover,
+.btn-contact:focus,
+.btn-contact:active {
+    background-color: #f23332 !important;
+    border-color: #f23332 !important;
+    box-shadow: 0.2rem 0.2rem #df2f2f !important;
+    border: 0.12rem solid;
+}
+
+.footer-section {
+    background-color: #f23332;
+    color: #fafafa;
+    font-size: 0.9rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 200;
+}
 
 /* Media Queries */
 /* Display on medium screens (tablet devices) */
