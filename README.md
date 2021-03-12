@@ -2,7 +2,7 @@
 
 *Developed and designed as part of Milestone Project 2: Interactive Front-end Development module.*
 
-[Please view the live project here]()
+[Please view the live project here](https://fruitbatm.github.io/explore-national-parks-of-japan/)
 
 <h2 align="center"><img src="" target="_blank" width="75%" height="75%"></h2>
 

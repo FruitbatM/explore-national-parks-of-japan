@@ -191,7 +191,7 @@ social-media > a {
 #hero-image {
     position: relative;
     display: block;
-    background: url(/assets/images/hero-image.jpg) no-repeat center;
+    background: url(../images/hero-image.jpg) no-repeat center;
     background-size: cover;
     width: 100vw;
     height: 92vh;
@@ -263,13 +263,12 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     max-width: 100%;
     height: auto;
     padding: 1rem;
-    vertical-align: left;
 }
 
 
 
 #map {
-    min-height: 400px;
+    min-height: 500px;
     width: 100%;
     margin-top: 3rem;
 }
@@ -320,35 +319,36 @@ form input {
 /* Media Queries */
 /* Display on medium screens (tablet devices) */
 @media screen and (min-width: 764px) {
-.logo {
-    width: 130px;
-    height: 133px;
-    top: 0;
+    .logo {
+        width: 130px;
+        height: 133px;
+        top: 0;
     }
 
-.social-media i {
-    font-size: 1.8rem;
+    .social-media i {
+        font-size: 1.8rem;
     }
 
-#hero-image {
-    height: 95vh;
+    #hero-image {
+        height: 95vh;
+    }
 }
 
 /* Display on large devices */
 @media screen and (min-width: 1024px) {
-.logo {
-    width: 130px;
-    height: 133px;
-    top: 0;
+    .logo {
+        width: 130px;
+        height: 133px;
+        top: 0;
     }
 
-.social-media i {
-    font-size: 2rem;
+    .social-media i {
+        font-size: 2rem;
     }
 
-#hero-image {
-    height: 90vh;
-}
+    #hero-image {
+        height: 90vh;
+    }
 
 }
 
