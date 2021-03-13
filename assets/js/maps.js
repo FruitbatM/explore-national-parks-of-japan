@@ -2,7 +2,7 @@
 function initMap() {
   const options = {
     center: { lat: 36.1783653, lng: 135.0709152 },
-    zoom: 8
+    zoom: 5
   };
   
   //New map
@@ -95,17 +95,10 @@ function initMap() {
       <p>The Ogasawara Islands also know as Bonin Island are a UNESCO World Heritage Site 1,000 kilometers south of Tokyo, in the Pacific Ocean. These subtropical islands are home to a number of 
       plant and animal species found nowhere else in the world. Dolphin and whale watching are popular activities, as well as kayaking and scuba diving in the warm coastal waters.</p>`
     }
-];
+  ];
 
-//Loop through markers 
-for(let i = 0; i < locations.length; i++) {
-  addMarker(locations[i]);
-}
-
-//Add marker
-function addMarker(props) {
-  const marker = new google.maps.Marker({
-  position: props.coordinates,
-  map: map,
-  });
+  //Loop through markers 
+  for(let i = 0; i < markers.length; i++) {
+    addMarker(markers[i]);
+  }
 };
