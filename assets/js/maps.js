@@ -101,4 +101,33 @@ function initMap() {
   for(let i = 0; i < markers.length; i++) {
     addMarker(markers[i]);
   }
-};
+
+  // Marker function
+  function addMarker(jap) {
+    const marker = new google.maps.Marker({
+    position: jap.coordinates,
+    map: map,
+  });
+
+    if(jap.location) {
+      let infoWindow = new google.mapsInfoWindow ({
+        location: jap.location
+      });
+
+      // Marker appears on mouseover and disappears on mouseout
+      marker.addListener('mouseover', function(){
+        infoWindow.open(map, marker);
+
+      google.maps.event.addListener(marker, 'mouseout', function() {
+        });
+      });
+
+      // Info shows in side column when the marker is clicked
+      google.maps.event.addListener(marker, 'click', (function(i) {
+        return function() {
+          document.getElementsByClassName('side-column').innerHTML = markers[i].location;
+        };
+      })(i));
+    }
+}
+}
