@@ -12,6 +12,14 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <title>Explore National Parks of Japan</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_DkY6Dzw8RNHgzSkoWcGLn");
+        })();
+    </script>
 </head>
 <body>
     <header>
@@ -24,7 +32,7 @@
                     <div id="myNav" class="overlay">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                         <div class="overlay-content">
-                            <a href="#home">Home</a>
+                            <a href="#home" aria-current="page">Home</a>
                             <a href="#explore">Explore</a>
                             <a href="#map">Map</a>
                             <a href="#contact">Contact</a>
@@ -172,5 +180,6 @@
     <!-- internal script file -->
     <script src="assets/js/script.js"></script>
     <script src="assets/js/maps.js"></script>
+    <script src="assets/js/sendEmail.js"></script>
 </body>
 </html>
