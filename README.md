@@ -51,3 +51,12 @@ Mockup responsive image was created with [Techsini](http://techsini.com/multi-mo
 7. As a site visitor, I want to get in touch if I might have any queries.
 8. As a site visitor, I want to use map to find exciting national parks in Japan and based on the provided information make a decision what places to visit.
 9. As a site visitor, I want to use map to find accomondation near the national parks.
+
+
+
+## Skeleton
+The wireframes were created in [Balsamiq](https://balsamiq.com/).
+Please view the wireframes for desktop, tablet and mobile screens on the following link:.
+
+## Design
+### Colour Scheme

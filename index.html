@@ -150,7 +150,7 @@
                     </div>
             
                     <div class="col-12 justify-content-center">
-                        <form method="POST" action="" target="_blank" id="contact-form">
+                        <form method="POST" id="contact-form" onsubmit="return sendMail(this);">
                             <input type="text" name="name" id="full-name" class="form-control" placeholder="Your Full Name" required>
                             <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" required>
                             <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject">

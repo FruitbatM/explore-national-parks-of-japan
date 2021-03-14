@@ -1,3 +1,5 @@
+// Send email function (adapted from Code Institute walkthrough project)
+
 function sendMail(contactForm) {
     emailjs.send("japan", "template_29fdtiv", {
         "from_name": contactForm.name.value,
@@ -12,5 +14,8 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         }
     );
-    return false;  // To block from loading a new page
+
+    // Clear the form
+    document.getElementById('contact-form').reset();
+    return false;
 }
