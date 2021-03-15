@@ -30,7 +30,7 @@ function topFunction() {
 }
 
 
-// Get live weather data
+// Get live weather data from Open Weather API
 async function getLocationWeather(location) {
   const result = await fetch(`api.openweathermap.org/data/2.5/forecast?id={1863357}&appid={b3e0a4fb9d29b25beb45fdf2cad771b0}`)
 
