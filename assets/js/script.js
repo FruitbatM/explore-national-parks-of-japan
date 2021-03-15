@@ -28,3 +28,15 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+// Get live weather data
+async function getLocationWeather(location) {
+  const result = await fetch(`api.openweathermap.org/data/2.5/forecast?id={1863357}&appid={b3e0a4fb9d29b25beb45fdf2cad771b0}`)
+
+  if (result.status === 200) {
+    return {success: true, data: await result.json() };
+  }
+
+    return {success: false, error: result.statusText};
+  }
