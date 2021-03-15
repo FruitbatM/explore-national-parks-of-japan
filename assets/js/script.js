@@ -31,12 +31,79 @@ function topFunction() {
 
 
 // Get live weather data from Open Weather API
-async function getLocationWeather(location) {
-  const result = await fetch(`api.openweathermap.org/data/2.5/forecast?id={1863357}&appid={b3e0a4fb9d29b25beb45fdf2cad771b0}`)
 
-  if (result.status === 200) {
-    return {success: true, data: await result.json() };
-  }
+const notificationElement = document.getElementById('notification');
+const iconElement = document.getElementById('weather-icon');
+const temperatureElement = document.getElementsByClassName('temperature-value');
+const descElement = document.getElementById('temperature-description');
+const locationElement = document.getElementById('location');
 
-    return {success: false, error: result.statusText};
+function displayWeather() {
+  iconElement.innerHTML = 
+    `<img src="icons/${weather.iconId}.png"/>`;
+
+  temperatureElement.innerHTML = 
+    `${weather.temperature.value} ° <span>C</span>`;
+
+  descElement.innerHTML =
+    weather.description;
+
+  locationElement.innerHTML =
+    `${weather.city}, ${weather.country}`;
+}
+
+//Convert temperature from kelvin to celsius
+weather.temperature.value = 300 - 273
+
+//Convert temperature from celsius to fahrenheit
+function celsiusToFahrenheit(temperature) {
+  return (temperature * 9/5) +32;
+};
+
+//Function to change from celsius to fahrenheit and vice versa
+temperatureElement.addEventListener('click', function() {
+  if (weather.temperature.unit === undefined) return;
+  if (weather.temperature.unit === 'celsius') {
+    let fahrenheit = celsiusToFahrenheit(weather.temperature.value);
+    fahrenheit = Math.floor(fahrenheit);
+    tempElement.innerHTML = `${fahrenheit}° <span>F</span>`;
+    weather.temperature.unit = 'fahrenheit';
+  } else {
+    tempElement.innerHTML = `${weather.temperature.value}° <span>C</span>`;
+    weather.temperature.unit = 'celsius';
   }
+});
+
+
+// Tutorial by http://youtube.com/CodeExplained
+
+// App variables
+const weather = {};
+
+weather.temperature = {
+    unit : "celsius"
+}
+
+const kelvin = 273;
+const apiKey = 'b3e0a4fb9d29b25beb45fdf2cad771b0';
+
+// Get live weather data from Open Weather API
+function getWeather(latitude, longitude) {
+  let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`
+  
+  fetch(api).then(function(response) {
+    let data = response.json();
+    return data;
+  })
+  .then(function(data) {
+    weather.temperature.value = Math.floor(data.main.temp - kelvin);
+    weather.description = data.weather[0].description;
+    weather.iconId = data.weather[0].icon;
+    weather.city = data.name;
+    weather.country = data.sys.country;
+  })
+  .then(function() {
+    displayWeather();
+    });
+
+}
