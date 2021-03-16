@@ -204,26 +204,27 @@ social-media > a {
     font-size: 3.2rem;
     font-weight: 500;
     letter-spacing: 0.2rem;
-    padding-top: 2.1rem;
-    color: #f23332;
-    text-shadow: 0.15rem 0.15rem #f1f1f1;
-    -webkit-text-stroke: 2px #c60a09;
+    padding-top: 12.2rem;
+    color: #fafafa;
+    text-shadow: 0.2rem 0.2rem #343a40;
+    min-width: 100%;
+    min-height: 8.5rem;
+    position: relative;
+    z-index: 1;
 }
 
-/* code resource: Nathan Schmidt
- https://codepen.io/mrnathan8/pen/KwKdmO */
-.background-bar {
-    width: 100%;
-    height: 200px;
-    background: linear-gradient(161deg, #c60a09 0%, #f23332 36%, #c60a09 100%);
-    background: -moz-linear-gradient(289deg, #c60a09 0%, #f23332 36%, #c60a09 100%);
-    background: -webkit-linear-gradient(289deg, #c60a09 0%, #f23332 36%, #c60a09 100%);
-    background: -ms-linear-gradient(289deg, #c60a09 0%, #f23332 36%, #c60a09 100%);
+.hero-text::before {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-left: 0;
+    min-width: 100%;
+    min-height: 8.5rem;
+    z-index: -1;
     opacity: 0.3;
-    position: absolute; 
-    left: 0;
-    top: 11.5rem;
+    background-color: #c60a09;
 }
+
 
 .para-explore {
     margin-top: 2rem;

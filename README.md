@@ -150,6 +150,10 @@ Testing process was written in a separate file.
 ## Content
 Below websites were used for a general layout inspiration:
 
+- The text was adapted from: 
+[Japan National Tourism Organization](https://www.japan.travel/national-parks/)
+
+
 # Acknowledgements
 - My mentor, Mr. Spencer Barriball, for the helpful feedback and guidance.
 - [Code Institute](https://codeinstitute.net/) for all course materials and ongoing support.
