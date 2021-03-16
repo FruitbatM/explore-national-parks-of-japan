@@ -19,7 +19,8 @@ function sendMail(contactForm) {
         // Sweet Alert custom pop-up alert if fail
         function() {
           Swal.fire(
-            'Ooops...something went wrong.',
+            'Ooops...',
+            'Something went wrong.',
             'error'
             );
           });
