@@ -12,14 +12,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <title>Explore National Parks of Japan</title>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-        (function() {
-            emailjs.init("user_DkY6Dzw8RNHgzSkoWcGLn");
-        })();
-    </script>
 </head>
 <body>
     <header>
@@ -150,7 +142,6 @@
                     </div>
                 </div>
             </div>
-            <div id="notification"></div>
             <div class="weather-container">
                 <div id="weather-icon"><img src="unknown-image" alt="wheater icon"></div>
                 <div id="temperature-value">
@@ -166,27 +157,6 @@
                 </div> 
             </div>
         </div>
-            <div class="weather-title">
-                <p>Weather</p>
-            </div>
-            <div class="notification"></div>
-            <div class="weather-container">
-                <div class="weather-icon"><img src="unknown-image" alt="wheater icon"></div>
-                <div class="temperature-value">
-                    <p>- °<span>C</span></p>
-                </div>
-                <div class="temperature-description">
-                    <p> - </p>
-                </div>
-                <div class="location">
-                    <p> - </p>
-                </div>
-
-
-                        
-                    
-                </div>
-            </div>
     </section>
 
     <!--Contact section-->
@@ -229,6 +199,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAy8IyX7_mfbEUH8q1lceATeEs_BRPlbpU&callback=initMap&libraries=&v=weekly" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/10.15.5/sweetalert2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("user_DkY6Dzw8RNHgzSkoWcGLn");
+        })();
+    </script>
     <!-- internal script file -->
     <script src="assets/js/script.js"></script>
     <script src="assets/js/maps.js"></script>
