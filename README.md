@@ -97,3 +97,64 @@ Please view the wireframes for desktop, tablet and mobile screens on the followi
 - Fonts were imported from [Google Fonts](https://fonts.google.com/).
 
 ### Imagery
+
+- For the website I used impactful images to attract the user's attention and to try to influence users decision to visit one of the national parks.
+- I paid attention that the images match the captions and are labeled with keywords important to the website content to improve onsite SEO.
+- All images are sized and compressed for the best user experience.
+
+### Logo
+
+
+### Icons
+- I used several icons to improve the website's UX from [Font Awesome](https://fontawesome.com/)
+
+# Features
+Explore National Parks of Japan is built to be fully responsive mobile-first website.
+
+## Existing Features
+
+## Future Implementation
+
+# Technologies
+## Languages
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) was used to _complete the structure of the website_.
+- [CSS3](https://en.wikipedia.org/wiki/CSS) was used to style the website.
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) was used to make webpage interactive.
+
+## Frameworks, Libraries and Tools
+- [Bootstrap v.5.0.](https://getbootstrap.com/docs/5.0/getting-started/introduction/) was used to create the contact form and footer section as well to make the website responsive.
+
+
+## Validation
+- [W3C Markup Validation Service](https://validator.w3.org/) was used for Markup validation.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used for CSS code validation.
+- [JavaScript validator]() was used for JavaScript code validation.
+
+# Testing
+Testing process was written in a separate file. 
+[Please click here for the full testing process](testing.md).
+
+# Deployment
+## GitHub pages
+
+# Credits
+## Code
+
+
+## Media
+### Images
+
+### Icons
+- Social media icons were sourced from [Font Awesome](https://fontawesome.com/)
+
+## Content
+Below websites were used for a general layout inspiration:
+
+# Acknowledgements
+- My mentor, Mr. Spencer Barriball, for the helpful feedback and guidance.
+- [Code Institute](https://codeinstitute.net/) for all course materials and ongoing support.
+- Fellow Code Institute students for their feedback and suggestions.
+- My family and friends for testing and useful feedback. 
+
+# Disclaimer
+The information provided on this website is for educational purposes only.
