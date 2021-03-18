@@ -10,11 +10,13 @@ function closeNav() {
 }
 
 // Close navigation menu after click on anchor link
+let menuLinks = document.querySelectorAll('.menu a');
 
-$('.menu a').on('click', function() {
-  $('#hamburger').click();
-});
-
+menuLinks.forEach (
+  function(menuLink) {
+    menuLink.addEventListener('click', closeNav);
+  }
+)
 
 // Back to Top Arrow - code with small modification taken from: 
 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
