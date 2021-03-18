@@ -5,12 +5,16 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none; /* Remov lines on social media icons */
+}
+
 /* The Overlay (background) */
 .overlay {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1; /* Sit on top */
+    z-index: 2; /* Sit on top */
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
@@ -48,6 +52,7 @@ html {
     font-size: 60px;
 }
 
+
 .logo {
     position: absolute;
     display: block;
@@ -66,10 +71,6 @@ html {
     right: 0;
 }
 
-/* Remove underline for font-awsome social media icons - NOT WORKING */
-social-media > a {
-    text-decoration: none !important;
-}
 
 .social-media i {
     color: #c60a09;
@@ -317,6 +318,7 @@ form input {
     font-weight: 200;
 }
 
+
 /* Media Queries */
 /* Display on medium screens (tablet devices) */
 @media screen and (min-width: 764px) {
@@ -328,6 +330,10 @@ form input {
 
     .social-media i {
         font-size: 1.8rem;
+    }
+
+    .menu-btn {
+        right: 25px;
     }
 
     #hero-image {
@@ -351,18 +357,4 @@ form input {
         height: 90vh;
     }
 
-}
-
-/* w3schools.com 
-http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/howto/howto_js_fullscreen_overlay.asp.html
-*/
-/* When the height of the screen is less than 450 pixels, change the font-size of the links 
-and position the close button again, so they don't overlap */
-@media screen and (max-height: 450px) {
-.overlay a {font-size: 20px}
-.overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-    }
 }

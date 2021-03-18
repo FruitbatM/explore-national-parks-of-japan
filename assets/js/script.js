@@ -1,11 +1,14 @@
 // Full screen overlay navigation
+// Open when someone clicks on the element
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
 }
 
+// Close when someone clicks on the "x" symbol inside the overlay
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
+
 
 // Back to Top Arrow - code with small modification taken from: 
 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
