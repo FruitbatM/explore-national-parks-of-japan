@@ -7,25 +7,28 @@ function sendMail(contactForm) {
         'subject': contactForm.subject.value,
         'message': contactForm.message.value
     })
+
     .then(
+        // Sweet Alert custom pop-up alert if success; credit: https://sweetalert2.github.io/
         function() {
-          // Sweet Alert custom pop-up alert if success
-          Swal.fire(
-            'Thank you for getting in touch!',
-            'We will get back to you shortly.',
-            'success'
-          );
+          Swal.fire ({
+            title: 'Thank you for getting in touch!',
+            text: 'We will get back to you shortly.',
+            icon: 'success',
+            confirmButtonColor: '#f23332'
+            });
         },
         // Sweet Alert custom pop-up alert if fail
         function() {
-          Swal.fire(
-            'Ooops...',
-            'Something went wrong.',
-            'error'
-            );
-          });
+          Swal.fire ({
+            title: 'Ooops...',
+            text: 'Something went wrong.',
+            icon: 'error',
+            confirmButtonColor: '#f23332'
+            });
+        });
 
     // Clear the form
-    document.getElementById('contact-form').reset();
+    document.getElementById('contactForm').reset();
     return false;
 }
