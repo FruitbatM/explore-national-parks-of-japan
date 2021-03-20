@@ -17,8 +17,17 @@ function initMap() {
       content: '<h5>Fuji Hakone Izu National Park</h5>',
       info: `<img src="assets/images/fuji-hakone-izu.jpg" class="img-fluid" alt="Fuji-Hakone-Izu National Park"></img>
       <h4 class="py-3">Fuji Hakone Izu National Park</h4>
-      <p>Fuji Hakone Izu is the most popular of Japan’s national parks due to its close proximity to Tokyo.
-      It is famous for its ancient history, its shrine and hot springs in addition to views of nearby Mount Fuji.</p>`
+      <p>
+      Fuji Hakone Izu is the most popular of Japan’s national parks due to its close proximity to Tokyo.
+      It is famous for its ancient history, its shrine and hot springs in addition to views of nearby Mount Fuji.
+      </p>
+      <p>
+      The mountain has been the natural soul of Japan since ancient times. In the park, you can wander through timeless forests, explore lava caves and bathe in hot springs. You can even swim with dolphins off the coast of the southern Izu islands.
+      </p>
+      <p>
+      <strong>How to get there:</strong> From Shinjuku Station in Tokyo, take the JR Chuo Line to Otsuki Station. 
+      There, transfer to the Fujikyu Railway Line to Kawaguchiko Station. This trip takes just under three hours.
+      </p>`
     },
     {
       coordinates: {lat: 43.5655079, lng: 144.3598874}, // Akan Mashu National Park

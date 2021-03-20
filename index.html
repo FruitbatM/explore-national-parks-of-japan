@@ -99,16 +99,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 order-lg-1 order-sm-2 px-2" id="side-column">
-                    <h4 class="side-heading text-center">Fuji Hakone Izu National Park</h4>
-                        <img class="img-fluid np-img" src="assets/images/fuji-hakone-izu.jpg" alt="Fuji Hakone Izu National Park">
-                        <p class="side-text text-center">
+                    <img class="img-fluid np-img" src="assets/images/fuji-hakone-izu.jpg" alt="Fuji Hakone Izu National Park">
+                    <h4 class="side-heading text-center pt-3 pb-1">Fuji Hakone Izu National Park</h4>
+                        <p class="side-text">
                         Fuji Hakone Izu is the most popular of Japan’s national parks due to its close proximity to Tokyo.
                         It is famous for its ancient history, its shrine and hot springs in addition to views of nearby Mount Fuji.
                         </p>
-                        <p class="side-text text-center">
+                        <p class="side-text">
                         The mountain has been the natural soul of Japan since ancient times. In the park, you can wander through timeless forests, explore lava caves and bathe in hot springs. You can even swim with dolphins off the coast of the southern Izu islands.
                         </p>
-                        <p class="side-text text-center">
+                        <p class="side-text">
                         <strong>How to get there:</strong> From Shinjuku Station in Tokyo, take the JR Chuo Line to Otsuki Station. 
                         There, transfer to the Fujikyu Railway Line to Kawaguchiko Station. This trip takes just under three hours.
                         </p>
@@ -120,55 +120,40 @@
         </div>
     </section>
 
-    <!--Where to stay section-->
-    <section id="stay-section">
-        <div class="container discover-japan">
-            <div class="row text-center">
-                <i class="fas fa-hotel fa-3x icon" aria-hidden="true"></i>
-                <div class="col-12 mt-4">
-                    <div class="text-header m-2">
-                        <h2>Where to stay</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 order-lg-1 order-sm-2 px-2">
-                    <input type="text" placeholder="Search...">
-                </div>
-                <!--2nd map
-                <div class="col-lg-8 text-center order-lg-2 order-sm-1">
-                    <div id="map_2"></div>
-                </div>
-                -->
-            </div>
-        </div>
-    </section>
     <!--Weather information-->
     <section class="weather-section">
         <div class="container">
             <div class="row text-center">
                 <i class="fas fa-cloud-sun fa-3x icon" aria-hidden="true"></i>
-                <div class="col-12 mt-4">
-                    <div class="weather-title text-header m-2">
+                <div class="col-12 mt-4 mb-4">
+                    <div class="weather-title text-header my-2">
                         <h2>Weather</h2>      
                     </div>
                 </div>
             </div>
-            <div class="weather-container">
-                <div id="weather-icon"><img src="unknown-image" alt="wheater icon"></div>
-                <div id="temperature-value">
-                    <p>- °
-                        <span>C</span>
-                    </p>
+        </div>
+        <div class="weather-search mt-2">
+            <div class="container">
+                <div class="row">
+                        <div class="col-md-6 order-lg-1 order-sm-2 px-3 text-center">
+                            <input type="text" placeholder="Search...">
+                        </div>
+                    <br>
+                    <div class="col-md-6 order-lg-2 order-sm-1 px-3 text-center">
+                        <div id="weather-icon"><img src="" alt="wheater icon"></div>
+                            <div id="temperature-value">
+                                <p>- °
+                                    <span>C</span>
+                                </p>
+                            </div>
+                            <div id="temperature-description">
+                                <p> - </p>
+                            </div>
+                            <div id="location">
+                                <p> - </p>
+                            </div> 
+                        </div>
                 </div>
-                <div id="temperature-description">
-                    <p> - </p>
-                </div>
-                <div id="location">
-                    <p> - </p>
-                </div> 
             </div>
         </div>
     </section>
