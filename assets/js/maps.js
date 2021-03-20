@@ -92,7 +92,7 @@ function initMap() {
       Mount Aso, and others in the Kuju Mountains. Hiking the volcanic craters is a popular activity. Due to the volcanic activity, several hot spring towns are located just outside the park.</p>`
     },
     {
-      coordinates: {lat: 24.3463485, lng: 123.660927}, // Iriomote Ishigaki National Park
+      coordinates: {lat: 24.4334539, lng: 123.7210239}, // Iriomote Ishigaki National Park
       content: '<h5>Iriomote Ishigaki National Park</h5>',
       info: `<img src="assets/images/iriomote-ishigaki-np.jpg" class="img-fluid" alt="Iriomote Ishigaki National Park">
       <h4 class="py-3">Iriomote Ishigaki National Park</h4>
@@ -100,14 +100,13 @@ function initMap() {
       true jungle river lined with mangrove trees.</p>`
     },
     {
-      coordinates: {lat: 33.2039904, lng: 124.2624389}, // Saikai National Park
+      coordinates: {lat: 33.1649111, lng: 129.676887}, // Saikai National Park
       content: '<h5>Saikai National Park</h5>',
       info: `<img src="assets/images/sakai-np.jpg" class="img-fluid" alt="Saikai National Park">
       <h4 class="py-3">Saikai National Park</h4>
       <p>
       Situated in northwestern Kyushu, Saikai National Park weaves together more than 400 small islands from several archipelagoes.
       The park’s dramatic landscapes and seascapes include drowned river valleys, myriad inlets, steep sea cliffs and stunning beaches.
-
       </p>`
     }
   ];
