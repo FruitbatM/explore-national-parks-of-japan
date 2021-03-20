@@ -42,7 +42,7 @@ function topFunction() {
 
 
 // Weather API
-// Tutorial by http://youtube.com/CodeExplained
+// Tutorial by Code Explained (https://www.youtube.com/watch?v=KqZGuzrY9D4)
 const notificationElement = document.getElementById('notification');
 const iconElement = document.getElementById('weather-icon');
 const temperatureElement = document.getElementsByClassName('temperature-value');

@@ -137,7 +137,7 @@
             <div class="container">
                 <div class="row">
                         <div class="col-md-6 order-lg-1 order-sm-2 px-3 text-center">
-                            <div class="dropdown mb-4">
+                            <div class="dropdown my-4">
                                 <button class="btn btn-danger dropdown-btn dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
                                     <span>Select a National Park</span>
                                 </button>
@@ -157,20 +157,23 @@
                         </div>
                     <br>
                     <div class="col-md-6 order-lg-2 order-sm-1 px-3 text-center">
-                        <div id="weather-icon"><img src="" alt="wheater icon"></div>
-                            <div id="temperature-value">
-                                <p>- °
-                                    <span>C</span>
-                                </p>
+                        <div class="notification"></div>
+                        <div class="weather-container">
+                            <div id="weather-icon">
+                                <img src="assets/images/unknown-weather.png" alt="wheater icon">
                             </div>
-                            <div id="temperature-description">
-                                <p> - </p>
+                                <div id="temperature-value">
+                                    <p>- °<span>C</span></p>
+                                </div>
+                                <div id="temperature-description">
+                                    <p> - </p>
+                                </div>
+                                <div id="location">
+                                    <p> - </p>
+                                </div> 
                             </div>
-                            <div id="location">
-                                <p> - </p>
-                            </div> 
                         </div>
-                </div>
+                    </div>
             </div>
         </div>
     </section>
