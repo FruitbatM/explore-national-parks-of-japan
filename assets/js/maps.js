@@ -35,7 +35,7 @@ function initMap() {
       coordinates: {lat: 44.1528287, lng: 145.1845915}, // Shiretoko National Park
       content: '<h5>Shiretoko National Park</h5>',
       info: `<img src="assets/images/" class="img-fluid" alt="Fuji-Hakone-Izu National Park">
-      <h4>Shiretoko National Park</h4>
+      <h4 class="py-3">Shiretoko National Park</h4>
       <p>The national park is located in the island of Hokkaido and is considered a UNESCO World Heritage Site. One of the highlights 
       of this park is the large population of brown bears. During the summer months, bear watching from sightseeing boats is a popular 
       activity. Roads cover only one-third of the park; the remainder is reserved for those adventurous enough to explore by boat or on foot.</p>`
@@ -43,8 +43,8 @@ function initMap() {
     {
       coordinates: {lat: 36.8936306, lng: 139.6322278}, // Nikko National Park
       content: '<h5>Nikko National Park</h5>',
-      info: `<img src="assets/images/" class="img-fluid" alt="Nikko National Park">
-      <h4>Nikko National Park</h4>
+      info: `<img src="assets/images/nikko-np.jpg" class="img-fluid" alt="Nikko National Park">
+      <h4 class="py-3">Nikko National Park</h4>
       <p> It is a UNESCO World Heritage Site, home to historic shrines—including Toshogu, the most decorated shrine in Japan—and natural wonders 
       such as onsen and waterfalls. This park makes a good day trip or overnight trip from Tokyo.</p>`
     },
@@ -52,7 +52,7 @@ function initMap() {
       coordinates: {lat: 30.3464332, lng: 130.5036985}, // Yakushima National Park 
       content: '<h5>Yakushima National Park</h5>',
       info: `<img src="assets/images/yakushima_np.jpg" class="img-fluid" alt="Yakushima National Park">
-      <h4>Yakushima National Park</h4>
+      <h4 class="py-3">Yakushima National Park</h4>
       <p>This national park is located on an island south of the Kagoshima Prefecture. This heavily forested, subtropical island surges with life.
       It is crisscrossed with extensive walking and hiking trails, some passing by gorgeous waterfalls and leading to the tallest peaks in southern Japan.
       It is home to some of Japan's oldest trees, ancient cedars known as yakusugi, which are more than 1,000 years old.
@@ -62,7 +62,7 @@ function initMap() {
       coordinates: {lat: 33.5036336, lng: 135.828385}, // Yoshino-Kumano National Park 
       content: '<h5>Yoshino Kumano National Park</h5>',
       info: `<img src="assets/images/yoshino-kumano-np" class="img-fluid" alt="Yoshino-Kumano National Park ">
-      <h4>Yoshino Kumano National Park</h4>
+      <h4 class="py-3">Yoshino Kumano National Park</h4>
       <p>This park in the Kansai region is home to two UNESCO World Heritage Sites, Mount Yoshino and the Kumano Region. Mount Yoshino, home to more than 30,000 cherry trees, 
       is the most famous cherry blossom viewing location in Japan. It features over 30,000 cherry trees planted around the slopes.</p>`
     },
@@ -70,7 +70,7 @@ function initMap() {
       coordinates: {lat: 40.5545129, lng: 140.8845628}, // Towada Hachimantai National Park
       content: '<h5>Towada Hachimantai National Park</h5>',
       info: `<img src="assets/images/towada-hachimantai-np.jpg" class="img-fluid" alt="Towada Hachimantai National Park">
-      <h4>Towada Hachimantai National Park</h4>
+      <h4 class="py-3">Towada Hachimantai National Park</h4>
       <p>Located in the Tohoku Region, this park is centered around the Hachimantai mountains and Lake Towada. Within its borders are rustic onsen, or hot springs. In autumn,
        it is a prime viewing location for Koyo, or viewing colorful leaves.</p>`
     },
@@ -78,7 +78,7 @@ function initMap() {
       coordinates: {lat: 32.8974879, lng: 131.1000753}, // Aso Kuju National Park
       content: '<h5>Aso Kuju National Park</h5>',
       info: `<img src="assets/images/" class="img-fluid" alt="Aso Kuju National Park">
-      <h4>Aso Kuju National Park</h4>
+      <h4 class="py-3">Aso Kuju National Park</h4>
       <p>One of Japan’s oldest national parks, Aso offers dramatic scenery of volcanic steam rising above stark tans, oranges, greys, and reds, the product of the active volcano 
       Mount Aso, and others in the Kuju Mountains. Hiking the volcanic craters is a popular activity. Due to the volcanic activity, several hot spring towns are located just outside the park.</p>`
     },
@@ -86,7 +86,7 @@ function initMap() {
       coordinates: {lat: 24.3463485, lng: 123.660927}, // Iriomote Ishigaki National Park
       content: '<h5>Iriomote Ishigaki National Park</h5>',
       info: `<img src="assets/images/" class="img-fluid" alt="Iriomote Ishigaki National Park">
-      <h4>Iriomote Ishigaki National Park</h4>
+      <h4 class="py-3">Iriomote Ishigaki National Park</h4>
       <p>This park spans several tropical islands and the underwater habitats between them. Scuba diving, snorkeling, swimming, and beach activities are popular. The adventurous traveler can even kayak a 
       true jungle river lined with mangrove trees.</p>`
     },
@@ -94,7 +94,7 @@ function initMap() {
       coordinates: {lat: 27.0710145, lng: 142.2096397}, // Ogasawara National Park 
       content: '<h5>Ogasawara National Park</h5>',
       info: `<img src="assets/images/" class="img-fluid" alt="Ogasawara National Park">
-      <h4>Ogasawara National Park</h4>
+      <h4 class="py-3">Ogasawara National Park</h4>
       <p>The Ogasawara Islands also know as Bonin Island are a UNESCO World Heritage Site 1,000 kilometers south of Tokyo, in the Pacific Ocean. These subtropical islands are home to a number of 
       plant and animal species found nowhere else in the world. Dolphin and whale watching are popular activities, as well as kayaking and scuba diving in the warm coastal waters.</p>`
     }
