@@ -32,7 +32,7 @@ function initMap() {
     {
       coordinates: {lat: 43.5655079, lng: 144.3598874}, // Akan Mashu National Park
       content: '<h5>Akan Mashu National Park</h5>',
-      info: `<img src="assets/images/" class="img-fluid" alt="Fuji-Hakone-Izu National Park">
+      info: `<img src="assets/images/akan-mashu-np.jpg" class="img-fluid" alt="Fuji-Hakone-Izu National Park">
       <h4 class="py-3">Akan Mashu National Park</h4>
       <p>One of the oldest national parks in Japan with he stunning scenery on show makes the park wonderful to explore
       and its diverse ecosystems and wide range of attractions only add to its splendor. Visitors could spend weeks amidst
@@ -86,7 +86,7 @@ function initMap() {
     {
       coordinates: {lat: 32.8974879, lng: 131.1000753}, // Aso Kuju National Park
       content: '<h5>Aso Kuju National Park</h5>',
-      info: `<img src="assets/images/" class="img-fluid" alt="Aso Kuju National Park">
+      info: `<img src="assets/images/aso-kuju-np.jpg" class="img-fluid" alt="Aso Kuju National Park">
       <h4 class="py-3">Aso Kuju National Park</h4>
       <p>One of Japan’s oldest national parks, Aso offers dramatic scenery of volcanic steam rising above stark tans, oranges, greys, and reds, the product of the active volcano 
       Mount Aso, and others in the Kuju Mountains. Hiking the volcanic craters is a popular activity. Due to the volcanic activity, several hot spring towns are located just outside the park.</p>`
@@ -94,18 +94,21 @@ function initMap() {
     {
       coordinates: {lat: 24.3463485, lng: 123.660927}, // Iriomote Ishigaki National Park
       content: '<h5>Iriomote Ishigaki National Park</h5>',
-      info: `<img src="assets/images/" class="img-fluid" alt="Iriomote Ishigaki National Park">
+      info: `<img src="assets/images/iriomote-ishigaki-np.jpg" class="img-fluid" alt="Iriomote Ishigaki National Park">
       <h4 class="py-3">Iriomote Ishigaki National Park</h4>
       <p>This park spans several tropical islands and the underwater habitats between them. Scuba diving, snorkeling, swimming, and beach activities are popular. The adventurous traveler can even kayak a 
       true jungle river lined with mangrove trees.</p>`
     },
     {
-      coordinates: {lat: 27.0710145, lng: 142.2096397}, // Ogasawara National Park 
-      content: '<h5>Ogasawara National Park</h5>',
-      info: `<img src="assets/images/" class="img-fluid" alt="Ogasawara National Park">
-      <h4 class="py-3">Ogasawara National Park</h4>
-      <p>The Ogasawara Islands also know as Bonin Island are a UNESCO World Heritage Site 1,000 kilometers south of Tokyo, in the Pacific Ocean. These subtropical islands are home to a number of 
-      plant and animal species found nowhere else in the world. Dolphin and whale watching are popular activities, as well as kayaking and scuba diving in the warm coastal waters.</p>`
+      coordinates: {lat: 33.2039904, lng: 124.2624389}, // Saikai National Park
+      content: '<h5>Saikai National Park</h5>',
+      info: `<img src="assets/images/sakai-np.jpg" class="img-fluid" alt="Saikai National Park">
+      <h4 class="py-3">Saikai National Park</h4>
+      <p>
+      Situated in northwestern Kyushu, Saikai National Park weaves together more than 400 small islands from several archipelagoes.
+      The park’s dramatic landscapes and seascapes include drowned river valleys, myriad inlets, steep sea cliffs and stunning beaches.
+
+      </p>`
     }
   ];
 
