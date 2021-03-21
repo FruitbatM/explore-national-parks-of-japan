@@ -316,12 +316,14 @@ form input {
     font-weight: 200;
 }
 
+/*
 .container-fluid,
 .container,
 .row {
     margin: 0 auto;
     padding: 0;
 }
+*/
 
 /* Media Queries */
 /* Display on medium screens (tablet devices) */
