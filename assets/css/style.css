@@ -6,7 +6,8 @@ html {
 }
 
 a {
-    text-decoration: none; /* Remov lines on social media icons */
+    text-decoration: none; /* Remove lines on social media icons */
+    color: #fafafa; /* Overwrites bounce arrow color */
 }
 
 /* The Overlay (background) */
@@ -232,7 +233,7 @@ a {
     margin-left: -1rem;
     background-size: contain;
     cursor: pointer;
-    color: #fafafa;
+    color: #fafafa !important;
 }
 
 .bounce {
@@ -399,6 +400,10 @@ form input {
         font-size: 3rem;
         padding-top: 18rem;
     }
+
+    .arrow {
+        bottom: 4.5rem;
+    }
 }
 
 /* Display on large devices */
@@ -424,5 +429,9 @@ form input {
 
     .hero-text {
         font-size: 3.2rem;
+    }
+
+    .arrow {
+        bottom: 0.5rem;
     }
 }
