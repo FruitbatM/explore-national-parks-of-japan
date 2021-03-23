@@ -42,6 +42,12 @@ function topFunction() {
 }
 
 
+// Add text on np images on mouseover
+
+
+
+
+
 // Weather API
 // Tutorial by Code Explained (https://www.youtube.com/watch?v=KqZGuzrY9D4)
 const notificationElement = document.getElementById('notification');
