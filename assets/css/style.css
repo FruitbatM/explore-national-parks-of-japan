@@ -224,6 +224,36 @@ a {
     background-color: #c60a09;
 }
 
+/* Bouncing arrow located on hero image  */
+.arrow {
+    position: absolute;
+    left: 50%;
+    bottom: 2rem;
+    margin-left: -1rem;
+    background-size: contain;
+    cursor: pointer;
+    color: #fafafa;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
 .para-explore {
     margin-top: 2rem;
     color: #000000;
