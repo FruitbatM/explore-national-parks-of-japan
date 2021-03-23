@@ -224,12 +224,16 @@ a {
     background-color: #c60a09;
 }
 
-
 .para-explore {
     margin-top: 2rem;
     color: #000000;
     font-size: 1.2rem;
 }
+/*
+.bg-light {
+    background-color: #edf1ca !important;
+}
+*/
 
 /* Back to top arrow - code with small modification taken from: 
 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */

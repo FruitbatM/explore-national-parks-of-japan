@@ -4,7 +4,7 @@
 
 [Please view the live project here](https://fruitbatm.github.io/explore-national-parks-of-japan/)
 
-<h2 align="center"><img src="readme-files/readme-images/mockup.jpg" target="_blank" width="75%" height="75%"></h2>
+<h2 align="center"><img src="readme-files/img-readme/mockup.jpg" target="_blank" width="75%" height="75%"></h2>
 
 Mockup responsive image was created with [Techsini](http://techsini.com/multi-mockup/index.php).
 

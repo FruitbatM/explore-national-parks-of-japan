@@ -18,6 +18,7 @@ menuLinks.forEach (
   }
 )
 
+
 // Back to Top Arrow - code with small modification taken from: 
 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 
@@ -61,7 +62,7 @@ const apiKey = 'b3e0a4fb9d29b25beb45fdf2cad771b0';
 
 // Get live weather data from Open Weather API
 function getWeather(latitude, longitude) {
-  let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`
+  const api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`
   
   fetch(api)
     .then(function(response) {
