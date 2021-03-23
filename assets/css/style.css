@@ -230,7 +230,7 @@ a {
     position: absolute;
     left: 50%;
     bottom: 2rem;
-    margin-left: -1rem;
+    margin-left: -0.5rem;
     background-size: contain;
     cursor: pointer;
     color: #fafafa !important;
@@ -358,14 +358,12 @@ form input {
     font-weight: 200;
 }
 
-/*
 .container-fluid,
 .container,
 .row {
     margin: 0 auto;
     padding: 0;
 }
-*/
 
 /* Media Queries */
 /* Display on medium screens (tablet devices) */
