@@ -148,19 +148,29 @@ Also, back to top arrow button ('arrow 2 top') will allow to easily navigate to 
 
 - Responsiveness
 
+- 
+
+to better improve the UX so that when the user clicks on a button the page moves to the relevant information in order to reduce the users scroll time.
+
 - Hero image
 
 - Interactive
 
 - Social media
 
-- Map
+- Google Maps API
 
-- Weather
+- Google maps markers
 
+- OpenWeather API
+
+- Contact form
+    - Contact form is connected using EmailJS which allows users to send emails directly without using the server.
+    - SweetAlert2 was used to add an interactive custom modal popup window when a user submits a contact form.
 
 ## Future Implementation
 - Newsletter subscrption
+- Add a blog section
 - Creating 404 error page
 - Expand content with places to stay and things to do
 
@@ -170,14 +180,33 @@ Also, back to top arrow button ('arrow 2 top') will allow to easily navigate to 
 - [CSS3](https://en.wikipedia.org/wiki/CSS) was used to style the website.
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) was used to make webpage interactive.
 
-## Frameworks, Libraries and Tools
+## Frameworks, Libraries and Programs
 - [Bootstrap v.5.0.](https://getbootstrap.com/docs/5.0/getting-started/introduction/) was used to create the contact form and footer section as well to make the website responsive.
-
+- [Balsamiq](https://balsamiq.com/) was used to create the wireframes for the website.
+- [Font Awesome](https://fontawesome.com/) icons were used in the header section and throughout the website for better user experience.
+- [Google Fonts](https://fonts.google.com/) was used to import the fonts to the website.
+- [Favicon](https://favicon.io/favicon-converter/) was used to create the favicon for the website.
+- [CSS Tricks](https://css-tricks.com/) was used as a general source.
+- [W3School](https://www.w3schools.com/) was used as a general source.
+- [Stackoverflow](https://stackoverflow.com/) was used as a general source.
+- [GitHub](https://github.com/) was used for repository hosting and for storing the source code.
+- [Gitpod](https://gitpod.io/) was used as the development environment for writing the code.
+- [Git](https://git-scm.com/) was used as version control system to add, commit and push code to GitHub.
+- [Adobe Photoshop Express](https://photoshop.adobe.com/) was used for resizing and cropping the images used on the website.
+- [TinyJPG](https://tinyjpg.com/) was used for compressing images while preserving transparency.
+- [Techsini](http://techsini.com/multi-mockup/index.php) was used to create the responsive mockup image.
+- [Coolors](https://coolors.co/) was used for colour palette used on the website.
+- [CSS Autoprefixe](https://autoprefixer.github.io/) was used for adding CSS vendor prefixes.
+- [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) was used to test and debug the code.
+- [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) 
+- [OpenWeather API](https://openweathermap.org/api)
+- [EmailJS](https://www.emailjs.com/) was used to create an email template and enable users to send emails directly without using the server.
+- [SweetAlert2](https://sweetalert2.github.io/) was used to add an interactive custom modal popup box when the user submits a contact form.
 
 ## Validation
 - [W3C Markup Validation Service](https://validator.w3.org/) was used for Markup validation.
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used for CSS code validation.
-- [JavaScript validator]() was used for JavaScript code validation.
+- [JSHint](https://jshint.com/) was used for JavaScript code validation.
 
 # Testing
 Testing process was written in a separate file. 
