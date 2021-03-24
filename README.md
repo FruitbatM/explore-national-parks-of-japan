@@ -118,7 +118,10 @@ For the background I used .... colour which I alternated with the white colour t
 
 
 ### Fonts
+- Two fonts will be used throughout the project, **Crimson Pro** and **Work Sans**. Crimson Pro will be used with ``serif`` font as a fallback and Work Sans will be used with ``sans-serif`` font as a fallback.
+**Crimson Pro** will be used for the hero text and main headings and **Work Sans** will be used for the paragraph sections and the footer.
 
+- These fonts pair very well together and make the website appear both prestigious and contemporary. They make a good combination of tradition and modernity.
 
 - Fonts were imported from [Google Fonts](https://fonts.google.com/).
 
@@ -129,17 +132,37 @@ For the background I used .... colour which I alternated with the white colour t
 - All images are sized and compressed for the best user experience.
 
 ### Logo
-
+- I used [Canva](https://www.canva.com/) to design the custom logo. 
+- Add logo image here - 
 
 ### Icons
-- I used several icons to improve the website's UX from [Font Awesome](https://fontawesome.com/)
+- I used several icons to improve the website's UX from [Font Awesome](https://fontawesome.com/).
 
 # Features
-Explore National Parks of Japan is built to be fully responsive mobile-first website.
+Explore National Parks of Japan will be built to be fully responsive mobile-first website. This will be primarily achieved by utilizing the Bootstrap's grid system.
+The website will be a single page website separated in four sections: 'explore', 'map', 'weather' and 'contact'. Website will have a full screen overlay navigation which will allow user to easily navigate to each section.
+Also, back to top arrow button ('arrow 2 top') will allow to easily navigate to the top of the page.
 
 ## Existing Features
+- Overlay navigation
+
+- Responsiveness
+
+- Hero image
+
+- Interactive
+
+- Social media
+
+- Map
+
+- Weather
+
 
 ## Future Implementation
+- Newsletter subscrption
+- Creating 404 error page
+- Expand content with places to stay and things to do
 
 # Technologies
 ## Languages

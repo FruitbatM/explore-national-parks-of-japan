@@ -185,6 +185,7 @@ a {
 
 #hamburger {
     font-size: 1.7rem !important;
+    font-family: 'Work Sans'
 }
 
 #hero-image {
@@ -199,7 +200,7 @@ a {
 
 .hero-text {
     text-align: center;
-    font-family: 'Crimson Pro', serif;
+    /* font-family: 'Crimson Pro', serif;*/
     font-size: 2.2rem;
     font-weight: 700;
     letter-spacing: 0.2rem;
@@ -443,7 +444,7 @@ form input {
     }
 
     .hero-text {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .arrow {
@@ -453,5 +454,6 @@ form input {
     .text-header h2 {
         font-size: 2.4rem;
         font-weight: 600;
+        letter-spacing: 0.1rem;
     }
 }
