@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather+Sans:wght@300;400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@300;400;500&display=swap');
 
 /* Add a smooth scrolling effect to the document */
 html {
@@ -200,9 +199,9 @@ a {
 
 .hero-text {
     text-align: center;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Crimson Pro', serif;
     font-size: 2.2rem;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0.2rem;
     padding-top: 12.2rem;
     color: #fafafa;
@@ -258,8 +257,8 @@ a {
 .para-explore {
     margin-top: 2rem;
     color: #000000;
-    font-size: 1.1rem;
-    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     
 }
@@ -300,12 +299,21 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 
 .text-header {
     color: #c60a09;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Crimson Pro', serif;
+}
+
+.text-header h2 {
+    font-size: 2.1rem;
+    font-weight: 600;
 }
 
 .side-text {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 400;
+}
+
+.side-heading {
+    font-family: 'Work Sans', sans-serif;
 }
 
 .np-img {
@@ -363,7 +371,7 @@ form input {
     background-color: #f23332;
     color: #fafafa;
     font-size: 0.9rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 400;
 }
 
@@ -435,10 +443,15 @@ form input {
     }
 
     .hero-text {
-        font-size: 3.2rem;
+        font-size: 3.5rem;
     }
 
     .arrow {
         bottom: 0.5rem;
+    }
+
+    .text-header h2 {
+        font-size: 2.4rem;
+        font-weight: 600;
     }
 }
