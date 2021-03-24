@@ -112,6 +112,7 @@ the shades of dark brown were emphasized throughout the website.
 For the background I used .... colour which I alternated with the white colour to create defined sections when scrolling through the website. Furthermore, the light background works well with the dark brown text due to its contrast.
 
 - For the buttons I used 
+- [Coolors](https://coolors.co/) was used to create a colour palette.
 
 ![Colour Palette](readme-files/img-readme/exp-japan-color-palette.jpg)
 

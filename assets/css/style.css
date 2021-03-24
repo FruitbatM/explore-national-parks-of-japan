@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather+Sans:wght@300;400;500;600&display=swap');
+
 
 /* Add a smooth scrolling effect to the document */
 html {
@@ -71,7 +72,6 @@ a {
     top: auto;
     right: 0;
 }
-
 
 .social-media i {
     color: #c60a09;
@@ -200,7 +200,7 @@ a {
 
 .hero-text {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: 2.2rem;
     font-weight: 500;
     letter-spacing: 0.2rem;
@@ -258,7 +258,10 @@ a {
 .para-explore {
     margin-top: 2rem;
     color: #000000;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    
 }
 
 .bg-light {
@@ -297,6 +300,12 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 
 .text-header {
     color: #c60a09;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.side-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 .np-img {
@@ -354,8 +363,8 @@ form input {
     background-color: #f23332;
     color: #fafafa;
     font-size: 0.9rem;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 .container-fluid,
@@ -397,7 +406,6 @@ form input {
 
     .hero-text {
         font-size: 3rem;
-        padding-top: 18rem;
     }
 
     .arrow {
