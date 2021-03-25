@@ -50,7 +50,7 @@ function initMap() {
     {
       coordinates: {lat: 44.1528287, lng: 145.1845915}, // Shiretoko National Park
       content: '<h5>Shiretoko National Park</h5>',
-      info: `<img src="assets/images/" class="img-fluid" alt="Shiretoko National Park">
+      info: `<img src="assets/images/shiretoko-np.jpg" class="img-fluid" alt="Shiretoko National Park">
       <h4 class="py-3 text-center">Shiretoko National Park</h4>
       <p>
       The national park is located in the island of Hokkaido and is considered a UNESCO World Heritage Site. One of the highlights 

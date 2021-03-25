@@ -260,12 +260,13 @@ To create a local copy of the repository please follow the below steps:
 - shikotsu-toya-np-jpg was sourced from Pexels??
 - mt-nantai-nikko-np.jpg was sourced from Unsplash?
 - fuji-hakone-izu.jpg was sourced from Stocksy, credit: photo by Gavin Hellier on [Stocksy](https://www.stocksy.com/es/38239/japan-central-honshu-chubu-fuji-hakone-izu-national-park-hakone-mount-fuji-3776m-snow-capped-and-viewed-across-lake-ashino-ko-with-the-red--torii-gates-of-hakone-jinja-rising-from-the-lake)
-- akan-mashu-np.jpg
+- akan-mashu-np.jpg was sourced from Stocksy, credit: photo by Song Heming on [Stocksy] (https://www.stocksy.com/1873868/lake-mashu-in-winter)
 - aso-kuju-np.jpg was sourced from Unsplash, credit: photo by Tom Vining on [Unsplash](https://unsplash.com/photos/YZ1kx79vVZI)
 - iriomote-ishigaki-np.jpg was sourced from Unsplash, credit: photo by Hiroko Yoshii on [Unsplash](https://unsplash.com/s/photos/iriomote-ishigaki?orientation=landscape)
 - nikko-np.jpg was sourced from Unsplash, credit: photo by DustyRoze on [Unsplash](https://unsplash.com/photos/IOUJ7VM4eaw)
-- sakai-np.jpg
+- sakai-np.jpg was sourced from Stocksy, credit: photo by Song Heming on [Stocksy](https://www.stocksy.com/1122328/aerial-view-of-kujuku-islands)
 - shikotsu-toya-np.jpg
+- shiretoko-np.jpg was sourced from Unsplash?
 - towada-hachimantai-np.jpg
 - yakushima_np.jpg
 - yoshino-kumano-np.jpg
