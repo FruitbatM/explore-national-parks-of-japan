@@ -214,6 +214,28 @@ Testing process was written in a separate file.
 
 # Deployment
 ## GitHub pages
+The project deployment to GitHub Pages is explained in the below steps:
+1. Login into GitHub, locate and select [Explore National Parks of Japan](https://fruitbatm.github.io/explore-national-parks-of-japan/) from the list of Repositories.
+    
+    ![Repositories](readme-files/img-readme/repo-explore-np-japan.jpg)
+2. At the top of the Repository page, under the sub-headings, select "Settings" button.
+    
+    ![Repository settings](readme-files/img-readme/repo-settings.jpg)
+3. Scroll down the page until you reach "GitHub Pages" section.
+4. Under the "Source" sub-section, select "master" branch.
+5. Click "Save" button.
+6. The page will refresh. To locate the link to the published site, scroll down again to the "GitHub Pages" section. Your link will be highlighted in the green box per screenshot below.
+
+    ![GitHub link to published site](readme-files/img-readme/repo-link.jpg)
+
+## Local Deployment
+To create a local copy of the repository please follow the below steps:
+1. Login into GitHub.
+1. Go to the repository page.
+2. Click on the "Code" button (located next to the green "Gitpod" button).
+3. On a dropdown menu copy the HTTPS URL.
+4. Open the terminal in an environment you would like to use to clone the site.
+5. Type "git clone" and paste copied URL and run the command.
 
 # Credits
 ## Code
