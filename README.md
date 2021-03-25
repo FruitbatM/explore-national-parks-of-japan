@@ -32,6 +32,8 @@ Mockup responsive image was created with [Techsini](http://techsini.com/multi-mo
 > 5. [Testing](#testing)
 > 6. [Deployment](#deployment)
 >    - [GitHub pages](#github-pages)
+     - [Forking the Repository](#forking-repository)
+     - [Local Deployment](#local-deployment)
 > 7. [Credits](#credits)
 >    - [Code](#code)
 >    - [Media](#media)
@@ -227,6 +229,15 @@ The project deployment to GitHub Pages is explained in the below steps:
 6. The page will refresh. To locate the link to the published site, scroll down again to the "GitHub Pages" section. Your link will be highlighted in the green box per screenshot below.
 
     ![GitHub link to published site](readme-files/img-readme/repo-link.jpg)
+
+## Forking the Repository
+To fork the repository please follow the below steps:
+1. Go to the main page of Expore National Parks of Japan [repository](https://github.com/FruitbatM/explore-national-parks-of-japan).
+2. At the top right corner of the page click on the "Fork" button.
+
+ ![Fork](readme-files/img-readme/fork.jpg)
+
+3. You have forked the repository.
 
 ## Local Deployment
 To create a local copy of the repository please follow the below steps:
