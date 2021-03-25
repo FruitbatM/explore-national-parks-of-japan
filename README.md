@@ -236,17 +236,18 @@ To fork the repository please follow the below steps:
 2. At the top right corner of the page click on the "Fork" button.
 
  ![Fork](readme-files/img-readme/fork.jpg)
-
 3. You have forked the repository.
 
 ## Local Deployment
 To create a local copy of the repository please follow the below steps:
 1. Login into GitHub.
-1. Go to the repository page.
-2. Click on the "Code" button (located next to the green "Gitpod" button).
-3. On a dropdown menu copy the HTTPS URL.
-4. Open the terminal in an environment you would like to use to clone the site.
-5. Type "git clone" and paste copied URL and run the command.
+2. Go to the repository page.
+3. Click on the "Code" button (located next to the green "Gitpod" button).
+4. On a dropdown menu copy the HTTPS URL.
+4. Open the terminal
+5. Change your working directory to where you want the cloned project saved
+6. Type "git clone" and paste copied URL
+7. Press enter and your repo has been cloned locally
 
 # Credits
 ## Code
@@ -254,6 +255,20 @@ To create a local copy of the repository please follow the below steps:
 
 ## Media
 ### Images
+- The custom logo was designed using [Canva](https://www.canva.com/)
+- Hero background image was sourced from Pexels, credit: photo by Tomáš Malík on [Pexels](https://www.pexels.com/photo/red-and-gray-pagoda-temple-3408354/)
+- shikotsu-toya-np-jpg was sourced from Pexels??
+- mt-nantai-nikko-np.jpg was sourced from Unsplash?
+- fuji-hakone-izu.jpg was sourced from Stocksy, credit: photo by Gavin Hellier on [Stocksy](https://www.stocksy.com/es/38239/japan-central-honshu-chubu-fuji-hakone-izu-national-park-hakone-mount-fuji-3776m-snow-capped-and-viewed-across-lake-ashino-ko-with-the-red--torii-gates-of-hakone-jinja-rising-from-the-lake)
+- akan-mashu-np.jpg
+- aso-kuju-np.jpg was sourced from Unsplash, credit: photo by Tom Vining on [Unsplash](https://unsplash.com/photos/YZ1kx79vVZI)
+- iriomote-ishigaki-np.jpg was sourced from Unsplash, credit: photo by Hiroko Yoshii on [Unsplash](https://unsplash.com/s/photos/iriomote-ishigaki?orientation=landscape)
+- nikko-np.jpg was sourced from Unsplash, credit: photo by DustyRoze on [Unsplash](https://unsplash.com/photos/IOUJ7VM4eaw)
+- sakai-np.jpg
+- shikotsu-toya-np.jpg
+- towada-hachimantai-np.jpg
+- yakushima_np.jpg
+- yoshino-kumano-np.jpg
 
 ### Icons
 - Social media icons were sourced from [Font Awesome](https://fontawesome.com/)
@@ -262,8 +277,8 @@ To create a local copy of the repository please follow the below steps:
 Below websites were used for a general layout inspiration:
 
 - The text was adapted from: 
-[Japan National Tourism Organization](https://www.japan.travel/national-parks/)
-
+- [Japan National Tourism Organization](https://www.japan.travel/national-parks/)
+- [10 Most Beautiful National Parks in Japan](https://www.touropia.com/national-parks-in-japan/)
 
 # Acknowledgements
 - My mentor, Mr. Spencer Barriball, for the helpful feedback and guidance.
