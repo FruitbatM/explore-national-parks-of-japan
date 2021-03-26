@@ -101,7 +101,6 @@ Please view the wireframes for desktop, tablet and mobile screens on the followi
 
 ## Design
 ### Colour Scheme
-
 The traditional colours of Japan will be used for the project, primaliy variations of red and white.
 
 - Venetian Red (#C60A09)
@@ -124,8 +123,6 @@ the shades of dark brown were emphasized throughout the website.
 - A  was used for navigation and footer sections. 
 For the background I used .... colour which I alternated with the white colour to create defined sections when scrolling through the website. Furthermore, the light background works well with the dark brown text due to its contrast.
 
-- For the button I used 
-
 - [Coolors](https://coolors.co/) was used to create a colour palette.
 <h2 align="center"><img src="readme-files/img-readme/exp-japan-color-palette.jpg" target="_blank" width="75%" height="75%"></h2>
 
@@ -145,6 +142,8 @@ For the background I used .... colour which I alternated with the white colour t
 
 ### Logo
 - I used [Canva](https://www.canva.com/) to design the custom logo. 
+- The logo was inspired by the land of the rising sun. A crimson-red circle with inside whih a map marker with a traditional pagoda is placed.
+In my opinion it well respresents the theme of the website.
 - Add logo image here - 
 
 ### Icons
@@ -156,29 +155,35 @@ The website will be a single page website separated in four sections: 'explore',
 Also, back to top arrow button ('arrow 2 top') will allow to easily navigate to the top of the page.
 
 ## Existing Features
-- Overlay navigation
-
+- Navigation Menu
+    - overlay full screen navigation
+    - fully responsive
 - Responsiveness
-
-- 
-
-to better improve the UX so that when the user clicks on a button the page moves to the relevant information in order to reduce the users scroll time.
-
+    - by using the mobile-first approach, the website will be built to be fully responsive.
 - Hero image
-
+    - an effective hero background image will be used to gain instant user attention.
 - Interactive
-
+    - 
+    - bouncing arrow located at the bottom of hero image
+    - back to top arrow button will appear on the lower right of the page when the user starts to scroll down the page.
+    - buzz out social media icons when hover over
 - Social media
-
+    - social media icons will be located at the website's header to grab immediate users attention.
+    - allow users to find more information on national parks on the social media.
 - Google Maps API
+    - Used to show the ten most beautiful national parks
 
-- Google maps markers
+- Google Map markers
+    - used along side Google Maps API place functionality to pinpoint exact national park locations.
+    - info windows
 
 - OpenWeather API
-
+    - 
 - Contact form
-    - Contact form is connected using EmailJS which allows users to send emails directly without using the server.
+    - contact form is connected using EmailJS which allows users to send emails directly without using the server.
     - SweetAlert2 was used to add an interactive custom modal popup window when a user submits a contact form.
+    - success or error message will display depending on if the user correctly or incorrectly uses the forms on the website.
+
 
 ## Future Implementation
 - Newsletter subscrption
