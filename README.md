@@ -163,7 +163,6 @@ Also, back to top arrow button ('arrow 2 top') will allow to easily navigate to 
 - Hero image
     - an effective hero background image will be used to gain instant user attention.
 - Interactive
-    - 
     - bouncing arrow located at the bottom of hero image
     - back to top arrow button will appear on the lower right of the page when the user starts to scroll down the page.
     - buzz out social media icons when hover over
@@ -178,7 +177,7 @@ Also, back to top arrow button ('arrow 2 top') will allow to easily navigate to 
     - info windows
 
 - OpenWeather API
-    - 
+    - used to display weather forecast
 - Contact form
     - contact form is connected using EmailJS which allows users to send emails directly without using the server.
     - SweetAlert2 was used to add an interactive custom modal popup window when a user submits a contact form.
