@@ -59,20 +59,31 @@ The website was created as a **Milestone Project 2** as a part of **Diploma in F
 5. As a site visitor, I would like to be able to easily find and navigate to the company's social media.
 6. As a site visitor, I want to get in touch if I might have any queries.
 7. As a site visitor, I want to use map to find exciting national parks in Japan and based on the provided information make a decision what places to visit.
-8. As a site visitor, I want to use map to find accomondation near the national parks.???
-9. As a site visitor, I want to find about the weather forecast and accordingly plan my visit.
-10. 
+8. As a site visitor, I want to get information how to get to the national parks.
+9. As a site visitor, I want to find about the current weather and accordingly plan my visit.
+10. As a site visitor, I want find out the weather forecast for several days in order to plan for a longer trip.
 
+### Returning Visitor Stories
+1. As a returning visitor, I want to find more details on the national parks including accomodation and places of interest.
 
 ## Strategy
+The user experience is simple and easy to use with an effective and clear navigation experience.
+
 ### Project Goals
 - To enable easy access to the information needed about national parks to plan the trip.
-- To show the most beautiful national parks to visit.
+- To show the information about the most beautiful Japan's national parks to visit.
 - To provide the information on how to get there.
 - To ensure the users can get live weather forecast.
+- The content provided is relevant and regularly updated.
+
+## Scope
+- Fully responsive single page mobile first website.
+- The use of APIs to show relevant information to the user.
+- Interactive features that allow the user to engage and find needed information.
+- An easy to use contact form that sends emails to the owner using EmailJS.
 
 ## Structure
-The website is designed to be pleasing to the eye, consistent and user friendly.
+The website will be designed to be pleasing to the eye, consistent and user friendly.
 - Interaction Design
     - Consistent design will be used throughout the website to maintain a good UX.
     - The overlay navigation with effective background image will make the website look elegant and attractive.
@@ -80,9 +91,9 @@ The website is designed to be pleasing to the eye, consistent and user friendly.
     - Consistent color scheme and effective images will be used to let users focus ...
 
 - Information Architecture (IA)
-    - The project was conceptualized as a one-page website, consistion of three sections. This structure was used because it is simple and familiar to the site visitors and it is sufficient for all user stories. 
-    - consists of three main sections, the visitor will have a brief review of the entire webpage. In this way the user will never have to make more than three clicks to access the information she/he is looking for.
-    - The content is organized and categorized by importance from top to bottom and left to right (navigation).
+    - The project was conceptualized as a single page website, divided in four sections. This structure was used because it is simple and familiar to the site visitors and it is sufficient for all user stories. 
+    - Short paragraphs providing the relevant information will be used. This approach was selected in order to provide enough information, yet not to overwhelm.
+    - The content is organized and categorized by importance from top to bottom and left to right.
 
 ## Skeleton
 The wireframes were created in [Balsamiq](https://balsamiq.com/).
@@ -113,11 +124,10 @@ the shades of dark brown were emphasized throughout the website.
 - A  was used for navigation and footer sections. 
 For the background I used .... colour which I alternated with the white colour to create defined sections when scrolling through the website. Furthermore, the light background works well with the dark brown text due to its contrast.
 
-- For the buttons I used 
+- For the button I used 
+
 - [Coolors](https://coolors.co/) was used to create a colour palette.
-
-![Colour Palette](readme-files/img-readme/exp-japan-color-palette.jpg)
-
+<h2 align="center"><img src="readme-files/img-readme/exp-japan-color-palette.jpg" target="_blank" width="75%" height="75%"></h2>
 
 ### Fonts
 - Two fonts will be used throughout the project, **Crimson Pro** and **Work Sans**. Crimson Pro will be used with ``serif`` font as a fallback and Work Sans will be used with ``sans-serif`` font as a fallback.
@@ -240,14 +250,17 @@ To fork the repository please follow the below steps:
 
 ## Local Deployment
 To create a local copy of the repository please follow the below steps:
-1. Login into GitHub.
-2. Go to the repository page.
+1. Login into GitHub with your account.
+2. Go to the [project repository](https://github.com/FruitbatM/explore-national-parks-of-japan).
 3. Click on the "Code" button (located next to the green "Gitpod" button).
-4. On a dropdown menu copy the HTTPS URL.
-4. Open the terminal
-5. Change your working directory to where you want the cloned project saved
+4. From the dropdown menu copy the HTTPS URL.
+4. In your local IDE open the terminal.
+5. Change your working directory to the location where you want the cloned project saved
 6. Type "git clone" and paste copied URL
-7. Press enter and your repo has been cloned locally
+    
+    `git clone //github.com/USERNAME/REPOSITORY`
+
+7. Press enter and your repo will be created.
 
 # Credits
 ## Code
@@ -272,12 +285,13 @@ To create a local copy of the repository please follow the below steps:
 - yoshino-kumano-np.jpg
 
 ### Icons
-- Social media icons were sourced from [Font Awesome](https://fontawesome.com/)
+- All icons were sourced from [Font Awesome](https://fontawesome.com/)
 
 ## Content
 Below websites were used for a general layout inspiration:
+- 
 
-- The text was adapted from: 
+The text was adapted from: 
 - [Japan National Tourism Organization](https://www.japan.travel/national-parks/)
 - [10 Most Beautiful National Parks in Japan](https://www.touropia.com/national-parks-in-japan/)
 
