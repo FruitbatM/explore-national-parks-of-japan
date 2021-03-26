@@ -18,12 +18,14 @@ Mockup responsive image was created with [Techsini](http://techsini.com/multi-mo
 >    - [User Stories](#user-stories)
 >       - [Visitor Stories](#visitor-stories)
 >       - [Business Stories](#business-stories)
+     - [Strategy](#strategy)
 >    - [Structure](#structure)
 >    - [Skeleton](#skeleton)
 >    - [Design](#design)
 >       - [Colour Scheme](#colour-scheme)
 >       - [Fonts](#fonts)
 >       - [Imagery](#imagery)
+        - [Logo](#logo)
 >       - [Icons](#icons)
 > 3. [Features](#features)
 >       - [Existing Features](#existing-features)
@@ -226,7 +228,7 @@ Also, back to top arrow button ('arrow 2 top') will allow to easily navigate to 
 
 # Testing
 Testing process was written in a separate file. 
-[Please click here for the full testing process](testing.md).
+Please click [here](testing.md) for the testing process.
 
 # Deployment
 ## GitHub pages
