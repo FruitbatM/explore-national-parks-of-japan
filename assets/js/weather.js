@@ -21,40 +21,25 @@ window.onload = function() {
 
 // Display live weather to User Interface
 function displayWeather(data) {
-	let celsius = Math.round(parseFloat(data.main.temp));
-    let fahrenheit = Math.round(((parseFloat(data.main.temp))*1.8)+32); //Convert temperature from celsius to fahrenheit
+	const celsius = Math.round(parseFloat(data.main.temp));
+    const fahrenheit = Math.round(((parseFloat(data.main.temp))*1.8)+32); //Convert temperature from celsius to fahrenheit
 
-    document.getElementById('weather-icon').innerHTML = data.weather[0].icon + '<img src="assets/images/icons.png"/>';
-	document.getElementById('temp-description').innerHTML = data.weather[0].description;
-    document.getElementById('temp-value').innerHTML = celsius + '&deg;' + ' C';
+    const date = new Date();
+    const sunrise = new Date(data.sys.sunrise * 1000); //Convert a Unix timestamp to time
+    const sunset = new Date(data.sys.sunset * 1000);
+    console.log(date);
+    console.log(sunrise);
+    console.log(sunset);
+
+    const icon = "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png"
+
+    document.getElementById('weather-icon').innerHTML = "<img src=" + icon + "><br>"
+    document.getElementById('location-date').innerHTML = date
+    document.getElementById('temp-description').innerHTML = data.weather[0].description;
+    document.getElementById('temp-value').innerHTML = 'Temperature: ' + celsius + '&deg;' + ' C';
     document.getElementById('wind-speed').innerHTML = 'Wind: ' + data.wind.speed + ' m/s';
     document.getElementById('sunrise').innerHTML = 'Sunrise: ' + data.sys.sunrise;
     document.getElementById('sunset').innerHTML = 'Sunset: ' + data.sys.sunset;
     document.getElementById('location').innerHTML = data.name;
 }
 
-`<img src="icons/${weather.iconId}.png"/>`;
-
-// API returns EPOCH time, this function converts it to a user-friendly date
-const convertEpochToDate = (time) => {
-  const daysOfWeek = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-  ];
-  let fullDate = new Date(time * 1000);
-  return `${daysOfWeek[fullDate.getDay()]} ${fullDate.getDate()}`;
-};
-
-
-// API returns time that is local to where the request originated
-// The time needs to be relative to the location searched
-// There is an offset to calculate to convert this
-const convertEpochToTime = (time, shift) => {
-  let fullDate = new Date((time + shift) * 1000);
-  return `${fullDate.getHours()}:${fullDate.getMinutes()}:${fullDate.getSeconds()}`;
-};
