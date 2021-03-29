@@ -264,8 +264,12 @@ a {
     
 }
 
+.bgr-light {
+    background-color: #FFEFEB;
+}
+
 .bg-light {
-    background-color: #FBF3F1 !important;
+    background-color: #FCC9B9 !important;
 }
 
 #explore-img {
@@ -332,6 +336,41 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     background-color: #c60a09;
     color: #fafafa;
 }
+.weather-container {
+    color: #000000;
+    font-size: 1.2rem;
+    background-color: rgba(252,0,0,0.2);
+    border-radius: 3rem;
+    padding: 2rem;
+    border-style: none;
+    width: 85%;
+    text-align: center;
+    margin: 2rem;
+}
+
+#location-date {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #960807;
+}
+
+#temp-value {
+    margin: 0.5rem 0 0.5rem 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #960807;
+}
+
+#temp-description {
+    margin: 0.5rem 0 0.5rem 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #960807;
+}
+
 
 .form-container {
     display: flex;

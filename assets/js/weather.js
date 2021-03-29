@@ -23,20 +23,15 @@ window.onload = function() {
 function displayWeather(data) {
 	const celsius = Math.round(parseFloat(data.main.temp));
     const fahrenheit = Math.round(((parseFloat(data.main.temp))*1.8)+32); //Convert temperature from celsius to fahrenheit
+    const currentDate = new Date();
 
-    const date = new Date();
-    const sunrise = new Date(data.sys.sunrise * 1000); //Convert a Unix timestamp to time
-    const sunset = new Date(data.sys.sunset * 1000);
-    console.log(date);
-    console.log(sunrise);
-    console.log(sunset);
-
+    // Get weather icons from OpenWeather API
     const icon = "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png"
 
-    document.getElementById('weather-icon').innerHTML = "<img src=" + icon + "><br>"
-    document.getElementById('location-date').innerHTML = date
+    document.getElementById('weather-icon').innerHTML = '<img src=' + icon + '><br>';
+    document.getElementById('location-date').innerHTML = currentDate.toDateString(); // get current date
     document.getElementById('temp-description').innerHTML = data.weather[0].description;
-    document.getElementById('temp-value').innerHTML = 'Temperature: ' + celsius + '&deg;' + ' C';
+    document.getElementById('temp-value').innerHTML = celsius + '&deg;' + ' C';
     document.getElementById('wind-speed').innerHTML = 'Wind: ' + data.wind.speed + ' m/s';
     document.getElementById('sunrise').innerHTML = 'Sunrise: ' + data.sys.sunrise;
     document.getElementById('sunset').innerHTML = 'Sunset: ' + data.sys.sunset;
