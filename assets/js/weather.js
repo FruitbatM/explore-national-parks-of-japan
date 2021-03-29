@@ -21,8 +21,10 @@ window.onload = function() {
 
 // Display live weather to User Interface
 function displayWeather(data) {
-	const celsius = Math.round(parseFloat(data.main.temp));
-    const fahrenheit = Math.round(((parseFloat(data.main.temp))*1.8)+32); //Convert temperature from celsius to fahrenheit
+    const celsius = Math.round(parseFloat(data.main.temp));
+    const fahrenheit = Math.round((celsius * 9/5) +32); //Convert temperature from celsius to fahrenheit
+
+
     const currentDate = new Date();
 
     // Get weather icons from OpenWeather API
@@ -38,3 +40,29 @@ function displayWeather(data) {
     document.getElementById('location').innerHTML = data.name;
 }
 
+
+// Clicking on the temperature element changes from C to F and vice versa
+const weather = {};
+weather.temperature = {
+    unit : "celsius"
+}
+
+const tempElement = document.querySelector('#temp-value');
+
+tempElement.addEventListener("click", function() {
+  if(weather.temperature.value === undefined) return;
+    
+  if(weather.temperature.unit == "celsius") {
+    let fahrenheit = celsiusToFahrenheit(weather.temperature.value);
+    fahrenheit = Math.floor(fahrenheit);
+    console.log(fahrenheit)
+        
+    tempElement.innerHTML = `${fahrenheit}°<span>F</span>`;
+    weather.temperature.unit = "fahrenheit";
+
+  } else {
+
+    tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
+    weather.temperature.unit = "celsius"
+    }
+});
