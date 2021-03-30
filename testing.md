@@ -12,6 +12,23 @@
 
 # User Stories Testing
 ## Visitor Stories
+- **As a site visitior, I would like to gain an understanding of the website's purpose from the landing page.
+
+- **As a site visitor, I would like to easily navigate through the site and find what I'm looking for with an ease.
+
+- **As a site visitor, I would like to find the aesthetics of the website enjoyable.
+
+- **As a site visitor,I want to use interactive elements on the website.
+
+- **As a site visitor, I would like to be able to easily find and navigate to the company's social media.
+
+- **As a site visitor, I want to get in touch if I might have any queries.
+
+- **As a site visitor, I want to use map to find exciting national parks in Japan and based on the provided information make a decision what places to visit.
+
+- **As a site visitor, I want to get information how to get to the national parks.
+
+- **As a site visitor, I want to find about the current weather and accordingly plan my visit.
 
 
 # Code Validation
