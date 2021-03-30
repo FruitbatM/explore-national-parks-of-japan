@@ -1,6 +1,6 @@
 // OpenWeather API
 
-function getWeather(cityID) {
+function getWeather() {
   const apiKey = 'b3e0a4fb9d29b25beb45fdf2cad771b0';
  
   fetch('https://api.openweathermap.org/data/2.5/weather?id=' + 1863357 + '&appid=' + apiKey + '&units=metric')   
@@ -16,8 +16,6 @@ function getWeather(cityID) {
 window.onload = function() {
   getWeather( 1863357 );
 }
-
-
 
 // Display live weather to User Interface
 function displayWeather(data) {
