@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@300;400;500&display=swap');
 
 /* Add a smooth scrolling effect to the document */
@@ -21,6 +28,8 @@ a {
     background-color: rgb(0,0,0);
     background-color: rgba(242,51,50, 0.9);
     overflow-x: hidden; /* Disable horizontal scroll */
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
 }
 
@@ -39,6 +48,8 @@ a {
     font-size: 36px;
     color: #fafafa;
     display: block;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
 }
 
@@ -60,6 +71,8 @@ a {
     cursor: pointer;
     left: 50%;
     transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     z-index: 1;
     top: 2rem;
     width: 77px;
@@ -171,6 +184,7 @@ a {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 .hvr-buzz-out:hover, .hvr-buzz-out:focus, .hvr-buzz-out:active {
   -webkit-animation-name: hvr-buzz-out;
@@ -243,17 +257,37 @@ a {
     -o-animation: bounce 2s infinite;
 }
 
-@keyframes bounce {
+/* Autoprefixer */
+@-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   40% {
-    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
   }
   60% {
-    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
   }
 }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
 
 .para-explore {
     margin-top: 2rem;
@@ -371,8 +405,15 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 
 .form-container {
     display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     padding-bottom: 4.5rem;
 }
 
@@ -401,6 +442,7 @@ form input {
     background-color: #f23332 !important;
     border-color: #f23332 !important;
     box-shadow: 0.2rem 0.2rem #df2f2f !important;
+    -webkit-box-shadow: 0.2rem 0.2rem #df2f2f !important;
     border: 0.12rem solid;
 }
 
