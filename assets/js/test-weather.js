@@ -44,8 +44,9 @@ function getWeather() {
   ];
 
   // Match clicked national park with its location ID
-  document.getElementsByClassName('dropdown-menu').click(function () {
-    console.log(locationID);
+  document.getElementsByClassName('dropdown-item').click(function () {
+    console.log('It was clicked!');
+    
   });
 
   function findLocation() {
