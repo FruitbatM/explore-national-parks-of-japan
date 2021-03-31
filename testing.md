@@ -24,7 +24,7 @@
 - A navigation menu is placed in the top left corner of the website. Originally I planned to just have a hamburger icon (without menu wording) but in this way it will be more obvious to the users that this is navigation menu.
 <h2 align="center"><img src="readme-files/img-readme/us-2-menu.jpg" alt="Website's navigation menu" target="_blank" width="75%" height="75%"></h2>
 
-- When the user clicks on the hamburger icon, a full overlay navigation appears which allows the user to easily access any section on the website.
+- When the user clicks on the hamburger icon, a full screen overlay navigation appears which allows the user to easily access any section on the website.
 <h2 align="center"><img src="readme-files/img-readme/us-2-overlay_n.jpg" alt="Back to top arrow" target="_blank" width="75%" height="75%"></h2>
 
 - Back to top arrow button appears on the lower right of page when the user start to scroll down the page. Once clicked, it jumps to the top of the webpage which reduces the time to manually scorll up the website.
@@ -39,7 +39,7 @@ The website was designed to be elegant but simple and easy to use. The elements 
 <h2 align="center"><img src="readme-files/img-readme/us-3-map.jpg" alt="Website's map section" target="_blank" width="75%" height="75%"></h2>
 <h2 align="center"><img src="readme-files/img-readme/us-3-contact.jpg" alt="Website's contact section" target="_blank" width="75%" height="75%"></h2>
 
-- A full overlay navigation is modern and distinctive and the visitors can easyily find what they are looking for.
+- A full screen overlay navigation is modern and distinctive and the visitors can easyily find what they are looking for.
 
 **As a site visitor,I want to use interactive elements on the website.**
 
@@ -135,8 +135,18 @@ Comprehensive testing was executed. Further elaborated in more details below:
 ## Device Testing
 
 # Encountered Issues
+Several bugs were encountered during the coding process:
+- A full screen overlay navigation doesn't work on mobile devices
+
+- Weather information doesn't 
+
+- Google Maps API infoWindow
+
+
 
 # Performance Testing
+Performance was tested using [Lighthouse](https://developers.google.com/web/tools/lighthouse) tool.
+
 
 
 ## Accessibility
