@@ -65,9 +65,6 @@ The website was created as a **Milestone Project 2** as a part of **Diploma in F
 9. As a site visitor, I want to find about the current weather and accordingly plan my visit.
 10. As a site visitor, I want find out the weather forecast for several days in order to plan for a longer trip.
 
-### Returning Visitor Stories
-1. As a returning visitor, I want to find more details on the national parks including accomodation and places of interest.
-
 ## Strategy
 The user experience is simple and easy to use with an effective and clear navigation experience.
 
@@ -270,14 +267,18 @@ To create a local copy of the repository please follow the below steps:
 
 # Credits
 ## Code
-
-
+ - [W3School](https://www.w3schools.com/) was used:
+    - to create 'Back to Top Arrow' using JavaScript - credit was given in scroll.js file
+    - for a full screen overlay navigation
+- [Hover.css](https://ianlunn.github.io/Hover/) was used for animation on social media icons
+- [sweetalert2](https://sweetalert2.github.io/) was used for a custom pop-up alert
+- Send email function was adapted from Code Institute walkthrough project
 ## Media
 ### Images
 - The custom logo was designed using [Canva](https://www.canva.com/)
 - Hero background image was sourced from Pexels, credit: photo by Tomáš Malík on [Pexels](https://www.pexels.com/photo/red-and-gray-pagoda-temple-3408354/)
-- shikotsu-toya-np-jpg was sourced from Pexels??
-- mt-nantai-nikko-np.jpg was sourced from Unsplash?
+- shikotsu-toya-np-jpg was sourced from Pexels
+- mt-nantai-nikko-np.jpg was sourced from Unsplash
 - fuji-hakone-izu.jpg was sourced from Stocksy, credit: photo by Gavin Hellier on [Stocksy](https://www.stocksy.com/es/38239/japan-central-honshu-chubu-fuji-hakone-izu-national-park-hakone-mount-fuji-3776m-snow-capped-and-viewed-across-lake-ashino-ko-with-the-red--torii-gates-of-hakone-jinja-rising-from-the-lake)
 - akan-mashu-np.jpg was sourced from Stocksy, credit: photo by Song Heming on [Stocksy] (https://www.stocksy.com/1873868/lake-mashu-in-winter)
 - aso-kuju-np.jpg was sourced from Unsplash, credit: photo by Tom Vining on [Unsplash](https://unsplash.com/photos/YZ1kx79vVZI)
@@ -285,7 +286,7 @@ To create a local copy of the repository please follow the below steps:
 - nikko-np.jpg was sourced from Unsplash, credit: photo by DustyRoze on [Unsplash](https://unsplash.com/photos/IOUJ7VM4eaw)
 - sakai-np.jpg was sourced from Stocksy, credit: photo by Song Heming on [Stocksy](https://www.stocksy.com/1122328/aerial-view-of-kujuku-islands)
 - shikotsu-toya-np.jpg
-- shiretoko-np.jpg was sourced from Unsplash?
+- shiretoko-np.jpg was sourced from Unsplash
 - towada-hachimantai-np.jpg
 - yakushima_np.jpg
 - yoshino-kumano-np.jpg
@@ -295,7 +296,8 @@ To create a local copy of the repository please follow the below steps:
 
 ## Content
 Below websites were used for a general layout inspiration:
-- 
+- https://visithumboldt.com/
+- https://www.lonelyplanet.com/japan/attractions
 
 The text was adapted from: 
 - [Japan National Tourism Organization](https://www.japan.travel/national-parks/)
