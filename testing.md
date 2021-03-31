@@ -79,7 +79,7 @@ This paragraph is placed as the last paragraph undre the all national parks info
 
 **As a site visitor, I want to find about the current weather and accordingly plan my visit.**
 
-- TO BE ADDED
+- **TO BE ADDED**
 
 # Code Validation
 - The website was validated by the [W3C Markup Validation Service](https://validator.w3.org/) to ensure there were no syntax errors or issues. 
@@ -97,6 +97,13 @@ This paragraph is placed as the last paragraph undre the all national parks info
 
 ## [JSHint](https://jshint.com/) - JavaScript Validation
 
+# script.js
+- There are no errors
+- There are two warning which both are unnecessery and don't have an impact on the functionality.
+<h2 align="center"><img src="readme-files/img-readme/jshint-sript-js.jpg" alt="JS validation for script.js file" target="_blank" width="75%" height="75%"></h2>
+
+# maps.js
+- 
 
 # Functionality Testing 
 Comprehensive testing was executed. Further elaborated in more details below:
