@@ -142,8 +142,6 @@ Several bugs were encountered during the coding process:
 
 - Google Maps API infoWindow
 
-
-
 # Performance Testing
 Performance was tested using [Lighthouse](https://developers.google.com/web/tools/lighthouse) tool.
 

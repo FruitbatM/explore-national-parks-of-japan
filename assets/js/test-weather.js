@@ -43,11 +43,11 @@ function getWeather() {
     }
   ];
 
-  document.getElementByclass('dropdown-item').click(function () {
+  // Match clicked national park with its location ID
+  document.getElementsByClassName('dropdown-menu').click(function () {
     console.log(locationID);
   });
 
-  // Match clicked national park with its location id
   function findLocation() {
     for (i = 0; i < locationID.length; i++) {
       if (locationID[i].name === name) {

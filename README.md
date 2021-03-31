@@ -110,18 +110,6 @@ The traditional colours of Japan will be used for the project, primaliy variatio
 According to the article [The Traditional colors of Japan](https://www.tofugu.com/japan/color-in-japan/) red colour is associated with authority and wealth.
 red is considered the warmest and most contradictory of the colors.
 
-White is godly and pure
-
-flag of Japan is a rectangular white banner bearing a crimson-red circle at its center
-land of the rising sun.
-
-White represents purity or innocence
-
-the shades of dark brown were emphasized throughout the website. 
-
-- A  was used for navigation and footer sections. 
-For the background I used .... colour which I alternated with the white colour to create defined sections when scrolling through the website. Furthermore, the light background works well with the dark brown text due to its contrast.
-
 - [Coolors](https://coolors.co/) was used to create a colour palette.
 <h2 align="center"><img src="readme-files/img-readme/exp-japan-color-palette.jpg" target="_blank" width="75%" height="75%"></h2>
 
