@@ -44,16 +44,14 @@ function getWeather() {
   ];
 
   // Match clicked national park with its location ID
-  document.getElementsByClassName('np-name').click(function () {
-    console.log('It was clicked!');
-
-    let locationWeather = element.setAttribute('title');
-    document.getElementsByClassName('weather-container')
-  });
+  let e = document.getElementById('nationalParks');
+    let locationWeather = e.value;
 
   function findLocation() {
     for (i = 0; i < locationID.length; i++) {
+      console.log("location: ", locationID[i])
       if (locationID[i].name === locationWeather) {
+        console.log("location: ", locationID[i])
         return locationID[i].cityID;
       }
     }

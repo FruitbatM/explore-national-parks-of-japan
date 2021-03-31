@@ -366,10 +366,13 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     width: 100%;
 }
 
+/* removed
 .dropdown-btn {
     background-color: #c60a09;
     color: #fafafa;
 }
+*/
+
 .weather-container {
     color: #000000;
     font-size: 1.2rem;

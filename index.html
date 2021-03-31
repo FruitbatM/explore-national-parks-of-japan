@@ -148,25 +148,20 @@
         <div class="weather-search mt-2">
             <div class="container">
                 <div class="row">
-                        <div class="col-md-6 order-lg-1 order-sm-2 px-3 text-center">
-                            <div class="dropdown my-4">
-                                <button class="btn btn-danger dropdown-btn dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
-                                    <span>Select a National Park</span>
-                                </button>
-                                    <ul class="dropdown-menu" id="national-parks" aria-labelledby="national-parks">
-                                        <li><a class="dropdown-item np-name" href="#" title="Fuji Hakone Izu National Park">Fuji Hakone Izu National Park</a></li>
-                                        <li><a class="dropdown-item np-name" href="#" title="Akan Mashu National Park">Akan Mashu National Park</a></li>
-                                        <li><a class="dropdown-item np-name" href="#" title="Shiretoko National Park">Shiretoko National Park</a></li>
-                                        <li><a class="dropdown-item np-name" href="#" title="Nikko National Park">Nikko National Park</a></li>
-                                        <li><a class="dropdown-item np-name" href="#" title="Yakushima National Park">Yakushima National Park</a></li>
-                                        <li><a class="dropdown-item np-name" href="#" title="Yoshino Kumano National Park">Yoshino Kumano National Park</a></li>
-                                        <li><a class="dropdown-item np-name" href="#" title="Towada Hachimantai National Park">Towada Hachimantai National Park</a></li>
-                                        <li><a class="dropdown-item np-name" href="#" title="Aso Kuju National Park">Aso Kuju National Park</a></li>
-                                        <li><a class="dropdown-item np-name" href="#" title="Iriomote Ishigaki National Park">Iriomote Ishigaki National Park</a></li>
-                                        <li><a class="dropdown-item np-name" href="#" title="Saikai National Park">Saikai National Park</a></li>
-                                    </ul>
-                            </div>
-                        </div>
+                    <div class="col-md-6 order-lg-1 order-sm-2 px-3 text-center">
+                        <select id="nationalParks" onmouseup="getWeather()" aria-labelledby="national-parks">
+                            <option value="Fuji Hakone Izu National Park">Fuji Hakone Izu National Park</option>
+                            <option value="Akan Mashu National Park">Akan Mashu National Park</option>
+                            <option value="Shiretoko National Park">Shiretoko National Park</option>
+                            <option value="Nikko National Park">Nikko National Park</option>
+                            <option value="Yakushima National Park">Yakushima National Park</option>
+                            <option value="Yoshino Kumano National Park">Yoshino Kumano National Park</option>
+                            <option value="Towada Hachimantai National Park">Towada Hachimantai National Park</option>
+                            <option value="Aso Kuju National Park">Aso Kuju National Park</option>
+                            <option value="Iriomote Ishigaki National Park">Iriomote Ishigaki National Park</option>
+                            <option value="Saikai National Park">Saikai National Park</option>
+                        </select>
+                    </div>
                     <br>
                     <div class="col-md-6 order-lg-2 order-sm-1 px-3 text-center">
                         <div class="weather-container mb-5">
@@ -198,7 +193,6 @@
             </div>
         </div>
     </section>
-
     <!--Contact section-->
     <section id="contact-section">
         <div class="form-container col-12 mt-4">
