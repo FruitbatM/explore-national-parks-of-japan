@@ -47,7 +47,7 @@ function getWeather() {
   document.getElementsByClassName('np-name').click(function () {
     console.log('It was clicked!');
 
-    let locationWeather = this.setAttribute('title');
+    let locationWeather = element.setAttribute('title');
   });
 
   function findLocation() {
