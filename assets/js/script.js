@@ -1,13 +1,14 @@
 // Full screen overlay navigation
 // Open when someone clicks on the element
 // Code with a modification was sourced from w3school: https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp
+
 function openNav() {
-  document.getElementById("myNav").style.width = "100%";
+  document.getElementById('myNav').style.width = "100%";
 }
 
 // Close when someone clicks on the "x" symbol inside the overlay
 function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
+  document.getElementById('myNav').style.width = "0%";
 }
 
 // Close navigation menu after clicking on anchor link
@@ -21,16 +22,16 @@ menuLinks.forEach (
 
 
 // Back to Top Arrow - code with small modification taken from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
-mybutton = document.getElementById("arrow_2top");
+mybutton = document.getElementById('arrow_2top');
 
 // When the user scrolls down 25px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 25|| document.documentElement.scrollTop > 25) {
-    mybutton.style.display = "block";
+    mybutton.style.display = 'block';
   } else {
-    mybutton.style.display = "none";
+    mybutton.style.display = 'none';
   }
 }
 

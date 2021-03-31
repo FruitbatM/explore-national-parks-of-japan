@@ -289,6 +289,9 @@ a {
   }
 }
 
+.menu {
+    list-style: none;
+}
 
 .para-explore {
     margin-top: 2rem;
@@ -473,14 +476,15 @@ form input {
 
     #hamburger {
     font-size: 1.9rem !important;
+    cursor: pointer;
+    }
+
+    .navbar-header {
+        cursor: pointer;
     }
 
     .social-media i {
         font-size: 1.9rem;
-    }
-
-    .menu {
-        list-style: none;
     }
 
     .menu-btn {
