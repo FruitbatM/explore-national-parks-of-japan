@@ -1,5 +1,6 @@
 // Full screen overlay navigation
 // Open when someone clicks on the element
+// Code with a modification was sourced from w3school: https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
 }
@@ -16,7 +17,7 @@ menuLinks.forEach (
   function(menuLink) {
     menuLink.addEventListener('click', closeNav);
   }
-)
+);
 
 
 // Back to Top Arrow - code with small modification taken from: 
@@ -40,5 +41,3 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
-
