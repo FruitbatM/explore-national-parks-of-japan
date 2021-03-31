@@ -199,7 +199,8 @@ a {
 
 #hamburger {
     font-size: 1.7rem !important;
-    font-family: 'Work Sans'
+    font-family: 'Work Sans';
+    margin-left: 1rem;
 }
 
 #hero-image {
@@ -472,7 +473,6 @@ form input {
 
     #hamburger {
     font-size: 1.9rem !important;
-    margin-left: 1rem;
     }
 
     .social-media i {

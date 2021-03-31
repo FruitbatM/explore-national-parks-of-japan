@@ -99,11 +99,20 @@ This paragraph is placed as the last paragraph undre the all national parks info
 
 # script.js
 - There are no errors
-- There are two warning which both are unnecessery and don't have an impact on the functionality.
+- There is one warning showing for a missing semicolon which doesn't make sense sice the semicolon is added (line 27)
 <h2 align="center"><img src="readme-files/img-readme/jshint-sript-js.jpg" alt="JS validation for script.js file" target="_blank" width="75%" height="75%"></h2>
 
 # maps.js
-- 
+- There are no errors or warnings
+<h2 align="center"><img src="readme-files/img-readme/jshint-maps-js.jpg" alt="JS validation for maps.js file" target="_blank" width="75%" height="75%"></h2>
+
+# sendEmail.js
+- There are no errors or warnings
+<h2 align="center"><img src="readme-files/img-readme/jshint-email-js.jpg" alt="JS validation for maps.js file" target="_blank" width="75%" height="75%"></h2>
+
+# weather.js
+
+**TO BE ADDED**
 
 # Functionality Testing 
 Comprehensive testing was executed. Further elaborated in more details below:
@@ -119,7 +128,6 @@ Comprehensive testing was executed. Further elaborated in more details below:
 
 
 ## Button
-
 
 
 ## Browser Testing
