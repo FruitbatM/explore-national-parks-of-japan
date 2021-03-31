@@ -10,11 +10,11 @@ function getWeather() {
         cityID: 2127822
     },
     {
-        name: "Shiretoko National Park ",
+        name: "Shiretoko National Park",
         cityID: 2128430
     },
     { 
-        name: "Nikko National Park ",
+        name: "Nikko National Park",
         cityID: 1855395
     },
     {
@@ -44,14 +44,15 @@ function getWeather() {
   ];
 
   // Match clicked national park with its location ID
-  document.getElementsByClassName('dropdown-item').click(function () {
+  document.getElementsByClassName('np-name').click(function () {
     console.log('It was clicked!');
-    
+
+    let locationWeather = this.setAttribute('title');
   });
 
   function findLocation() {
     for (i = 0; i < locationID.length; i++) {
-      if (locationID[i].name === name) {
+      if (locationID[i].name === locationWeather) {
         return locationID[i].cityID;
       }
     }
