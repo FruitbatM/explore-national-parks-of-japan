@@ -48,6 +48,7 @@ function getWeather() {
     console.log('It was clicked!');
 
     let locationWeather = element.setAttribute('title');
+    document.getElementsByClassName('weather-container')
   });
 
   function findLocation() {
