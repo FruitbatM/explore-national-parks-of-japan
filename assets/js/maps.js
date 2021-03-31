@@ -179,7 +179,9 @@ function initMap() {
       The park’s dramatic landscapes and seascapes include drowned river valleys, myriad inlets, steep sea cliffs and stunning beaches.
       </p>
       <p>
-      <strong>How to get there:</strong> 
+      <strong>How to get there:</strong> To reach the Kitamatsuura Peninsula from Tokyo, take a flight from Haneda Airport to Nagasaki Airport (2 hr), 
+      an airport bus to Sasebo (1 hr 15 min).  Municipal buses also depart from Sasebo Station to observation points and sightseeing spots on the Kujukushima Islands. 
+      While it's possible to use such services to visit attractions within the park, renting a car around Sasebo Station is a more effective way to see the sights.
       </p>`
     }
   ];
