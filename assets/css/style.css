@@ -409,7 +409,6 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     color: #960807;
 }
 
-
 .form-container {
     display: flex;
     display: -webkit-box;
@@ -469,8 +468,12 @@ form input {
 }
 
 /* Media Queries */
-/* Display on medium screens (tablet devices) */
-@media screen and (min-width: 764px) {
+/* Display on tablet devices) */  
+
+@media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
     .logo {
         width: 130px;
         height: 133px;
@@ -500,6 +503,7 @@ form input {
 
     .hero-text {
         font-size: 3rem;
+        padding-top: 20rem;
     }
 
     .arrow {
@@ -508,7 +512,8 @@ form input {
 }
 
 /* Display on large devices */
-@media screen and (min-width: 1024px) {
+@media screen 
+  and (min-width: 1024px) {
     .logo {
         width: 130px;
         height: 133px;
@@ -543,22 +548,43 @@ form input {
     }
 }
 
+/* For iPad Pro 12.9" 
+Credit: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/#top-of-site
+Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2)  {
+
+    .hero-text {
+    padding-top: 30rem;
+    }
+
+    .arrow {
+        bottom: 6rem;
+    }
+}
+
 /* iPhone 5 only (portrait mode)
 resource: https://coderwall.com/p/mwvbea/media-queries-only-for-the-iphone-5-part-i */ 
 
-@media only screen and (min-width: 320px) and (max-width: 568px)
-and (-webkit-device-pixel-ratio: 2) and (min-aspect-ratio: 40/71) and (orientation:portrait) {
-.logo {
-    width: 65px;
-    height: 65px;
-    }
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-width: 568px)
+  and (-webkit-device-pixel-ratio: 2) 
+  and (min-aspect-ratio: 40/71) and (orientation:portrait) {
 
-#hamburger {
-    font-size: 1.5 rem;
-    margin-left: 0.5rem
-    }
+    .logo {
+        width: 65px;
+        height: 65px;
+        }
 
-.social-media i {
-    margin-right: 0.4rem !important;
-    }
+    #hamburger {
+        font-size: 1.5 rem;
+        margin-left: 0.5rem
+        }
+
+    .social-media i {
+        margin-right: 0.4rem !important;
+        }
 }
