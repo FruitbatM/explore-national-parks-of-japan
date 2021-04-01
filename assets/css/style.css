@@ -574,17 +574,17 @@ resource: https://coderwall.com/p/mwvbea/media-queries-only-for-the-iphone-5-par
   and (-webkit-device-pixel-ratio: 2) 
   and (min-aspect-ratio: 40/71) and (orientation:portrait) {
 
-    .logo {
-        width: 65px;
-        height: 65px;
-        }
+.logo {
+    width: 65px;
+    height: 65px;
+    }
 
-    #hamburger {
-        font-size: 1.5 rem;
-        margin-left: 0.5rem
-        }
+#hamburger {
+    font-size: 1.5 rem;
+    margin-left: 0.5rem
+    }
 
-    .social-media i {
-        margin-right: 0.4rem !important;
-        }
+.social-media i {
+    margin-right: 0.4rem !important;
+    }
 }

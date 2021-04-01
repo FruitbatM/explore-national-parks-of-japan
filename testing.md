@@ -142,6 +142,55 @@ Several bugs were encountered during the coding process:
 
 - Google Maps API infoWindow
 
+
+- For devices with smaller screen size (i.e. iPhone5) the header section elements were too close together which was causing a bad UX.
+<h2 align="center"><img src="readme-files/img-readme/iphone5.jpg" alt="iPhone 3 detected issue" target="_blank" width="60%" height="60%"></h2>
+
+**Fixed** by adding the media query for screen size min-width of 320px and by adding the following css code:
+    
+    ```
+    @media only screen 
+      and (min-device-width: 320px) 
+      and (max-width: 568px)
+      and (-webkit-device-pixel-ratio: 2) 
+      and (min-aspect-ratio: 40/71) and (orientation:portrait) {
+
+      .logo {
+        width: 65px;
+        height: 65px;
+      }
+
+      #hamburger {
+        font-size: 1.5 rem;
+        margin-left: 0.5rem
+      }
+
+      .social-media i {
+        margin-right: 0.4rem !important;
+      }
+    }
+    ```
+
+Media queries for the iPhone5 were found on the following article: Coderwall.
+
+- The bounce arrow positioned on the bottom of the hero background image wasn't showing on device iPad Pro 12.9"
+<h2 align="center"><img src="readme-files/img-readme/arrow-bounce-ipad-pro.jpg" alt="iPhone 3 detected issue" target="_blank" width="60%" height="60%"></h2>
+
+**Fixed** by adding the following css code:
+
+    ```
+    @media only screen 
+      and (min-device-width: 1024px) 
+      and (max-device-width: 1366px)
+      and (-webkit-min-device-pixel-ratio: 2)  {
+
+      .arrow {
+        bottom: 6rem;
+      }
+    }
+    ```
+
+
 # Performance Testing
 Performance was tested using [Lighthouse](https://developers.google.com/web/tools/lighthouse) tool.
 
