@@ -260,7 +260,10 @@ To create a local copy of the repository please follow the below steps:
     - for a full screen overlay navigation
 - [Hover.css](https://ianlunn.github.io/Hover/) was used for animation on social media icons
 - [sweetalert2](https://sweetalert2.github.io/) was used for a custom pop-up alert
+- [CSS Tricks](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/#top-of-site) was used for media queries for iPad Pro 12.9"
+- [Coderwall](https://coderwall.com/) was used for media queries for iPhone 5
 - Send email function was adapted from Code Institute walkthrough project
+
 ## Media
 ### Images
 - The custom logo was designed using [Canva](https://www.canva.com/)
