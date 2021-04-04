@@ -49,7 +49,6 @@ function getWeather() {
 
   function findLocation() {
     for (i = 0; i < locationID.length; i++) {
-      console.log("location: ", locationID[i])
       if (locationID[i].name === locationWeather) {
         console.log("location: ", locationID[i])
         return locationID[i].cityID;
@@ -92,7 +91,9 @@ function displayWeather(data) {
     document.getElementById('temp-description').innerHTML = data.weather[0].description;
     document.getElementById('temp-value').innerHTML = celsius + '&deg;' + ' C';
     document.getElementById('wind-speed').innerHTML = 'Wind: ' + data.wind.speed + ' m/s';
-    document.getElementById('sunrise').innerHTML = 'Sunrise: ' + data.sys.sunrise;
-    document.getElementById('sunset').innerHTML = 'Sunset: ' + data.sys.sunset;
+    document.getElementById('max-value').innerHTML = 'Max: ' + data.main.temp_max + '&deg;' + ' C';
+    document.getElementById('min-value').innerHTML = 'Min: ' + data.main.temp_min + '&deg;' + ' C';
+    document.getElementById('humidity').innerHTML = 'Humidity: ' + data.main.humidity + '%';
+    document.getElementById('clouds').innerHTML = 'Clouds: ' + data.clouds.all + '%';
     document.getElementById('location').innerHTML = data.name;
 }

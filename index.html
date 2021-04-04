@@ -146,31 +146,29 @@
             </div>
         </div>
         <div class="weather-search mt-2">
+            <div class="row">
+                <div class="px-3 text-center">
+                    <select id="nationalParks" onmouseup="getWeather()" aria-labelledby="national-parks">
+                        <option value="Fuji Hakone Izu National Park">Fuji Hakone Izu National Park</option>
+                        <option value="Akan Mashu National Park">Akan Mashu National Park</option>
+                        <option value="Shiretoko National Park">Shiretoko National Park</option>
+                        <option value="Nikko National Park">Nikko National Park</option>
+                        <option value="Yakushima National Park">Yakushima National Park</option>
+                        <option value="Yoshino Kumano National Park">Yoshino Kumano National Park</option>
+                        <option value="Towada Hachimantai National Park">Towada Hachimantai National Park</option>
+                        <option value="Aso Kuju National Park">Aso Kuju National Park</option>
+                        <option value="Iriomote Ishigaki National Park">Iriomote Ishigaki National Park</option>
+                        <option value="Saikai National Park">Saikai National Park</option>
+                    </select>
+            </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 order-lg-1 order-sm-2 px-3 text-center">
-                        <select id="nationalParks" onmouseup="getWeather()" aria-labelledby="national-parks">
-                            <option value="Fuji Hakone Izu National Park">Fuji Hakone Izu National Park</option>
-                            <option value="Akan Mashu National Park">Akan Mashu National Park</option>
-                            <option value="Shiretoko National Park">Shiretoko National Park</option>
-                            <option value="Nikko National Park">Nikko National Park</option>
-                            <option value="Yakushima National Park">Yakushima National Park</option>
-                            <option value="Yoshino Kumano National Park">Yoshino Kumano National Park</option>
-                            <option value="Towada Hachimantai National Park">Towada Hachimantai National Park</option>
-                            <option value="Aso Kuju National Park">Aso Kuju National Park</option>
-                            <option value="Iriomote Ishigaki National Park">Iriomote Ishigaki National Park</option>
-                            <option value="Saikai National Park">Saikai National Park</option>
-                        </select>
-                    </div>
-                    <br>
-                    <div class="col-md-6 order-lg-2 order-sm-1 px-3 text-center">
+                    <div class="col-md-6 order-lg-1 px-3 text-center">
                         <div class="weather-container mb-5">
+                            <h3 class="current-weather">Current weather</h3>
                             <div id="weather-icon"></div>
-                            <div id="location-date">
-                                <h2> - </h2>
-                            </div>
                             <div id="temp-value">
-                                <p>- °<span id="units">C</span></p>
+                                <p>- °<span id="units"></span></p>
                             </div>
                             <div id="temp-description">
                                 <p> - </p>
@@ -178,19 +176,36 @@
                             <div id="wind-speed">
                                 <p> - </p>
                             </div>
-                            <div id="sunrise">
-                                <p> - </p>
-                            </div>
-                            <div id="sunset">
-                                <p> - </p>
-                            </div>
                             <div id="location">  <!--Remove once call per NP location is set-->
                                 <p> - </p>
                             </div> 
+                            <div id="location-date">
+                                <h2> - </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 order-lg-2 px-3 text-center">
+                        <div class="weather-container mb-5">
+                            <h3 class="today-weather">Today weather</h3>
+                            <div id="max-value">
+                                <p> - </p>
+                            </div>
+                            <div id="min-value">
+                                <p> - </p>
+                            </div>
+                            <div id="humidity">
+                                <p> - </p>
+                            </div>
+                            <div id="clouds">
+                                <p> - </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <!--Contact section-->

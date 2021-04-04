@@ -138,7 +138,26 @@ Comprehensive testing was executed. Further elaborated in more details below:
 Several bugs were encountered during the coding process:
 - A full screen overlay navigation doesn't work on mobile devices
 
-- Weather information doesn't 
+- Issue with displaying weather data for multiple locations.
+
+
+```
+let e = document.getElementById('nationalParks');
+    let locationWeather = e.value;
+
+  function findLocation() {
+    for (i = 0; i < locationID.length; i++) {
+      console.log("location: ", locationID[i])
+      if (locationID[i].name === locationWeather) {
+        console.log("location: ", locationID[i])
+        return locationID[i].cityID;
+      }
+    }
+  }
+```
+
+
+
 
 - Google Maps API infoWindow
 
