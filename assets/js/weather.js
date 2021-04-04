@@ -80,8 +80,22 @@ function displayWeather(data) {
     const celsius = Math.round(parseFloat(data.main.temp));
     const fahrenheit = Math.round((celsius * 9/5) +32); //Convert temperature from celsius to fahrenheit
 
+    // Display date
     const currentDate = new Date();
     const localDate = currentDate.toDateString();
+ 
+    // Convert sunrise and sunset unix time to human-readable Japan Standard Time
+    const timezone = data.timezone;
+    const {sunrise, sunset} = data.sys;
+
+    const sunR = new Date((sunrise + timezone) * 1000);
+    const sunRiseH = sunR.getHours();
+    const sunRiseM = sunR.getMinutes();
+
+    const sunS = new Date((sunset + timezone) * 1000);
+    const sunSetH = sunS.getHours();
+    const sunSetM = sunS.getMinutes();
+
 
     // Get weather icons from OpenWeather API
     const icon = "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png"
@@ -91,9 +105,11 @@ function displayWeather(data) {
     document.getElementById('temp-description').innerHTML = data.weather[0].description;
     document.getElementById('temp-value').innerHTML = celsius + '&deg;' + ' C';
     document.getElementById('wind-speed').innerHTML = 'Wind: ' + data.wind.speed + ' m/s';
-    document.getElementById('max-value').innerHTML = 'Max: ' + data.main.temp_max + '&deg;' + ' C';
-    document.getElementById('min-value').innerHTML = 'Min: ' + data.main.temp_min + '&deg;' + ' C';
+    document.getElementById('max-value').innerHTML = 'Max: ' + Math.round(data.main.temp_max) + '&deg;' + ' C';
+    document.getElementById('min-value').innerHTML = 'Min: ' + Math.round(data.main.temp_min) + '&deg;' + ' C';
     document.getElementById('humidity').innerHTML = 'Humidity: ' + data.main.humidity + '%';
     document.getElementById('clouds').innerHTML = 'Clouds: ' + data.clouds.all + '%';
+    document.getElementById('sunrise').innerHTML = 'Sunrise: ' + sunRiseH + ':' + sunRiseM + ' hrs';
+    document.getElementById('sunset').innerHTML = 'Sunset: ' + sunSetH + ':' + sunSetM + ' hrs';
     document.getElementById('location').innerHTML = data.name;
 }
