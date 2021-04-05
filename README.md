@@ -97,7 +97,7 @@ The website will be designed to be pleasing to the eye, consistent and user frie
 ## Skeleton
 The wireframes were created in [Balsamiq](https://balsamiq.com/).
 Please view the wireframes for desktop, tablet and mobile screens on the following link:
-[Explore National Park of Japan wireframes](https://github.com/FruitbatM/)
+[Explore National Park of Japan wireframes](https://github.com/FruitbatM/explore-national-parks-of-japan/blob/master/readme-files/wireframes/MS2-wireframes.pdf)
 
 ## Design
 ### Colour Scheme
