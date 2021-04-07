@@ -115,7 +115,7 @@
                     <div id="map"></div>
                 </div>
                 <div class="col-lg-5 col-md-6 order-lg-1 order-md-1 order-sm-1" id="side-column">
-                    <img class="img-fluid np-img my-4" src="assets/images/fuji-hakone-izu.jpg" alt="Fuji Hakone Izu National Park">
+                    <img class="img-fluid np-img mb-2" src="assets/images/fuji-hakone-izu.jpg" alt="Fuji Hakone Izu National Park">
                     <h4 class="side-heading text-center pt-3 pb-1">Fuji Hakone Izu National Park</h4>
                         <p class="side-text text-center">
                         Fuji Hakone Izu is the most popular of Japan's national parks due to its close proximity to Tokyo.
@@ -146,7 +146,7 @@
         </div>
         <div class="weather-search mt-2">
             <div class="row">
-                <div class="px-3 text-center">
+                <div class="custom-select px-3 text-center">
                     <select id="nationalParks" onmouseup="getWeather()" aria-labelledby="national-parks">
                         <option value="Fuji Hakone Izu National Park">Fuji Hakone Izu National Park</option>
                         <option value="Akan Mashu National Park">Akan Mashu National Park</option>
@@ -166,7 +166,7 @@
             <div class="row">
                 <div class="col-md-6 text-center">
                     <div class="weather-container mb-5">
-                        <h3 class="current-weather">Current weather</h3>
+                        <h3 id="current-weather"></h3>
                         <div id="weather-icon"></div>
                             <div id="temp-value">
                                 <p></p>
@@ -174,36 +174,36 @@
                             <div id="temp-description">
                                 <p></p>
                             </div>
-                            <div id="wind-speed">
+                            <div id="wind-speed" class="w-data">
                                 <p></p>
                             </div>
-                            <div id="location">  <!--Remove once call per NP location is set-->
+                            <div id="location" class="w-data">  <!--Remove once call per NP location is set-->
                                 <p></p>
                             </div> 
-                            <div id="location-date">
+                            <div id="location-date" class="w-data">
                                 <h2></h2>
                             </div>
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
                     <div class="weather-container mb-5">
-                        <h3 class="today-weather">Today weather</h3>
+                        <h3 id="today-weather"></h3>
                         <div id="max-value">
                             <p></p>
                         </div>
-                        <div id="min-value">
+                        <div id="min-value" class="w-data">
                             <p></p>
                         </div>
-                        <div id="humidity">
+                        <div id="humidity" class="w-data">
                             <p></p>
                         </div>
-                        <div id="clouds">
+                        <div id="clouds" class="w-data">
                             <p></p>
                         </div>
-                        <div id="sunrise">
+                        <div id="sunrise" class="w-data">
                             <p></p>
                         </div>
-                        <div id="sunset">
+                        <div id="sunset" class="w-data">
                             <p></p>
                         </div>
                     </div>

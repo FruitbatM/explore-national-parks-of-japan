@@ -100,6 +100,9 @@ function displayWeather(data) {
     // Get weather icons from OpenWeather API
     const icon = "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png"
 
+    
+    document.getElementById('current-weather').innerHTML = 'Current weather';
+    document.getElementById('today-weather').innerHTML = 'Today weather';
     document.getElementById('weather-icon').innerHTML = '<img src=' + icon + '><br>';
     document.getElementById('location-date').innerHTML = localDate.slice(0, 3) + ", " + localDate.slice(4,10);
     document.getElementById('temp-description').innerHTML = data.weather[0].description;

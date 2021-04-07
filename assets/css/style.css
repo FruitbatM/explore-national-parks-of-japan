@@ -369,12 +369,17 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     width: 100%;
 }
 
-/* removed
-.dropdown-btn {
-    background-color: #c60a09;
-    color: #fafafa;
+.custom-select {
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center !important;
 }
-*/
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+}
 
 .weather-container {
     color: #000000;
@@ -388,6 +393,11 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     margin: 2rem;
 }
 
+.w-data {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
 #location-date {
     font-family: 'Work Sans', sans-serif;
     font-size: 1.3rem;
@@ -396,7 +406,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 }
 
 #temp-value {
-    margin: 0.5rem 0 0.5rem 0;
+    margin: 0 0 0.5rem 0;
     font-family: 'Work Sans', sans-serif;
     font-size: 2.2rem;
     font-weight: 500;
