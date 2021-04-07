@@ -96,11 +96,8 @@ function displayWeather(data) {
     const sunSetH = sunS.getHours();
     const sunSetM = sunS.getMinutes();
 
+    const icon = "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png" // Get weather icons from OpenWeather API
 
-    // Get weather icons from OpenWeather API
-    const icon = "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png"
-
-    
     document.getElementById('current-weather').innerHTML = 'Current weather';
     document.getElementById('today-weather').innerHTML = 'Today weather';
     document.getElementById('weather-icon').innerHTML = '<img src=' + icon + '><br>';
