@@ -16,7 +16,7 @@
 <body>
     <header>
         <!--Navbar-->
-        <nav class="navbar navbar-light">
+        <nav class="navbar">
             <a href="index.html" class="navbar-brand"></a>
             <img src="assets/images/logo-130x133px.png" class="logo" alt="Explore Japan logo">
             <div class="container-fluid">
@@ -25,7 +25,7 @@
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                         <div class="overlay-content">
                             <ul class="menu">
-                                <li><a href="index.html" >Home</a></li>
+                                <li><a href="index.html">Home</a></li>
                                 <li><a href="#explore-section">Explore</a></li>
                                 <li><a href="#map-section">Map</a></li>
                                 <li><a href="#weather-section">Weather</a></li>
@@ -33,7 +33,7 @@
                             </ul>
                         </div>
                     </div>
-                    <span id="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()" ontouchstart="openNav()">&#9776; MENU</span>  
+                    <span id="hamburger" onclick="openNav()"  ontouchstart="touchStart(event)">&#9776; MENU</span>
                 </div>
                 <!-- Social Media Icons -->
                 <div class="container social-header">
@@ -111,7 +111,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-6 order-lg-1 order-md-1 order-sm-2" id="side-column">
+                <div class="col-lg-5 col-md-6 order-lg-1 order-md-1 order-sm-1" id="side-column">
                     <img class="img-fluid np-img" src="assets/images/fuji-hakone-izu.jpg" alt="Fuji Hakone Izu National Park">
                     <h4 class="side-heading text-center pt-3 pb-1">Fuji Hakone Izu National Park</h4>
                         <p class="side-text">
@@ -126,7 +126,7 @@
                         There, transfer to the Fujikyu Railway Line to Kawaguchiko Station. This trip takes just under three hours.
                         </p>
                 </div>
-                <div class="col-lg-7 col-md-6 text-center order-lg-2 order-md-2 order-sm-1">
+                <div class="col-lg-7 col-md-6 text-center order-lg-2 order-md-2 order-sm-2">
                     <div id="map"></div>
                 </div>
             </div>

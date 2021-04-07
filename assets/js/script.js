@@ -1,9 +1,9 @@
 // Full screen overlay navigation
-// Open when someone clicks on the element
 // Code with a modification was sourced from w3school: https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp
 
 function openNav() {
   document.getElementById('myNav').style.width = "100%";
+  console.log('Clicked!');
 }
 
 // Close when someone clicks on the "x" symbol inside the overlay
