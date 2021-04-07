@@ -361,6 +361,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     max-width: 100%;
     height: auto;
     padding: 0;
+    margin-bottom: 0.5rem;
 }
 
 #map {
@@ -521,6 +522,10 @@ form input {
 
     .arrow {
         bottom: 4.5rem;
+    }
+
+    #map {
+    height: 700px;
     }
 }
 

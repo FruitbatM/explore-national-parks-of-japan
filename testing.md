@@ -136,7 +136,11 @@ Comprehensive testing was executed. Further elaborated in more details below:
 
 # Encountered Issues
 Several bugs were encountered during the coding process:
-- A full screen overlay navigation doesn't work on mobile devices
+- A full screen overlay navigation doesn't work on mobile devices.
+
+**Fixed** by adding `z-index: -1;` to social-header element.
+
+
 
 - Issue with displaying weather data for multiple locations.
 
