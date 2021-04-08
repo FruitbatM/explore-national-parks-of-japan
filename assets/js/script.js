@@ -41,6 +41,8 @@ function topFunction() {
 }
 
 // Tooltip
-// Tippy.js
-// https://atomiks.github.io/tippyjs/
 
+
+let info = document.getElementsByClassName('infoIcon');
+console.log('Clicked!');
+let tooltip = new bootstrap.Tooltip(infoIcon, options);

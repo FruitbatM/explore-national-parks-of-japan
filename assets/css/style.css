@@ -353,14 +353,15 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     font-weight: 600;
 }
 
-#infoIcon {
-  padding-left: 2.5rem;
+.infoIcon {
+  color: #c60a09;
+  font-size: 1rem;
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+  bottom: 1rem;
 }
 
-#infoIcon i {
-  color: #c60a09;
-  position: absolute;
-}
 
 .side-text {
     font-family: 'Work Sans', sans-serif;
