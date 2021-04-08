@@ -42,7 +42,6 @@ function topFunction() {
 
 // Tooltip
 
-
-let info = document.getElementsByClassName('infoIcon');
-console.log('Clicked!');
-let tooltip = new bootstrap.Tooltip(infoIcon, options);
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
