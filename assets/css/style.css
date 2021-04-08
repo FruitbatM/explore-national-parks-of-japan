@@ -83,7 +83,7 @@ a {
     position: absolute;
     top: auto;
     right: 0;
-    z-index: -1;
+    z-index: 99;
 }
 
 .social-media i {
@@ -511,6 +511,7 @@ form input {
 
     .navbar-header {
         cursor: pointer;
+        z-index: 100; /* Bring in front of social-header element*/
     }
 
     .social-media i {
