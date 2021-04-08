@@ -105,13 +105,9 @@
                     <i class="fas fa-map-marked-alt fa-3x icon" aria-hidden="true"></i>
                     <div class="col mt-4">
                         <div id="infoIcon" aria-describedby="tooltip">
-                            <i class="fas fa-info-circle"></i>
+                            <i class="fas fa-info-circle iIcon"></i>
+                            <span>Hover over and click on map markers</span>
                         </div>
-                        <div id="tooltip" role="tooltip">
-                            Hover over and click on map markers
-                            <div id="arrow" data-popper-arrow></div>
-                        </div>
-
 
                         <div class="text-header mt-2 mb-4 pb-2">
                             <h2>Map</h2>
@@ -263,8 +259,7 @@
     <script src="assets/js/weather.js"></script>
     <script src="assets/js/sendEmail.js"></script>
     <!---->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAy8IyX7_mfbEUH8q1lceATeEs_BRPlbpU&callback=initMap&libraries=&v=weekly" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.29.2/sweetalert2.all.js"></script>
@@ -274,5 +269,7 @@
             emailjs.init("user_DkY6Dzw8RNHgzSkoWcGLn");
         })();
     </script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
 </body>
 </html>
