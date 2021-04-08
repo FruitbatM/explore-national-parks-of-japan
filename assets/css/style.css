@@ -357,11 +357,10 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
   color: #c60a09;
   font-size: 1rem;
   position: relative;
-  display: inline-block;
   line-height: 1;
-  bottom: 1rem;
+  bottom: 2.9rem;
+  padding-left: 6rem;
 }
-
 
 .side-text {
     font-family: 'Work Sans', sans-serif;
