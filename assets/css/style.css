@@ -406,6 +406,17 @@ h3 {
   padding-left: 9.5rem;
 }
 
+/* Change tooltip background color */
+.tooltip > .tooltip-inner {
+  background-color: #f23332;
+  }
+
+/* Solution for changing tooltip arrow found on following link: https://newtodesign.com/change-bootstrap-5-tooltip-arrow-color/ */
+.tooltip.bs-tooltip-end .tooltip-arrow::before {
+  border-right-color: #f23332;
+}
+
+
 .weather-container {
     color: #000000;
     font-size: 1.2rem;
@@ -594,6 +605,10 @@ form input {
         font-size: 2.4rem;
         font-weight: 600;
         letter-spacing: 0.1rem;
+    }
+
+    .weatherIcon {
+      padding-left: 10.5rem;
     }
 }
 
