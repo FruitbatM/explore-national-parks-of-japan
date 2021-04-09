@@ -19,7 +19,7 @@ function initMap() {
       <h4 class="py-3 text-center">Fuji Hakone Izu National Park</h4>
       <p>
       Fuji Hakone Izu is the most popular of Japan’s national parks due to its close proximity to Tokyo.
-      It is famous for its ancient history, its shrine and hot springs in addition to views of nearby Mount Fuji.
+      It is famous for its ancient history, its shrine, and hot springs in addition to views of nearby Mount Fuji.
       </p>
       <p>
       The mountain has been the natural soul of Japan since ancient times. In the park, you can wander through timeless forests, explore lava caves and bathe in hot springs. You can even swim with dolphins off the coast of the southern Izu islands.
@@ -35,8 +35,8 @@ function initMap() {
       info: `<img src="assets/images/akan-mashu-np.jpg" class="img-fluid np-img" alt="Akan Mashu National Park">
       <h4 class="py-3 text-center">Akan Mashu National Park</h4>
       <p>
-      One of the oldest national parks in Japan with he stunning scenery on show makes the park wonderful to explore
-      and its diverse ecosystems and wide range of attractions only add to its splendor. It is located in the eastern part of Hokkaido.
+      One of the oldest national parks in Japan with the stunning scenery on show makes the park wonderful to explore
+      and its diverse ecosystems and wide range of attractions only add to its splendor. It is in the eastern part of Hokkaido.
       Visitors could spend weeks amidst all the natural wonders of Akan Mashu and still not have seen everything. 
       </p>
       <p>
@@ -54,7 +54,7 @@ function initMap() {
       <h4 class="py-3 text-center">Shiretoko National Park</h4>
       <p>
       The national park is located in the island of Hokkaido and is considered a UNESCO World Heritage Site. One of the highlights 
-      of this park is the large population of brown bears. During the summer months, bear watching from sightseeing boats is a popular 
+      of this park is the large population of brown bears. During the summer months, bear watching from sightseeing boats is popular 
       activity. Roads cover only one-third of the park; the remainder is reserved for those adventurous enough to explore by boat or on foot.
       </p>
       <p>
@@ -182,7 +182,7 @@ function initMap() {
       <p class="pb-2">
       <strong>How to get there:</strong> To reach the Kitamatsuura Peninsula from Tokyo, take a flight from Haneda Airport to Nagasaki Airport (2 hr), 
       an airport bus to Sasebo (1 hr 15 min).  Municipal buses also depart from Sasebo Station to observation points and sightseeing spots on the Kujukushima Islands. 
-      While it's possible to use such services to visit attractions within the park, renting a car around Sasebo Station is a more effective way to see the sights.
+      While it is possible to use such services to visit attractions within the park, renting a car around Sasebo Station is a more effective way to see the sights.
       </p>`
     }
   ];

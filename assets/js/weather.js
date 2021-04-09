@@ -19,7 +19,7 @@ function getWeather() {
     },
     {
         city: "Yakushima National Park",
-        cityID: 1860827
+        cityID: 1855203
     },
     {
         name: "Yoshino Kumano National Park",
