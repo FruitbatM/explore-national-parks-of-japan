@@ -43,6 +43,6 @@ function topFunction() {
 // Tooltip
 // Code source: https://getbootstrap.com/docs/5.0/components/tooltips/-->
 $(function () {
-  $('[data-bs-toggle="tooltip"]').tooltip()
-})
+  $('[data-bs-toggle="tooltip"]').tooltip();
+});
 
