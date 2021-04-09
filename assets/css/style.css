@@ -397,6 +397,15 @@ h3 {
     font-size: 1.5rem;
 }
 
+.weatherIcon {
+  color: #c60a09;
+  font-size: 1rem;
+  position: relative;
+  line-height: 1;
+  bottom: 2.9rem;
+  padding-left: 9.5rem;
+}
+
 .weather-container {
     color: #000000;
     font-size: 1.2rem;

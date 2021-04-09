@@ -107,7 +107,8 @@
                     <div class="col mt-4">
                         <div class="text-header mt-2 mb-4 pb-2">
                             <h2 class="hover-info">Map</h2>
-                                <span class="fas fa-info-circle infoIcon" data-bs-toggle="tooltip" data-bs-placement="right" title="Hover over and click on map markers"></span>  
+                            <!--Tooltip - code source: https://getbootstrap.com/docs/5.0/components/tooltips/-->
+                                <span class="fas fa-info-circle infoIcon" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-offset="10,10" aria-describedby="ui-tooltip" title="Hover over and click on the map markers"></span>  
                         </div>
                     </div>
                 </div>
@@ -144,6 +145,8 @@
                 <div class="col-12 mt-4 mb-4">
                     <div class="weather-title text-header my-2">
                         <h2>Weather</h2>      
+                        <!--Tooltip - code source: https://getbootstrap.com/docs/5.0/components/tooltips/-->
+                        <span class="fas fa-info-circle weatherIcon" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-offset="10,10" aria-describedby="ui-tooltip" title="Select NP from a dropdown menu"></span>
                     </div>
                 </div>
             </div>
@@ -255,15 +258,16 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAy8IyX7_mfbEUH8q1lceATeEs_BRPlbpU&callback=initMap&libraries=&v=weekly" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.29.2/sweetalert2.all.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <!-- internal script file -->
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/maps.js"></script>
-    <script src="assets/js/weather.js"></script>
-    <script src="assets/js/sendEmail.js"></script>
     <script>
         (function() {
             emailjs.init("user_DkY6Dzw8RNHgzSkoWcGLn");
         })();
     </script>
+    <!-- internal script file -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/maps.js"></script>
+    <script src="assets/js/weather.js"></script>
+    <script src="assets/js/sendEmail.js"></script>
+
 </body>
 </html>
