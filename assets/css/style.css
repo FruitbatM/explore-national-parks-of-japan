@@ -378,6 +378,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     height: auto;
     padding: 0;
     margin-bottom: 0.5rem;
+    margin-top: 1rem;
 }
 
 #map {
@@ -527,7 +528,7 @@ form input {
 .footer-section {
     background-color: #f23332;
     color: #fafafa;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
 }
@@ -592,6 +593,10 @@ form input {
     #map {
     height: 700px;
     }
+
+    .np-img {
+      margin-top: 0;
+    }
 }
 
 /* Display on large devices */
@@ -628,6 +633,10 @@ form input {
         font-size: 2.4rem;
         font-weight: 600;
         letter-spacing: 0.1rem;
+    }
+
+    .np-img {
+      margin-top: 0;
     }
 
     .new-box {

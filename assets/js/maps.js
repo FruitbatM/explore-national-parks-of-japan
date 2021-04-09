@@ -14,8 +14,8 @@ function initMap() {
   const markers = [
     {
       coordinates: {lat: 35.2326407, lng: 139.013563}, // Fuji-Hakone-Izu National Park  
-      data: '<h5>Fuji Hakone Izu National Park</h5>',
-      info: `<img src="assets/images/fuji-hakone-izu.jpg" class="img-fluid mt-3" alt="Fuji-Hakone-Izu National Park"></img>
+      content: '<h5>Fuji Hakone Izu National Park</h5>',
+      info: `<img src="assets/images/fuji-hakone-izu.jpg" class="img-fluid np-img" alt="Fuji-Hakone-Izu National Park"></img>
       <h4 class="py-3 text-center">Fuji Hakone Izu National Park</h4>
       <p>
       Fuji Hakone Izu is the most popular of Japan’s national parks due to its close proximity to Tokyo.
@@ -31,8 +31,8 @@ function initMap() {
     },
     {
       coordinates: {lat: 43.5655079, lng: 144.3598874}, // Akan Mashu National Park
-      data: '<h5>Akan Mashu National Park</h5>',
-      info: `<img src="assets/images/akan-mashu-np.jpg" class="img-fluid mt-3" alt="Fuji-Hakone-Izu National Park">
+      content: '<h5>Akan Mashu National Park</h5>',
+      info: `<img src="assets/images/akan-mashu-np.jpg" class="img-fluid np-img" alt="Akan Mashu National Park">
       <h4 class="py-3 text-center">Akan Mashu National Park</h4>
       <p>
       One of the oldest national parks in Japan with he stunning scenery on show makes the park wonderful to explore
@@ -49,8 +49,8 @@ function initMap() {
     },
     {
       coordinates: {lat: 44.1528287, lng: 145.1845915}, // Shiretoko National Park
-      data: '<h5>Shiretoko National Park</h5>',
-      info: `<img src="assets/images/shiretoko-np.jpg" class="img-fluid mt-3" alt="Shiretoko National Park">
+      content: '<h5>Shiretoko National Park</h5>',
+      info: `<img src="assets/images/shiretoko-np.jpg" class="img-fluid np-img" alt="Shiretoko National Park">
       <h4 class="py-3 text-center">Shiretoko National Park</h4>
       <p>
       The national park is located in the island of Hokkaido and is considered a UNESCO World Heritage Site. One of the highlights 
@@ -67,8 +67,8 @@ function initMap() {
     },
     {
       coordinates: {lat: 36.8936306, lng: 139.6322278}, // Nikko National Park
-      data: '<h5>Nikko National Park</h5>',
-      info: `<img src="assets/images/nikko-np.jpg" class="img-fluid mt-3" alt="Nikko National Park">
+      content: '<h5>Nikko National Park</h5>',
+      info: `<img src="assets/images/nikko-np.jpg" class="img-fluid np-img" alt="Nikko National Park">
       <h4 class="py-3 text-center">Nikko National Park</h4>
       <p> 
       Nikko National Park is in the mountain area that belongs to the volcanic belt, and you can fully enjoy a variety of different sceneries such 
@@ -85,8 +85,8 @@ function initMap() {
     },
     {
       coordinates: {lat: 30.3464332, lng: 130.5036985}, // Yakushima National Park 
-      data: '<h5>Yakushima National Park</h5>',
-      info: `<img src="assets/images/yakushima_np.jpg" class="img-fluid mt-3" alt="Yakushima National Park">
+      content: '<h5>Yakushima National Park</h5>',
+      info: `<img src="assets/images/yakushima_np.jpg" class="img-fluid np-img" alt="Yakushima National Park">
       <h4 class="py-3 text-center">Yakushima National Park</h4>
       <p>
       This national park is located on an island south of the Kagoshima Prefecture. This heavily forested, subtropical island surges with life.
@@ -104,8 +104,8 @@ function initMap() {
     },
     {
       coordinates: {lat: 33.5036336, lng: 135.828385}, // Yoshino-Kumano National Park 
-      data: '<h5>Yoshino Kumano National Park</h5>',
-      info: `<img src="assets/images/yoshino-kumano-np.jpg" class="img-fluid mt-3" alt="Yoshino-Kumano National Park ">
+      content: '<h5>Yoshino Kumano National Park</h5>',
+      info: `<img src="assets/images/yoshino-kumano-np.jpg" class="img-fluid np-img" alt="Yoshino-Kumano National Park ">
       <h4 class="py-3 text-center">Yoshino Kumano National Park</h4>
       <p>
       This park in the Kansai region is home to two UNESCO World Heritage Sites, Mount Yoshino and the Kumano Region. Mount Yoshino, 
@@ -122,8 +122,8 @@ function initMap() {
     },
     {
       coordinates: {lat: 40.5545129, lng: 140.8845628}, // Towada Hachimantai National Park
-      data: '<h5>Towada Hachimantai National Park</h5>',
-      info: `<img src="assets/images/towada-hachimantai-np.jpg" class="img-fluid mt-3" alt="Towada Hachimantai National Park">
+      content: '<h5>Towada Hachimantai National Park</h5>',
+      info: `<img src="assets/images/towada-hachimantai-np.jpg" class="img-fluid np-img" alt="Towada Hachimantai National Park">
       <h4 class="py-3 text-center">Towada Hachimantai National Park</h4>
       <p>
       Located in the Tohoku Region, this park is centered around the Hachimantai mountains and Lake Towada. Within its borders are rustic onsen, or hot springs.
@@ -138,8 +138,8 @@ function initMap() {
     },
     {
       coordinates: {lat: 32.8974879, lng: 131.1000753}, // Aso Kuju National Park
-      data: '<h5>Aso Kuju National Park</h5>',
-      info: `<img src="assets/images/aso-kuju-np.jpg" class="img-fluid mt-3" alt="Aso Kuju National Park">
+      content: '<h5>Aso Kuju National Park</h5>',
+      info: `<img src="assets/images/aso-kuju-np.jpg" class="img-fluid np-img" alt="Aso Kuju National Park">
       <h4 class="py-3 text-center">Aso Kuju National Park</h4>
       <p>
       One of Japan’s oldest national parks, Aso offers dramatic scenery of volcanic steam rising above stark tans, oranges, greys, and reds, the product of the active volcano 
@@ -154,8 +154,8 @@ function initMap() {
     },
     {
       coordinates: {lat: 24.4334539, lng: 123.7210239}, // Iriomote Ishigaki National Park
-      data: '<h5>Iriomote Ishigaki National Park</h5>',
-      info: `<img src="assets/images/iriomote-ishigaki-np.jpg" class="img-fluid mt-3" alt="Iriomote Ishigaki National Park">
+      content: '<h5>Iriomote Ishigaki National Park</h5>',
+      info: `<img src="assets/images/iriomote-ishigaki-np.jpg" class="img-fluid np-img" alt="Iriomote Ishigaki National Park">
       <h4 class="py-3 text-center">Iriomote Ishigaki National Park</h4>
       <p>
       Iriomote Ishigaki National Park is the southernmost national park in Japan. It is a place where a wealth of nature can be found.
@@ -172,8 +172,8 @@ function initMap() {
     },
     {
       coordinates: {lat: 33.1649111, lng: 129.676887}, // Saikai National Park
-      data: '<h5>Saikai National Park</h5>',
-      info: `<img src="assets/images/sakai-np.jpg" class="img-fluid mt-3" alt="Saikai National Park">
+      content: '<h5>Saikai National Park</h5>',
+      info: `<img src="assets/images/sakai-np.jpg" class="img-fluid np-img" alt="Saikai National Park">
       <h4 class="py-3 text-center">Saikai National Park</h4>
       <p>
       Situated in northwestern Kyushu, Saikai National Park weaves together more than 400 small islands from several archipelagoes.
@@ -199,9 +199,9 @@ function initMap() {
     map: map,
   });
 
-    if(props.data) {
+    if(props.content) {
       const infowindow = new google.maps.InfoWindow ({
-        data:props.data
+        content:props.content
       });
 
       // Info window appears on mouseover and disappears on mouseout
