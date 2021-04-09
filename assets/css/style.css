@@ -556,8 +556,8 @@ form input {
 /* Display on tablet devices */  
 
 @media only screen 
-  and (min-device-width : 768px) 
-  and (max-device-width : 1024px) 
+  and (min-width : 768px) 
+  and (max-width : 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .logo {
         width: 130px;
@@ -652,8 +652,8 @@ form input {
 Credit: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/#top-of-site
 Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px)
+  and (min-width: 1024px) 
+  and (max-width: 1366px)
   and (-webkit-min-device-pixel-ratio: 2)  {
 
     .hero-text {
@@ -669,7 +669,7 @@ Portrait and Landscape */
 resource: https://coderwall.com/p/mwvbea/media-queries-only-for-the-iphone-5-part-i */ 
 
 @media only screen 
-  and (min-device-width: 320px) 
+  and (min-width: 320px) 
   and (max-width: 568px)
   and (-webkit-device-pixel-ratio: 2) 
   and (min-aspect-ratio: 40/71) and (orientation:portrait) {
@@ -680,7 +680,7 @@ resource: https://coderwall.com/p/mwvbea/media-queries-only-for-the-iphone-5-par
         }
 
     #hamburger {
-        font-size: 1.5 rem;
+        font-size: 1.5rem;
         margin-left: 0.5rem
         }
 

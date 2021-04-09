@@ -50,7 +50,7 @@ function getWeather() {
   function findLocation() {
     for (i = 0; i < locationID.length; i++) {
       if (locationID[i].name === locationWeather) {
-        console.log("location: ", locationID[i])
+        console.log("location: ", locationID[i]);
         return locationID[i].cityID;
       }
     }
@@ -72,7 +72,7 @@ function getWeather() {
   
   window.onload = function() {
   getWeather(parkLocationID);
-  }
+  };
 }
 
 // Display live weather to User Interface
