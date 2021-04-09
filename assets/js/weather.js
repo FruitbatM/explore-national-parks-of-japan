@@ -98,6 +98,7 @@ function displayWeather(data) {
 
     const icon = "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png" // Get weather icons from OpenWeather API
 
+    document.getElementById('weather-box').className = 'new-box';
     document.getElementById('current-weather').innerHTML = 'Current weather';
     document.getElementById('today-weather').innerHTML = 'Today weather';
     document.getElementById('weather-icon').innerHTML = '<img src=' + icon + '><br>';
@@ -113,3 +114,4 @@ function displayWeather(data) {
     document.getElementById('sunset').innerHTML = 'Sunset: ' + sunSetH + ':' + sunSetM + ' hrs';
     document.getElementById('location').innerHTML = data.name;
 }
+

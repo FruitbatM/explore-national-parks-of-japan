@@ -417,15 +417,26 @@ h3 {
   border-right-color: #f23332;
 }
 
+.tooltip.bs-tooltip-bottom .tooltip-arrow::before {
+  border-right-color: #f23332;
+}
+
+.tooltip.bs-tooltip-top .tooltip-arrow::before {
+  border-top-color: #f23332;
+}
+
 #weather-section {
   padding-bottom: 3rem;
 }
 
-.weather-box {
+.new-box {
   background-color: #f9c5b8;
   border-radius: 1.5rem;
   border: 0.2rem solid #fafafa;
+  width: 90%;
+  margin: 0 auto;
 }
+
 
 .weather-container {
     font-size: 1.2rem;
@@ -613,6 +624,10 @@ form input {
         font-size: 2.4rem;
         font-weight: 600;
         letter-spacing: 0.1rem;
+    }
+
+    .new-box {
+      width: 70%;
     }
 
     .weatherIcon {
