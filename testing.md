@@ -13,9 +13,8 @@
 # User Stories Testing
 ## Visitor Stories
 **As a site visitior, I would like to gain an understanding of the website's purpose from the landing page.**
-   
-   - A hero image, placed towards the top of a webpage gives immediately a first glimpse on the website's content and purspose.
-    - Strategically placed headline also indicates to the user what is the websites purpose.
+- A hero image, placed towards the top of a webpage gives immediately a first glimpse on the website's content and purspose.
+- Strategically placed headline also indicates to the user what is the websites purpose.
 
 <h2 align="center"><img src="readme-files/img-readme/US-1.jpg" alt="Explore National Parks of Japan hero image" target="_blank" width="75%" height="75%"></h2>
 
