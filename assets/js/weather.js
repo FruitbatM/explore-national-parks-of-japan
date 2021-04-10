@@ -2,43 +2,43 @@
 function getWeather() {
   const locationID = [
     {
-        name: "Fuji Hakone Izu National Park",
+        name: 'Fuji Hakone Izu National Park',
         cityID: 1863357
     },
     {
-        name: "Akan Mashu National Park",
+        name: 'Akan Mashu National Park',
         cityID: 2127822
     },
     {
-        name: "Shiretoko National Park",
+        name: 'Shiretoko National Park',
         cityID: 2128430
     },
     { 
-        name: "Nikko National Park",
+        name: 'Nikko National Park',
         cityID: 1855395
     },
     {
-        city: "Yakushima National Park",
+        city: 'Yakushima National Park',
         cityID: 1855203
     },
     {
-        name: "Yoshino Kumano National Park",
+        name: 'Yoshino Kumano National Park',
         cityID: 1848938
     },
     {
-        name: "Towada Hachimantai National Park",
+        name: 'Towada Hachimantai National Park',
         cityID: 2111834
     },
     {
-        name: "Aso Kuju National Park",
+        name: 'Aso Kuju National Park',
         cityID: 1856801
     },
     {
-        name: "Iriomote Ishigaki National Park",
+        name: 'Iriomote Ishigaki National Park',
         cityID: 1850822
     },
     {
-        name: "Saikai National Park",
+        name: 'Saikai National Park',
         cityID: 1852899
     }
   ];
@@ -50,7 +50,7 @@ function getWeather() {
   function findLocation() {
     for (i = 0; i < locationID.length; i++) {
       if (locationID[i].name === locationWeather) {
-        console.log("location: ", locationID[i]);
+        console.log("location", locationID[i]);
         return locationID[i].cityID;
       }
     }
@@ -96,7 +96,7 @@ function displayWeather(data) {
     const sunSetH = sunS.getHours();
     const sunSetM = sunS.getMinutes();
 
-    const icon = "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png" // Get weather icons from OpenWeather API
+    const icon = "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png"; // Get weather icons from OpenWeather API
 
     document.getElementById('weather-box').className = 'new-box';
     document.getElementById('current-weather').innerHTML = '<h3>Current weather</h3>';
