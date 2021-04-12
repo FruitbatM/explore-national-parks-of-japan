@@ -18,10 +18,6 @@ function getWeather() {
         cityID: 1855395
     },
     {
-        city: 'Yakushima National Park',
-        cityID: 1855203
-    },
-    {
         name: 'Yoshino Kumano National Park',
         cityID: 1848938
     },
@@ -36,6 +32,10 @@ function getWeather() {
     {
         name: 'Iriomote Ishigaki National Park',
         cityID: 1850822
+    },
+    {
+      city: 'Yakushima',
+      cityID: 1855203
     },
     {
         name: 'Saikai National Park',
