@@ -274,9 +274,22 @@ Media queries for the iPhone5 were found on the following article: Coderwall.
 # Performance Testing
 Performance was tested using [Lighthouse](https://developers.google.com/web/tools/lighthouse) tool.
 
+## Desktop
 
+<h2 align="center"><img src="readme-files/img-readme/lighthouse.jpg" alt="lighthouse performance for home page" target="_blank" width="45%" height="45%"></h2>
+
+The results were somewhat different every time. Following article [Why are my Lighthouse scores different from my other test results?](https://support.speedcurve.com/en/articles/4088236-why-are-my-lighthouse-scores-different-from-my-other-test-results#:~:text=The%20performance%20score%20is%20strongly,cause%20variability%20in%20your%20scores.) gives an explanation on Lighthouse that "the performance score is strongly influenced by Time to Interactive (TTI) and Total Blocking Time (TBT), which can be quite different depending on the test environment and runtime settings." 
+
+The performance results are satisfying as the the website is heavy loaded with the content.
+
+## Mobile
+Lighthouse testing results were somewhat different every time.
+<h2 align="center"><img src="readme-files/img-readme/lighthouse-mobile.jpg" alt="lighthouse performance for home page" target="_blank" width="45%" height="45%"></h2>
 
 ## Accessibility
+The website accessibility was tested using DevTools and checking contrast ratio. 
+The results are satisfying.
+The performance results are satisfying as the the website is heavy loaded with the content.
 
-
+<br>
 Click here to return to [README.md](README.md) file.
