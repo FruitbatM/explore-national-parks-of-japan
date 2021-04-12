@@ -54,7 +54,8 @@ The website was created as a **Milestone Project 2** as a part of **Diploma in F
 # User Experience (UX)
 ## User Stories
 ### Visitor Stories
-1. As a site visitior, I would like to gain an understanding of the website's purpose from the landing page.
+
+1. As a site visitor, I would like to gain an understanding of the website's purpose from the landing page.
 2. As a site visitor, I would like to easily navigate through the site and find what I'm looking for with an ease.
 3. As a site visitor, I would like to find the aesthetics of the website enjoyable.
 4. As a site visitor,I want to use interactive elements on the website.

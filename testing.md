@@ -3,7 +3,7 @@
 <details>
   <summary>Click to expand table of contents</summary>
 
-1. [User Stories Testing](#user-stories)
+1. [User Stories Testing](#user-stories-testing)
 2. [Code Validation](#code-validation)
 3. [Functionality Testing](#functionality-testing)
 4. [Encountered Issues](#encountered-issues)
@@ -12,34 +12,41 @@
 
 # User Stories Testing
 ## Visitor Stories
-**As a site visitior, I would like to gain an understanding of the website's purpose from the landing page.**
-- A hero image, placed towards the top of a webpage gives immediately a first glimpse on the website's content and purspose.
-- Strategically placed headline also indicates to the user what is the websites purpose.
+
+**As a site visitor, I would like to gain an understanding of the website's purpose from the landing page.**
+
+- A hero image, placed towards the top of a webpage gives immediately a first glimpse on the website's content and purpose.
+- Strategically placed headline also indicates to the user what is the website's purpose.
 
 <h2 align="center"><img src="readme-files/img-readme/US-1.jpg" alt="Explore National Parks of Japan hero image" target="_blank" width="75%" height="75%"></h2>
 
 **As a site visitor, I would like to easily navigate through the site and find what I'm looking for with an ease.**
 
-- A navigation menu is placed in the top left corner of the website. Originally I planned to just have a hamburger icon (without menu wording) but in this way it will be more obvious to the users that this is a navigation menu.
+- A navigation menu is placed in the top left corner of the website. Originally, I planned to just have a hamburger icon (without menu wording) but in this way it will be more obvious to the users that this is a navigation menu.
+
 <h2 align="center"><img src="readme-files/img-readme/us-2-menu.jpg" alt="Website's navigation menu" target="_blank" width="75%" height="75%"></h2>
 
 - When the user clicks on the hamburger icon, a full screen overlay navigation appears which allows the user to easily access any section on the website.
+
 <h2 align="center"><img src="readme-files/img-readme/us-2-overlay_n.jpg" alt="Back to top arrow" target="_blank" width="75%" height="75%"></h2>
 
-- Back to top arrow button appears on the lower right of page when the user start to scroll down the page. Once clicked, it jumps to the top of the webpage which reduces the time to manually scorll up the website.
+- Back to top arrow button appears on the lower right of page when the user starts to scroll down the page. Once clicked, it jumps to the top of the webpage which reduces the time to manually scroll up the website.
+
 <h2 align="center"><img src="readme-files/img-readme/us-2-back_to_top_arrow.jpg" alt="Back to top arrow" target="_blank" width="75%" height="75%"></h2>
 
 **As a site visitor, I would like to find the aesthetics of the website enjoyable.**
+
 - The home section with hero image is eye-catching and graphically attractive which should keep the visitor's attention.
+
 <h2 align="center"><img src="readme-files/img-readme/US-1.jpg" alt="Explore National Parks of Japan hero image" target="_blank" width="75%" height="75%"></h2>
 
-- Clean design was used throughout the website. The attention was paid to the colors, eye-catching images and textual content.
-The website was designed to be elegant but simple and easy to use. The elements of the website are visually connected and balanced. 
+- Clean design was used throughout the website. The attention was paid to the colors, eye-catching images, and textual content. The website was designed to be elegant but simple and easy to use. The elements of the website are visually connected and balanced.
+
 <h2 align="center"><img src="readme-files/img-readme/us-3-map.jpg" alt="Website's map section" target="_blank" width="75%" height="75%"></h2>
 
-- A full screen overlay navigation is modern and distinctive and the visitors can easyily find what they are looking for.
+- A full screen overlay navigation is modern and distinctive, and the visitors can easily find what they are looking for.
 
-**As a site visitor,I want to use interactive elements on the website.**
+**As a site visitor, I want to use interactive elements on the website.**
 
 There are many interactive elements implemented throughout the website which increase a user engagement and improve the user experience.
 
@@ -52,30 +59,24 @@ There are many interactive elements implemented throughout the website which inc
 
   <h2 align="center"><img src="readme-files/img-readme/us-2-menu.jpg" alt="Navigation menu" target="_blank" width="75%" height="75%"></h2>
 
-  - Back to top arrow button appears on the lower right of page when the user start to scroll down a page. Once clicked it jumps to the top or the webpage.
+  - Back to top arrow button appears on the lower right of page when the user starts to scroll down a page. Once clicked it jumps to the top or the webpage.
+  - Tooltips appear under the Map and Weather section titles and they contain a brief helper text about the functionality. Tooltips appear when the user hovers over the 'i' icon next to the above-mentioned titles.
 
-  - Tooltips appear under the Map and Weather section titles and they contain a brief helper text about the feature functionality. Tooltips appear when the user hovers over the 'i' icon next to the above mentioned titles.
+  <h2 align="center"><img src="readme-files/img-readme/tooltip-map.jpg" alt="Navigation menu" target="_blank" width="45%" height="45%"></h2>
 
-  <h2 align="center"><img src="readme-files/img-readme/tooltip-map.jpg" alt="Navigation menu" target="_blank" width="75%" height="75%"></h2>
-
-    <h2 align="center"><img src="readme-files/img-readme/tooltip-weather.jpg" alt="Navigation menu" target="_blank" width="75%" height="75%"></h2>
+  <h2 align="center"><img src="readme-files/img-readme/tooltip-weather.jpg" alt="Navigation menu" target="_blank" width="45%" height="45%"></h2>
 
 - Google Map
-  - When the user hovers over the marker, the national park's name shows. And when the user clicks on the marker, the national park information with the correspoing image changes on the left side based on the marker the user clicked.
+  - When the user hovers over the marker, the national park's name shows. And when the user clicks on the marker, the national park information with the corresponding image changes on the left side based on the marker the user clicked.
 
 - Weather data
-  - The user can select a national park from the drop-down menu. Upon selection, the weather data will get displayed with the current and todays weather data.
+  - The user can select a national park from the drop-down menu. Upon selection, the weather data will get displayed with the current and today's weather data.
 
-- Button and form 
-
- like hover states, audio or video media, scrolling interactions and more, to their websites in the hope that the interactive features will attract and encourage more site visitors to read and engage with the site contents.
-
-
-
+- Button and form
 
 **As a site visitor, I would like to be able to easily find and navigate to the company's social media.**
 
-- Social media icons are placed in header section, located in the top rigth corner of the website. The media icons were strategically placed at this position. By clicking either on Facebook, Instagram or Twitter icon, mentioned social media pages will open in a new window.
+- Social media icons are placed in header section, located in the top right corner of the website. The media icons were strategically placed at this position. By clicking either on Facebook, Instagram, or Twitter icon, mentioned social media pages will open in a new window.
 
 <h2 align="center"><img src="readme-files/img-readme/us-2-menu.jpg" alt="Website's social media icons" target="_blank" width="75%" height="75%"></h2>
 
@@ -92,23 +93,23 @@ SweetAlert2 was used to add an interactive custom modal popup window when a user
 
 <h2 align="center"><img src="readme-files/img-readme/us-contact-email.jpg" alt="Confirmation email" target="_blank" width="65%" height="65%"></h2>
 
-**As a site visitor, I want to use map to find exciting national parks in Japan and based on the provided information make a decision what places to visit.**
+**As a site visitor, I want to use map to find exciting national parks in Japan and based on the provided information decide what places to visit.**
 
-- Google Maps API was used to dispay the ten most beautiful national parks of Japan. When hover over the marker, the national park's name shows.
-And when the user clicks on the marker, the national park information with the correspoing image changes on the left side based on the marker the user clicked.
+- Google Maps API was used to display the ten most beautiful national parks of Japan. When hover over the marker, the national park's name shows.
+And when the user clicks on the marker, the national park information with the corresponding image changes on the left side based on the marker the user clicked.
 
 <h2 align="center"><img src="readme-files/img-readme/us-map-np.jpg" alt="National parks of Japan on the map" target="_blank" width="75%" height="75%"></h2>
 <h2 align="center"><img src="readme-files/img-readme/us-map-np-1.jpg" alt="National parks of Japan on the map" target="_blank" width="75%" height="75%"></h2>
 
 **As a site visitor, I want to get information how to get to the national parks.**
 
-- Under each national park there is a paragraph "How to get there" which gives the user the information on how to get to this particual national park. This paragraph is placed as the last paragraph undre the all national parks information section.
+- Under each national park there is a paragraph "How to get there" which gives the user the information on how to get to this particular national park. This paragraph is placed as the last paragraph under the each national park information section.
 
 <h2 align="center"><img src="readme-files/img-readme/us-how-to-get-there.jpg" alt="How to get there info" target="_blank" width="75%" height="75%"></h2>
 
 **As a site visitor, I want to find about the current weather and accordingly plan my visit.**
 
-- Under the website's Weather location, the user can select a national park from the drop-down menu. Upon selection, the weather data will get displayed with the current and todays weather data.
+- Under the website's Weather location, the user can select a national park from the drop-down menu. Upon selection, the weather data will get displayed with the current and today's weather data.
 
 <h2 align="center"><img src="readme-files/img-readme/weather-section.jpg" alt="Weather section" target="_blank" width="75%" height="75%"></h2>
 
@@ -137,7 +138,7 @@ And when the user clicks on the marker, the national park information with the c
 # script.js
 
 - There are no errors
-- There is one warning showing for a missing semicolon which doesn't make sense sice the semicolon is added (line 27)
+- There is one warning showing for a missing semicolon which doesn't make sense since the semicolon is added (line 27)
 
 <h2 align="center"><img src="readme-files/img-readme/jshint-sript-js.jpg" alt="JS validation for script.js file" target="_blank" width="75%" height="75%"></h2>
 
@@ -167,7 +168,7 @@ Comprehensive testing was executed. Further elaborated in more details below:
 - A full screen overlay navigation is fully functional and responsive.
 - When clicked on the nav links every navigation link goes to the expected section and the overlay navigation closes.
 - When hover over each navigation link, it changes the color correctly.
-- Close button (x) works correctly - it closes the overlay navigation
+- Close button (x) works correctly - it closes the overlay navigation.
 
 ## Social media icons
 
@@ -178,22 +179,23 @@ Comprehensive testing was executed. Further elaborated in more details below:
 - A responsive hero background image with opacity does not affect text.
 - The hero image covers the whole viewport size.
 - The content is centered.
-- The hero image is fully responsive and it looks good on all screen sizes.
+- The hero image is fully responsive, and it looks good on all screen sizes.
 
 ## Map functionality
 
-- When the user hovers over the marker, the national park's name shows. And when the user clicks on the marker, the national park information with the correspoing image changes on the left side based on the marker the user clicked.
+- When the user hovers over the marker, the national park's name shows. And when the user clicks on the marker, the national park information with the correspond image changes on the left side based on the marker the user clicked.
 
 
 ## Weather functionality
 
-- The user can select a national park from the drop-down menu. Upon selection, the weather data will get displayed with the current and todays weather data.
+- The user can select a national park from the drop-down menu. Upon selection, the weather data will get displayed with the current and today's weather data.
+- Mouseup function works correctly.
 
 ## Button
 
 - The button under Contact (Get in touch!) section works as expected. When clicked it sends the email.
 - When hover over, the button changes to expected background and border color.
-- Back to top arrow button appears on the lower right of page when the user start to scroll down a page. Once clicked, as expected it jumps to the top or the webpage.
+- Back to top arrow button appears on the lower right of page when the user starts to scroll down a page. Once clicked, as expected it jumps to the top or the webpage.
 
 ## Contact form
 
@@ -204,7 +206,7 @@ Comprehensive testing was executed. Further elaborated in more details below:
 
 ## Tooltips
 
-Tooltips are added on the Map and Weather section titles and they contain a brief helper text about the feature functionality. Tooltips appear when the user hovers over the 'i' icon next to the above mentioned titles.
+Tooltips are added on the 'i' icon located next to the Map and Weather titles and they contain a brief helper text about the feature functionality. Tooltips appear when the user hovers over the 'i' icon next to the above-mentioned titles.
 
 ## Browser Testing
 
@@ -216,7 +218,7 @@ Tooltips are added on the Map and Weather section titles and they contain a brie
   - Chrome for Android
   - Samsung Internet
 
-I didn't encounter any issue, the website is fully functioning and fully responsive on all above mentioned browsers. Further testing was done using [BrowserLing](https://www.browserling.com/) for Internet Explorer 11.
+I didn't encounter any issue; the website is fully functioning and fully responsive on all above mentioned browsers. Further testing was done using [BrowserLing](https://www.browserling.com/) for Internet Explorer 11.
 ## Device Testing
 
 - The website was physically tested on the following devices with different screen sizes:
@@ -263,13 +265,13 @@ let e = document.getElementById('nationalParks');
 
 - Google Maps API infoWindow
 
+- For devices with smaller screen size (i.e., iPhone5) the header section elements were too close together which was causing a bad UX.
 
-- For devices with smaller screen size (i.e. iPhone5) the header section elements were too close together which was causing a bad UX.
 <h2 align="center"><img src="readme-files/img-readme/iphone5.jpg" alt="iPhone 3 detected issue" target="_blank" width="60%" height="60%"></h2>
 
-**Fixed** by adding the media query for screen size min-width of 320px and by adding the following css code:
-    
-    ```
+**Fixed** by adding the media query for screen size min-width of 320px and by adding the following CSS code:
+
+```
     @media only screen 
       and (min-device-width: 320px) 
       and (max-width: 568px)
@@ -290,16 +292,17 @@ let e = document.getElementById('nationalParks');
         margin-right: 0.4rem !important;
       }
     }
-    ```
+  ```
 
-Media queries for the iPhone5 were found on the following article: Coderwall.
+Media queries for the iPhone5 were found on the following article: [Coderwall](https://coderwall.com/).
 
-- The bounce arrow positioned on the bottom of the hero background image wasn't showing on device iPad Pro 12.9"
+- The bounce arrow positioned on the bottom of the hero background image was not showing on device iPad Pro 12.9"
+
 <h2 align="center"><img src="readme-files/img-readme/arrow-bounce-ipad-pro.jpg" alt="iPhone 3 detected issue" target="_blank" width="60%" height="60%"></h2>
 
-**Fixed** by adding the following css code:
+**Fixed** by adding the following CSS code:
 
- ```
+```
 @media only screen 
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px)
@@ -318,18 +321,20 @@ Performance was tested using [Lighthouse](https://developers.google.com/web/tool
 
 <h2 align="center"><img src="readme-files/img-readme/lighthouse.jpg" alt="lighthouse performance for home page" target="_blank" width="45%" height="45%"></h2>
 
-The results were somewhat different every time. Following article [Why are my Lighthouse scores different from my other test results?](https://support.speedcurve.com/en/articles/4088236-why-are-my-lighthouse-scores-different-from-my-other-test-results#:~:text=The%20performance%20score%20is%20strongly,cause%20variability%20in%20your%20scores.) gives an explanation on Lighthouse that "the performance score is strongly influenced by Time to Interactive (TTI) and Total Blocking Time (TBT), which can be quite different depending on the test environment and runtime settings." 
+The results were somewhat different every time. Following article [Why are my Lighthouse scores different from my other test results?](https://support.speedcurve.com/en/articles/4088236-why-are-my-lighthouse-scores-different-from-my-other-test-results#:~:text=The%20performance%20score%20is%20strongly,cause%20variability%20in%20your%20scores.) gives an explanation on Lighthouse that "the performance score is strongly influenced by Time to Interactive (TTI) and Total Blocking Time (TBT), which can be quite different depending on the test environment and runtime settings."
 
-The performance results are satisfying as the the website is heavy loaded with the content.
+The performance results are satisfying as the website is heavy loaded with the content.
 
 ## Mobile
 Lighthouse testing results were somewhat different every time.
+
 <h2 align="center"><img src="readme-files/img-readme/lighthouse-mobile.jpg" alt="lighthouse performance for home page" target="_blank" width="45%" height="45%"></h2>
 
+The performance results are satisfying as the website is heavy loaded with the content.
 ## Accessibility
 The website accessibility was tested using DevTools and checking contrast ratio. 
 The results are satisfying.
-The performance results are satisfying as the the website is heavy loaded with the content.
 
-<br>
+<br/>
+
 Click here to return to [README.md](README.md) file.
