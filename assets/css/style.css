@@ -651,6 +651,10 @@ form input {
     .weatherIcon {
       padding-left: 10.5rem;
     }
+
+    .weather-search {
+      font-size: 1.2rem;
+    }
 }
 
 /* For iPad Pro 12.9" 
