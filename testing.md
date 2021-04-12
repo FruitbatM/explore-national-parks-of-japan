@@ -41,9 +41,40 @@ The website was designed to be elegant but simple and easy to use. The elements 
 
 **As a site visitor,I want to use interactive elements on the website.**
 
+There are many interactive elements implemented throughout the website which increase a user engagement and improve the user experience.
+
+- Navigation menu
+  - Every section on the website is accessible via navigation menu.
+  
+  <h2 align="center"><img src="readme-files/img-readme/us-2-overlay_n.jpg" alt="Navigation menu" target="_blank" width="75%" height="75%"></h2>
+
+  - Navigation is 'hidden' unless interacted with
+
+  <h2 align="center"><img src="readme-files/img-readme/us-2-menu.jpg" alt="Navigation menu" target="_blank" width="75%" height="75%"></h2>
+
+  - Back to top arrow button appears on the lower right of page when the user start to scroll down a page. Once clicked it jumps to the top or the webpage.
+
+  - Tooltips appear under the Map and Weather section titles and they contain a brief helper text about the feature functionality. Tooltips appear when the user hovers over the 'i' icon next to the above mentioned titles.
+
+  <h2 align="center"><img src="readme-files/img-readme/tooltip-map.jpg" alt="Navigation menu" target="_blank" width="75%" height="75%"></h2>
+
+    <h2 align="center"><img src="readme-files/img-readme/tooltip-weather.jpg" alt="Navigation menu" target="_blank" width="75%" height="75%"></h2>
+
+- Google Map
+  - When the user hovers over the marker, the national park's name shows. And when the user clicks on the marker, the national park information with the correspoing image changes on the left side based on the marker the user clicked.
+
+- Weather data
+  - The user can select a national park from the drop-down menu. Upon selection, the weather data will get displayed with the current and todays weather data.
+
+- Button and form 
+
+ like hover states, audio or video media, scrolling interactions and more, to their websites in the hope that the interactive features will attract and encourage more site visitors to read and engage with the site contents.
+
+
 
 
 **As a site visitor, I would like to be able to easily find and navigate to the company's social media.**
+
 - Social media icons are placed in header section, located in the top rigth corner of the website. The media icons were strategically placed at this position. By clicking either on Facebook, Instagram or Twitter icon, mentioned social media pages will open in a new window.
 
 <h2 align="center"><img src="readme-files/img-readme/us-2-menu.jpg" alt="Website's social media icons" target="_blank" width="75%" height="75%"></h2>
@@ -117,6 +148,7 @@ And when the user clicks on the marker, the national park information with the c
 <h2 align="center"><img src="readme-files/img-readme/jshint-maps-js.jpg" alt="JS validation for maps.js file" target="_blank" width="75%" height="75%"></h2>
 
 # sendEmail.js
+
 - There are no errors or warnings
 
 <h2 align="center"><img src="readme-files/img-readme/jshint-email-js.jpg" alt="JS validation for maps.js file" target="_blank" width="75%" height="75%"></h2>
@@ -138,20 +170,24 @@ Comprehensive testing was executed. Further elaborated in more details below:
 - Close button (x) works correctly - it closes the overlay navigation
 
 ## Social media icons
+
 - Social media icons once clicked open the expected link in a new tab.
 
 ## Hero image
 
-- 
+- A responsive hero background image with opacity does not affect text.
+- The hero image covers the whole viewport size.
+- The content is centered.
+- The hero image is fully responsive and it looks good on all screen sizes.
 
 ## Map functionality
 
-- Tooltip 
+- When the user hovers over the marker, the national park's name shows. And when the user clicks on the marker, the national park information with the correspoing image changes on the left side based on the marker the user clicked.
 
 
 ## Weather functionality
 
-- Tooltip
+- The user can select a national park from the drop-down menu. Upon selection, the weather data will get displayed with the current and todays weather data.
 
 ## Button
 
@@ -165,6 +201,10 @@ Comprehensive testing was executed. Further elaborated in more details below:
 - The contact form was tested for the validation by submitting first without inputs and then by filling the properties one by one. All worked as expected, all properties asked for the input. Furthermore, the email property asks for the email format with @ symbol.
 - The contact form is connected using EmailJS service which allows users to send an email directly without using the server. This functionality works as expected.
 - SweetAlert2 was used to add an interactive custom modal popup window when a user submits a contact form. Success or error message displays depending on if the user correctly or incorrectly uses the forms on the website.
+
+## Tooltips
+
+Tooltips are added on the Map and Weather section titles and they contain a brief helper text about the feature functionality. Tooltips appear when the user hovers over the 'i' icon next to the above mentioned titles.
 
 ## Browser Testing
 
