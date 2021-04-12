@@ -497,8 +497,12 @@ h3 {
 }
 
 form input {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  border: 1px solid #85888b;
 }
 
 .btn-contact {
@@ -508,6 +512,7 @@ form input {
     display: block;
     text-align: center;
     line-height: 1rem;
+    font-weight: 500;
     padding: 0.6rem 1.8rem;
     border-radius: 0.7rem;
     text-transform: uppercase;
@@ -526,7 +531,7 @@ form input {
 }
 
 .footer-section {
-    background-color: #c60a09;
+    background-color: #bf2626;
     color: #ffffff;
     font-size: 1rem;
     font-family: 'Work Sans', sans-serif;
