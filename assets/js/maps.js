@@ -205,8 +205,7 @@ function initMap() {
       });
 
       // Info window appears on click and disappears on mouseout
-      // Mouseover listener did not work on iPhone
-      marker.addListener('click', function() {
+      marker.addListener('mouseover', function() {
         infowindow.open(map, marker);
 
       google.maps.event.addListener(marker, 'mouseout', function() {
