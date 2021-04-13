@@ -222,9 +222,6 @@ function initMap() {
       });
     });
 
-
-
-
       // Info shows in the side column when the marker is clicked
       google.maps.event.addListener(marker, 'click', (function(i) {
 
