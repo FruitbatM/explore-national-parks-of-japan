@@ -239,31 +239,52 @@ Furthermore, using DevTools I checked responsiveness for different screen sizes 
 # Encountered Issues
 Several bugs were encountered during the coding process:
 
-- A full screen overlay navigation didn't work on mobile devices.
+- A full screen overlay navigation didn't work on mobile devices, it was not clickable. After adding lower z-index (negative z-index) to social-header element, the overlay navigation was fixed on mobile devices, but social media icons were not clickable anymore. The issue was resolved by adding higher z-index to navbar element.
 
-**Fixed** by adding `z-index: -1;` to social-header element.
+**Fixed** by adding below CSS code:
 
+```
+.social-header {
+    position: absolute;
+    z-index: 99;
+}
+```
 
+```
+.navbar-header {
+  z-index: 100; /* Bring in front of social-header element*/
+}
+```
 
 - Issue with displaying weather data for multiple locations.
+Initially I have planned to use Bootstrap dropdown button with `<ul>` and `<li>` tags to display a list of national parks but it didn't work with JavaScript function.
 
+**Fixed** with a help of my mentor and following the advice from Stackoverflow article [Get selected value in dropdown list using JavaScript](https://stackoverflow.com/questions/1085801/get-selected-value-in-dropdown-list-using-javascript)
+ by adding a list inside of `select` element and adding `onmouseup` event.
 
 ```
-let e = document.getElementById('nationalParks');
-    let locationWeather = e.value;
-
-  function findLocation() {
-    for (i = 0; i < locationID.length; i++) {
-      console.log("location: ", locationID[i])
-      if (locationID[i].name === locationWeather) {
-        console.log("location: ", locationID[i])
-        return locationID[i].cityID;
-      }
-    }
-  }
+<div class="weather-search mb-4">
+  <div class="row">
+    <div class="custom-select px-3 text-center">
+      <select id="nationalParks" onmouseup="getWeather()" aria-labelledby="nationalParks">
+        <option value="Akan Mashu National Park">Akan Mashu National Park</option>
+        <option value="Aso Kuju National Park">Aso Kuju National Park</option>
+        <option value="Fuji Hakone Izu National Park">Fuji Hakone Izu National Park</option>
+        <option value="Iriomote Ishigaki National Park">Iriomote Ishigaki National Park</option>
+        <option value="Nikko National Park">Nikko National Park</option>
+        <option value="Saikai National Park">Saikai National Park</option>
+        <option value="Shiretoko National Park">Shiretoko National Park</option>
+        <option value="Towada Hachimantai National Park">Towada Hachimantai National Park</option>
+        <option value="Yakushima">Yakushima National Park</option>
+        <option value="Yoshino Kumano National Park">Yoshino Kumano National Park</option>
+      </select>
+    </div>
+  </div>
+</div>
 ```
 
-- Google Maps API infoWindow
+
+- Google Maps infoWindow not showing on iPhone
 
 - For devices with smaller screen size (i.e., iPhone5) the header section elements were too close together which was causing a bad UX.
 
