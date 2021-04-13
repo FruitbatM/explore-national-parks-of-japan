@@ -204,14 +204,26 @@ function initMap() {
         content:props.content
       });
 
-      // Info window appears on click and disappears on mouseout
-      marker.addListener('mouseover', function() {
-        infowindow.open(map, marker);
-
-      google.maps.event.addListener(marker, 'mouseout', function() {
-        infowindow.close();
-        });
+      // Open info window when clicked on it
+      google.maps.event.addListener(marker, 'click', function() {
+        if(!marker.open) {
+          infowindow.open(map, marker);
+          marker.open = true;
+        }
+        // Close info window when clicked on it
+        else {
+          infowindow.close();
+          marker.open = false;
+        }
+        // Close info window when clicked anywhere on the map and the info window was opened
+        google.maps.event.addListener(map, 'click', function() {
+          infowindow.close();
+          marker.open = false;
       });
+    });
+
+
+
 
       // Info shows in the side column when the marker is clicked
       google.maps.event.addListener(marker, 'click', (function(i) {
