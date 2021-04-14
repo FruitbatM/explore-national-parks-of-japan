@@ -14,35 +14,35 @@ Mockup responsive image was created with [Techsini](http://techsini.com/multi-mo
 
   <summary>Click to expand table of contents</summary>
 
-> 1. [Overview](#overview)
-> 2. [User Experience UX](#user-experience-ux)
->    - [User Stories](#user-stories)
->       - [Visitor Stories](#visitor-stories)
->       - [Business Stories](#business-stories)
-     - [Strategy](#strategy)
->    - [Structure](#structure)
->    - [Skeleton](#skeleton)
->    - [Design](#design)
->       - [Colour Scheme](#colour-scheme)
->       - [Fonts](#fonts)
->       - [Imagery](#imagery)
-        - [Logo](#logo)
->       - [Icons](#icons)
-> 3. [Features](#features)
->       - [Existing Features](#existing-features)
->       - [Future Implementation](#future-implementation)
-> 4. [Technologies](#technologies)
-> 5. [Testing](#testing)
-> 6. [Deployment](#deployment)
->    - [GitHub pages](#github-pages)
-     - [Forking the Repository](#forking-repository)
-     - [Local Deployment](#local-deployment)
-> 7. [Credits](#credits)
->    - [Code](#code)
->    - [Media](#media)
->    - [Content](#content)
-> 8. [Acknowledgements](#acknowledgements)
-> 9. [Disclaimer](#disclaimer)
+1. [Overview](#overview)
+2. [User Experience UX](#user-experience-ux)
+    - [User Stories](#user-stories)
+        - [Visitor Stories](#visitor-stories)
+    - [Strategy](#strategy)
+    - [Scope](#scope)
+    - [Structure](#structure)
+    - [Skeleton](#skeleton)
+    - [Design](#design)
+    - [Color Scheme](#colour-scheme)
+    - [Fonts](#fonts)
+    - [Imagery](#imagery)
+    - [Logo](#logo)
+    - [Icons](#icons)
+3. [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Future Implementation](#future-implementation)
+4. [Technologies](#technologies)
+5. [Testing](#testing)
+6. [Deployment](#deployment)
+    - [GitHub pages](#github-pages)
+    - [Forking the Repository](#forking-repository)
+    - [Local Deployment](#local-deployment)
+7. [Credits](#credits)
+    - [Code](#code)
+    - [Media](#media)
+    - [Content](#content)
+8. [Acknowledgements](#acknowledgements)
+9. [Disclaimer](#disclaimer)
 
 </details>
 
@@ -213,7 +213,7 @@ The website will be a single page website separated in four sections: Explore, M
 ## Frameworks, Libraries and Programs
 
 - [Bootstrap v.5.0.](https://getbootstrap.com/docs/5.0/getting-started/introduction/) was used to create the contact form and footer section as well to make the website responsive.
-- [jQuery] (https://jquery.com/) was usded for tooltip functionality.
+- [jQuery](https://jquery.com/) was usded for tooltip functionality.
 - [Balsamiq](https://balsamiq.com/) was used to create the wireframes for the website.
 - [Font Awesome](https://fontawesome.com/) icons were used in the header section and throughout the website for better user experience.
 - [Google Fonts](https://fonts.google.com/) was used to import the fonts to the website.
