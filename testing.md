@@ -107,7 +107,7 @@ And when the user clicks on the marker, the national park information with the c
 
 <h2 align="center"><img src="readme-files/img-readme/us-how-to-get-there.jpg" alt="How to get there info" target="_blank" width="75%" height="75%"></h2>
 
-**As a site visitor, I want to find about the current weather and accordingly plan my visit.**
+**As a site visitor, I want to find out about the current weather and accordingly plan my visit.**
 
 - Under the website's Weather location, the user can select a national park from the drop-down menu. Upon selection, the weather data will get displayed with the current and today's weather data.
 
@@ -219,6 +219,7 @@ Tooltips are added on the 'i' icon located next to the Map and Weather titles an
   - Samsung Internet
 
 I didn't encounter any issue; the website is fully functioning and fully responsive on all above mentioned browsers. Further testing was done using [BrowserLing](https://www.browserling.com/) for Internet Explorer 11.
+
 ## Device Testing
 
 - The website was physically tested on the following devices with different screen sizes:
