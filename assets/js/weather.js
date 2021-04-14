@@ -2,11 +2,11 @@
 function getWeather() {
   const locationID = [
     {
-        name: 'Fuji Hakone Izu National Park',
-        cityID: 1863357
+      name: 'Fuji Hakone Izu National Park',
+      cityID: 1863357
     },
     {
-        name: 'Akan Mashu National Park',
+      name: 'Akan Mashu National Park',
         cityID: 2127822
     },
     {
@@ -14,43 +14,43 @@ function getWeather() {
         cityID: 2128430
     },
     { 
-        name: 'Nikko National Park',
-        cityID: 1855395
+      name: 'Nikko National Park',
+      cityID: 1855395
     },
     {
-        name: 'Yoshino Kumano National Park',
-        cityID: 1848938
+      name: 'Yoshino Kumano National Park',
+      cityID: 1848938
     },
     {
-        name: 'Towada Hachimantai National Park',
-        cityID: 2111834
+      name: 'Towada Hachimantai National Park',
+      cityID: 2111834
     },
     {
-        name: 'Aso Kuju National Park',
-        cityID: 1856801
+      name: 'Aso Kuju National Park',
+      cityID: 1856801
     },
     {
-        name: 'Iriomote Ishigaki National Park',
-        cityID: 1850822
+      name: 'Iriomote Ishigaki National Park',
+      cityID: 1850822
     },
     {
-      city: 'Yakushima',
+      name: 'Yakushima',
       cityID: 1855203
     },
     {
-        name: 'Saikai National Park',
-        cityID: 1852899
+      name: 'Saikai National Park',
+      cityID: 1852899
     }
   ];
 
   // Match clicked national park with its location ID
-  let e = document.getElementById('nationalParks');
-    let locationWeather = e.value;
+  let np = document.getElementById('nationalParks');
+    let locationWeather = np.value;
 
   function findLocation() {
     for (i = 0; i < locationID.length; i++) {
       if (locationID[i].name === locationWeather) {
-        console.log("location", locationID[i]);
+        console.log('location', locationID[i]);
         return locationID[i].cityID;
       }
     }
@@ -113,4 +113,3 @@ function displayWeather(data) {
     document.getElementById('sunrise').innerHTML = 'Sunrise: ' + sunRiseH + ':' + sunRiseM + ' hrs';
     document.getElementById('sunset').innerHTML = 'Sunset: ' + sunSetH + ':' + sunSetM + ' hrs';
 }
-
