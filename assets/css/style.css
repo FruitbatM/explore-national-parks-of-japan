@@ -14,7 +14,7 @@ html {
 
 a {
     text-decoration: none; /* Remove lines on social media icons */
-    color: #fafafa; /* Overwrites bounce arrow color */
+    color: #ffffff; /* Overwrites bounce arrow color */
 }
 
 .navbar-header {
@@ -229,7 +229,7 @@ a {
     font-weight: 700;
     letter-spacing: 0.2rem;
     padding-top: 12.2rem;
-    color: #fafafa;
+    color: #ffffff;
     text-shadow: 0.2rem 0.2rem #343a40;
     min-width: 100%;
     min-height: 8.5rem;
@@ -257,7 +257,7 @@ a {
     margin-left: -0.5rem;
     background-size: contain;
     cursor: pointer;
-    color: #fafafa !important;
+    color: #ffffff !important;
 }
 
 .bounce {
@@ -431,13 +431,12 @@ h3 {
 }
 
 .new-box {
-  background-color: #f9c5b8;
+  background-color: #F9C5B8;
   border-radius: 1.5rem;
   border: 0.2rem solid #fafafa;
   width: 90%;
   margin: 0 auto;
 }
-
 
 .weather-container {
     font-size: 1.2rem;
@@ -507,7 +506,7 @@ form input {
 
 .btn-contact {
     background-color: #c60a09;
-    color: #fafafa;
+    color: #ffffff;
     border: none;
     display: block;
     text-align: center;
@@ -531,7 +530,7 @@ form input {
 }
 
 .footer-section {
-    background-color: #bf2626;
+    background-color: #C11F1F;
     color: #ffffff;
     font-size: 1rem;
     font-family: 'Work Sans', sans-serif;

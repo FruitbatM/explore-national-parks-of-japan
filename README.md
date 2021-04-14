@@ -113,7 +113,7 @@ According to the article [The Traditional colors of Japan](https://www.tofugu.co
 red is considered the warmest and most contradictory of the colors.
 
 - [Coolors](https://coolors.co/) was used to create a colour palette.
-<h2 align="center"><img src="readme-files/img-readme/exp-japan-color-palette.jpg" target="_blank" width="75%" height="75%"></h2>
+<h2 align="center"><img src="readme-files/img-readme/explore-japan-color-palette.jpg" target="_blank" width="75%" height="75%"></h2>
 
 ### Fonts
 - Two fonts will be used throughout the project, **Crimson Pro** and **Work Sans**. Crimson Pro will be used with ``serif`` font as a fallback and Work Sans will be used with ``sans-serif`` font as a fallback.
