@@ -2,18 +2,24 @@
 
 function initMap() {
   const options = {
-    center: { lat: 36.1783653, lng: 135.0709152 },
+    center: { 
+      lat: 36.1783653, 
+      lng: 135.0709152 
+    },
     zoom: 4
   };
   
   //New map
   const map = new
-  google.maps.Map(document.getElementById("map"), options);
+  google.maps.Map(document.getElementById('map'), options);
 
   //Create markers
-  const markers = [
-    {
-      coordinates: {lat: 35.2326407, lng: 139.013563}, // Fuji-Hakone-Izu National Park  
+  // Fuji-Hakone-Izu National Park  
+  const markers = [{
+      coordinates: {
+        lat: 35.2326407,
+        lng: 139.013563
+      },
       content: '<h5>Fuji Hakone Izu National Park</h5>',
       info: `<img src="assets/images/fuji-hakone-izu.jpg" class="img-fluid np-img" alt="Fuji-Hakone-Izu National Park"></img>
       <h4 class="py-3 text-center">Fuji Hakone Izu National Park</h4>
@@ -30,7 +36,11 @@ function initMap() {
       </p>`
     },
     {
-      coordinates: {lat: 43.5655079, lng: 144.3598874}, // Akan Mashu National Park
+      // Akan Mashu National Park
+      coordinates: {
+        lat: 43.5655079, 
+        lng: 144.3598874
+      }, 
       content: '<h5>Akan Mashu National Park</h5>',
       info: `<img src="assets/images/akan-mashu-np.jpg" class="img-fluid np-img" alt="Akan Mashu National Park">
       <h4 class="py-3 text-center">Akan Mashu National Park</h4>
@@ -48,7 +58,11 @@ function initMap() {
       </p>`
     },
     {
-      coordinates: {lat: 44.1528287, lng: 145.1845915}, // Shiretoko National Park
+      // Shiretoko National Park
+      coordinates: {
+        lat: 44.1528287, 
+        lng: 145.1845915
+      },
       content: '<h5>Shiretoko National Park</h5>',
       info: `<img src="assets/images/shiretoko-np.jpg" class="img-fluid np-img" alt="Shiretoko National Park">
       <h4 class="py-3 text-center">Shiretoko National Park</h4>
@@ -66,7 +80,11 @@ function initMap() {
       </p>`
     },
     {
-      coordinates: {lat: 36.8936306, lng: 139.6322278}, // Nikko National Park
+      // Nikko National Park
+      coordinates: {
+        lat: 36.8936306, 
+        lng: 139.6322278
+      },
       content: '<h5>Nikko National Park</h5>',
       info: `<img src="assets/images/nikko-np.jpg" class="img-fluid np-img" alt="Nikko National Park">
       <h4 class="py-3 text-center">Nikko National Park</h4>
@@ -84,7 +102,11 @@ function initMap() {
       </p>`
     },
     {
-      coordinates: {lat: 30.3464332, lng: 130.5036985}, // Yakushima National Park 
+      // Yakushima National Park 
+      coordinates: {
+        lat: 30.3464332, 
+        lng: 130.5036985
+      },
       content: '<h5>Yakushima National Park</h5>',
       info: `<img src="assets/images/yakushima_np.jpg" class="img-fluid np-img" alt="Yakushima National Park">
       <h4 class="py-3 text-center">Yakushima National Park</h4>
@@ -103,7 +125,11 @@ function initMap() {
       </p>`
     },
     {
-      coordinates: {lat: 33.5036336, lng: 135.828385}, // Yoshino-Kumano National Park 
+      // Yoshino-Kumano National Park 
+      coordinates: {
+        lat: 33.5036336, 
+        lng: 135.828385
+      },
       content: '<h5>Yoshino Kumano National Park</h5>',
       info: `<img src="assets/images/yoshino-kumano-np.jpg" class="img-fluid np-img" alt="Yoshino-Kumano National Park ">
       <h4 class="py-3 text-center">Yoshino Kumano National Park</h4>
@@ -121,7 +147,11 @@ function initMap() {
       </p>`
     },
     {
-      coordinates: {lat: 40.5545129, lng: 140.8845628}, // Towada Hachimantai National Park
+      // Towada Hachimantai National Park
+      coordinates: {
+        lat: 40.5545129, 
+        lng: 140.8845628
+      },
       content: '<h5>Towada Hachimantai National Park</h5>',
       info: `<img src="assets/images/towada-hachimantai-np.jpg" class="img-fluid np-img" alt="Towada Hachimantai National Park">
       <h4 class="py-3 text-center">Towada Hachimantai National Park</h4>
@@ -137,7 +167,11 @@ function initMap() {
       </p>`
     },
     {
-      coordinates: {lat: 32.8974879, lng: 131.1000753}, // Aso Kuju National Park
+      // Aso Kuju National Park
+      coordinates: {
+        lat: 32.8974879, 
+        lng: 131.1000753
+      },
       content: '<h5>Aso Kuju National Park</h5>',
       info: `<img src="assets/images/aso-kuju-np.jpg" class="img-fluid np-img" alt="Aso Kuju National Park">
       <h4 class="py-3 text-center">Aso Kuju National Park</h4>
@@ -153,7 +187,11 @@ function initMap() {
       </p>`
     },
     {
-      coordinates: {lat: 24.4334539, lng: 123.7210239}, // Iriomote Ishigaki National Park
+      // Iriomote Ishigaki National Park
+      coordinates: {
+        lat: 24.4334539, 
+        lng: 123.7210239
+      },
       content: '<h5>Iriomote Ishigaki National Park</h5>',
       info: `<img src="assets/images/iriomote-ishigaki-np.jpg" class="img-fluid np-img" alt="Iriomote Ishigaki National Park">
       <h4 class="py-3 text-center">Iriomote Ishigaki National Park</h4>
@@ -171,7 +209,11 @@ function initMap() {
       </p>`
     },
     {
-      coordinates: {lat: 33.1649111, lng: 129.676887}, // Saikai National Park
+      // Saikai National Park
+      coordinates: {
+        lat: 33.1649111, 
+        lng: 129.676887
+      },
       content: '<h5>Saikai National Park</h5>',
       info: `<img src="assets/images/sakai-np.jpg" class="img-fluid np-img" alt="Saikai National Park">
       <h4 class="py-3 text-center">Saikai National Park</h4>
@@ -188,7 +230,7 @@ function initMap() {
   ];
 
   //Loop through markers 
-  for(var i = 0; i < markers.length; i++) {
+  for (var i = 0; i < markers.length; i++) {
     addMarker(markers[i]);
   }
 
