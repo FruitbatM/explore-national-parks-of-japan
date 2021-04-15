@@ -271,6 +271,7 @@ To fork the repository please follow the below steps:
 
 1. Go to the main page of Explore National Parks of Japan [repository](https://github.com/FruitbatM/explore-national-parks-of-japan).
 2. At the top right corner of the page click on the "Fork" button.
+
  ![Fork](readme-files/img-readme/fork.jpg)
 
 3. You have forked the repository.
@@ -304,6 +305,7 @@ To create a local copy of the repository please follow the below steps:
 - [CSS Tricks](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/#top-of-site) was used for media queries for iPad Pro 12.9"
 - [Coderwall](https://coderwall.com/) was used for media queries for iPhone 5
 - Tooltip functionality was sourced from [Bootstrap](https://getbootstrap.com/docs/5.0/components/tooltips/)
+- A solution for changing tooltips arrow color was found on the following [Stack Overflow](https://stackoverflow.com/questions/44955201/bootstrap-4-change-tooltip-arrow-color) post.
 - Info window feature for Google Maps for adopted from the following [Stack Overflow](https://stackoverflow.com/questions/2946165/google-map-api-v3-simply-close-an-infowindow) post
 
 ## Media
