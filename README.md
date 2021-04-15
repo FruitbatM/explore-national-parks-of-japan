@@ -212,7 +212,7 @@ The website will be a single page website separated in four sections: Explore, M
 
 ## Frameworks, Libraries and Programs
 
-- [Bootstrap v.5.0.](https://getbootstrap.com/docs/5.0/getting-started/introduction/) was used to create the contact form and footer section as well to make the website responsive.
+- [Bootstrap v.4.6.](https://getbootstrap.com/docs/4.6/getting-started/introduction/) was used to create the contact form and footer section as well to make the website responsive.
 - [jQuery](https://jquery.com/) was usded for tooltip functionality.
 - [Balsamiq](https://balsamiq.com/) was used to create the wireframes for the website.
 - [Font Awesome](https://fontawesome.com/) icons were used in the header section and throughout the website for better user experience.
@@ -228,10 +228,10 @@ The website will be a single page website separated in four sections: Explore, M
 - [TinyJPG](https://tinyjpg.com/) was used for compressing images while preserving transparency.
 - [Techsini](http://techsini.com/multi-mockup/index.php) was used to create the responsive mockup image.
 - [Coolors](https://coolors.co/) was used for colour palette used on the website.
-- [CSS Autoprefixe](https://autoprefixer.github.io/) was used for adding CSS vendor prefixes.
+- [CSS Autoprefixer](https://autoprefixer.github.io/) was used for adding CSS vendor prefixes.
 - [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) was used to test and debug the code.
-- [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) 
-- [OpenWeather API](https://openweathermap.org/api)
+- [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) was used to display Google Map within the website.
+- [OpenWeatherMap API](https://openweathermap.org/api) was used to display current weather data for selected locations. 
 - [EmailJS](https://www.emailjs.com/) was used to create an email template and enable users to send emails directly without using the server.
 - [SweetAlert2](https://sweetalert2.github.io/) was used to add an interactive custom modal popup box when the user submits a contact form.
 
@@ -304,7 +304,7 @@ To create a local copy of the repository please follow the below steps:
 - [CSS Tricks](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/#top-of-site) was used for media queries for iPad Pro 12.9"
 - [Coderwall](https://coderwall.com/) was used for media queries for iPhone 5
 - Tooltip functionality was sourced from [Bootstrap](https://getbootstrap.com/docs/5.0/components/tooltips/)
-- Info window feature for Google Maps for adopted from the following[Stack Overflow](https://stackoverflow.com/questions/2946165/google-map-api-v3-simply-close-an-infowindow) post
+- Info window feature for Google Maps for adopted from the following [Stack Overflow](https://stackoverflow.com/questions/2946165/google-map-api-v3-simply-close-an-infowindow) post
 
 ## Media
 
