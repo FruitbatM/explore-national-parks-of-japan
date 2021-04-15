@@ -17,6 +17,11 @@ a {
   color: #ffffff; /* Overwrites bounce arrow color */
 }
 
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .navbar-header {
   cursor: pointer;
   z-index: 100; /* Bring in front of social-header element*/
