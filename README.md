@@ -23,7 +23,7 @@ Mockup responsive image was created with [Techsini](http://techsini.com/multi-mo
     - [Structure](#structure)
     - [Skeleton](#skeleton)
     - [Design](#design)
-    - [Color Scheme](#colour-scheme)
+    - [Color Scheme](#color-scheme)
     - [Fonts](#fonts)
     - [Imagery](#imagery)
     - [Logo](#logo)
