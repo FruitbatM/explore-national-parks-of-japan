@@ -163,6 +163,7 @@ And when the user clicks on the marker, the national park information with the c
 # Functionality Testing 
 
 Comprehensive testing was executed. Further elaborated in more details below:
+
 ## Navigation menu
 
 - A full screen overlay navigation is fully functional and responsive.
@@ -183,8 +184,7 @@ Comprehensive testing was executed. Further elaborated in more details below:
 
 ## Map functionality
 
-- When the user hovers over the marker, the national park's name shows. And when the user clicks on the marker, the national park information with the correspond image changes on the left side based on the marker the user clicked.
-
+- When the user clicks on the marker, the custom info window with the national park's name will appear and the national park information with the corresponding image will change on the left column side. The info window will close when the user clicks on the same marker or when clicked anywhere on the map.
 
 ## Weather functionality
 
@@ -230,7 +230,7 @@ I didn't encounter any issue; the website is fully functioning and fully respons
   - Samsung Galaxy S20 (Chrome for Android & Samsung Internet)
   - Nokia 6.1 (Microsoft Edge)
   - Nokia Lumia 640 LTE (Windows 10) (Microsoft Edge)
-  - UAWEI P30 lite (Chrome for Android)
+  - HUAWEI P30 lite (Chrome for Android)
   - Samsung Galaxy Tab A (Chrome for Android & Samsung Internet)
   - Lenovo ThinkBook 13S
 
