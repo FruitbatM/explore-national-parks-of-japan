@@ -364,7 +364,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
   position: relative;
   line-height: 1;
   bottom: 2.9rem;
-  padding-left: 6rem;
+  padding-left: 6.5rem;
 }
 
 .side-text {
@@ -389,10 +389,8 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
   width: 100%;
 }
 
-.custom-select {
-  position: relative;
+#nationalParks {
   font-family: 'Work Sans', sans-serif;
-  text-align: center !important;
 }
 
 h3 {
@@ -412,21 +410,23 @@ h3 {
 }
 
 /* Change tooltip background color */
-.tooltip > .tooltip-inner {
+.tooltip-inner {
   background-color: #f23332;
 }
 
-/* Solution for changing tooltip arrow found on following link: https://newtodesign.com/change-bootstrap-5-tooltip-arrow-color/ */
-.tooltip.bs-tooltip-end .tooltip-arrow::before {
-  border-right-color: #f23332;
-}
-
-.tooltip.bs-tooltip-bottom .tooltip-arrow::before {
-  border-right-color: #f23332;
-}
-
-.tooltip.bs-tooltip-top .tooltip-arrow::before {
+/* Solution for changing tooltip arrow found on following link: https://stackoverflow.com/questions/44955201/bootstrap-4-change-tooltip-arrow-color */
+.bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
   border-top-color: #f23332;
+}
+.bs-tooltip-auto[x-placement^=right] .arrow::before, .bs-tooltip-right .arrow::before {
+  border-right-color: #f23332;
+  width: 1rem;
+}
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .bs-tooltip-bottom .arrow::before {
+  border-bottom-color: #f23332;
+}
+.bs-tooltip-auto[x-placement^=left] .arrow::before, .bs-tooltip-left .arrow::before {
+  border-left-color: #f23332;
 }
 
 #weather-section {
@@ -638,7 +638,7 @@ form input {
     }
 
     .weatherIcon {
-      padding-left: 10.5rem;
+      padding-left: 11rem;
     }
 
     .weather-search {
