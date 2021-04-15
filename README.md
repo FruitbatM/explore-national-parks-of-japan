@@ -35,7 +35,7 @@ Mockup responsive image was created with [Techsini](http://techsini.com/multi-mo
 5. [Testing](#testing)
 6. [Deployment](#deployment)
     - [GitHub pages](#github-pages)
-    - [Forking the Repository](#forking-repository)
+    - [Forking the Repository](#forking-the-repository)
     - [Local Deployment](#local-deployment)
 7. [Credits](#credits)
     - [Code](#code)

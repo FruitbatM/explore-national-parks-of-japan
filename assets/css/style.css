@@ -90,7 +90,6 @@ a {
   top: auto;
   right: 0;
   z-index: 99;
-  text-align: right;
 }
 
 .social-media i {
@@ -207,7 +206,6 @@ a {
 #hamburger {
   font-size: 1.7rem !important;
   font-family: 'Work Sans', sans-serif;
-  margin-left: 1rem;
   cursor: pointer;
 }
 
@@ -341,6 +339,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 }
 
 .icon {
+  margin: 0 auto;
   margin-top: 4.5rem;
 }
 
@@ -686,7 +685,6 @@ resource: https://coderwall.com/p/mwvbea/media-queries-only-for-the-iphone-5-par
 
     #hamburger {
       font-size: 1.5rem;
-      margin-left: 0.5rem
     }
 
     .social-media i {
