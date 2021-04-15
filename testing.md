@@ -67,12 +67,13 @@ There are many interactive elements implemented throughout the website which inc
   <h2 align="center"><img src="readme-files/img-readme/tooltip-weather.jpg" alt="Navigation menu" target="_blank" width="45%" height="45%"></h2>
 
 - Google Map
-  - When the user hovers over the marker, the national park's name shows. And when the user clicks on the marker, the national park information with the corresponding image changes on the left side based on the marker the user clicked.
+  - When the user clicks on the marker, the custom info window with the national park's name appears and the national park information with the corresponding image changes on the left column side. The info window will close when the user clicks on the same marker or when clicked anywhere on the map.
 
 - Weather data
   - The user can select a national park from the drop-down menu. Upon selection, the weather data will get displayed with the current and today's weather data.
 
-- Button and form
+- Contact form
+  - A visitor can fill out the contact form and submit it to send a message to the site owner.
 
 **As a site visitor, I would like to be able to easily find and navigate to the company's social media.**
 
@@ -95,15 +96,14 @@ SweetAlert2 was used to add an interactive custom modal popup window when a user
 
 **As a site visitor, I want to use map to find exciting national parks in Japan and based on the provided information decide what places to visit.**
 
-- Google Maps API was used to display the ten most beautiful national parks of Japan. When hover over the marker, the national park's name shows.
-And when the user clicks on the marker, the national park information with the corresponding image changes on the left side based on the marker the user clicked.
+- Google Maps API was used to display the ten most beautiful national parks of Japan. When the user clicks on the marker, the national park's name shows in the info window, and the national park information with the corresponding image will change on the left column side.
 
 <h2 align="center"><img src="readme-files/img-readme/us-map-np.jpg" alt="National parks of Japan on the map" target="_blank" width="75%" height="75%"></h2>
 <h2 align="center"><img src="readme-files/img-readme/us-map-np-1.jpg" alt="National parks of Japan on the map" target="_blank" width="75%" height="75%"></h2>
 
 **As a site visitor, I want to get information how to get to the national parks.**
 
-- Under each national park there is a paragraph "How to get there" which gives the user the information on how to get to this particular national park. This paragraph is placed as the last paragraph under the each national park information section.
+- Under each national park there is a paragraph "How to get there" which gives the user the information on how to get to this national park. This paragraph is placed as the last paragraph under each national park information section.
 
 <h2 align="center"><img src="readme-files/img-readme/us-how-to-get-there.jpg" alt="How to get there info" target="_blank" width="75%" height="75%"></h2>
 
@@ -174,6 +174,7 @@ Comprehensive testing was executed. Further elaborated in more details below:
 ## Social media icons
 
 - Social media icons once clicked open the expected link in a new tab.
+- When hover the icons, the buzz out animation effect works correcty
 
 ## Hero image
 
@@ -199,8 +200,8 @@ Comprehensive testing was executed. Further elaborated in more details below:
 
 ## Contact form
 
-- All properties in the contact form are required. 
-- The contact form was tested for the validation by submitting first without inputs and then by filling the properties one by one. All worked as expected, all properties asked for the input. Furthermore, the email property asks for the email format with @ symbol.
+- All properties in the contact form apart the Subject are required.
+- The contact form was tested for the validation by submitting first without inputs and then by filling the properties one by one. All worked as expected, all required properties asked for the input. Furthermore, the email property asks for the email format with @ symbol.
 - The contact form is connected using EmailJS service which allows users to send an email directly without using the server. This functionality works as expected.
 - SweetAlert2 was used to add an interactive custom modal popup window when a user submits a contact form. Success or error message displays depending on if the user correctly or incorrectly uses the forms on the website.
 
@@ -218,7 +219,7 @@ Tooltips are added on the 'i' icon located next to the Map and Weather titles an
   - Chrome for Android
   - Samsung Internet
 
-I didn't encounter any issue; the website is fully functioning and fully responsive on all above mentioned browsers. Further testing was done using [BrowserLing](https://www.browserling.com/) for Internet Explorer 11.
+I didn't encounter any issue; the website is fully functioning and fully responsive on all above-mentioned browsers. Further testing was done using [BrowserLing](https://www.browserling.com/) for Internet Explorer 11.
 
 ## Device Testing
 
@@ -232,68 +233,90 @@ I didn't encounter any issue; the website is fully functioning and fully respons
   - Nokia Lumia 640 LTE (Windows 10) (Microsoft Edge)
   - HUAWEI P30 lite (Chrome for Android)
   - Samsung Galaxy Tab A (Chrome for Android & Samsung Internet)
-  - Lenovo ThinkBook 13S
+  - Lenovo ThinkBook 13S (Chrome, Microsoft Edge & Firefox)
 
 The results were consistent, the website is platform-cross compatible and responsive.
 Furthermore, using DevTools I checked responsiveness for different screen sizes for mobile and tablet devices. Couple of issues were found and fixed all described under [Encountered Issues](#encountered-issues) section.
 
 # Encountered Issues
+
 Several bugs were encountered during the coding process:
 
 - A full screen overlay navigation didn't work on mobile devices, it was not clickable. After adding lower z-index (negative z-index) to social-header element, the overlay navigation was fixed on mobile devices, but social media icons were not clickable anymore. The issue was resolved by adding higher z-index to navbar element.
 
-**Fixed** by adding below CSS code:
+  **Fixed** by adding below CSS code:
 
-```
-.social-header {
-    position: absolute;
-    z-index: 99;
-}
-```
+  ```
+  .social-header {
+      position: absolute;
+      z-index: 99;
+  }
+  ```
 
-```
-.navbar-header {
-  z-index: 100; /* Bring in front of social-header element*/
-}
-```
+  ```
+  .navbar-header {
+    z-index: 100; /* Bring in front of social-header element*/
+  }
+  ```
 
 - Issue with displaying weather data for multiple locations.
 Initially I have planned to use Bootstrap dropdown button with `<ul>` and `<li>` tags to display a list of national parks but it didn't work with JavaScript function.
 
-**Fixed** with a help of my mentor and following the advice from Stackoverflow article [Get selected value in dropdown list using JavaScript](https://stackoverflow.com/questions/1085801/get-selected-value-in-dropdown-list-using-javascript)
+  **Fixed** with a help of my mentor and following the advice from Stackoverflow article [Get selected value in dropdown list using JavaScript](https://stackoverflow.com/questions/1085801/get-selected-value-in-dropdown-list-using-javascript)
  by adding a list inside of `select` element and adding `onmouseup` event.
 
-```
-<div class="weather-search mb-4">
-  <div class="row">
-    <div class="custom-select px-3 text-center">
-      <select id="nationalParks" onmouseup="getWeather()" aria-labelledby="nationalParks">
-        <option value="Akan Mashu National Park">Akan Mashu National Park</option>
-        <option value="Aso Kuju National Park">Aso Kuju National Park</option>
-        <option value="Fuji Hakone Izu National Park">Fuji Hakone Izu National Park</option>
-        <option value="Iriomote Ishigaki National Park">Iriomote Ishigaki National Park</option>
-        <option value="Nikko National Park">Nikko National Park</option>
-        <option value="Saikai National Park">Saikai National Park</option>
-        <option value="Shiretoko National Park">Shiretoko National Park</option>
-        <option value="Towada Hachimantai National Park">Towada Hachimantai National Park</option>
-        <option value="Yakushima">Yakushima National Park</option>
-        <option value="Yoshino Kumano National Park">Yoshino Kumano National Park</option>
-      </select>
+  ```
+  <div class="weather-search mb-4">
+    <div class="row">
+      <div class="custom-select px-3 text-center">
+        <select id="nationalParks" onmouseup="getWeather()" aria-labelledby="nationalParks">
+          <option value="Akan Mashu National Park">Akan Mashu National Park</option>
+          <option value="Aso Kuju National Park">Aso Kuju National Park</option>
+          <option value="Fuji Hakone Izu National Park">Fuji Hakone Izu National Park</option>
+          <option value="Iriomote Ishigaki National Park">Iriomote Ishigaki National Park</option>
+          <option value="Nikko National Park">Nikko National Park</option>
+          <option value="Saikai National Park">Saikai National Park</option>
+          <option value="Shiretoko National Park">Shiretoko National Park</option>
+          <option value="Towada Hachimantai National Park">Towada Hachimantai National Park</option>
+          <option value="Yakushima">Yakushima National Park</option>
+          <option value="Yoshino Kumano National Park">Yoshino Kumano National Park</option>
+        </select>
+      </div>
     </div>
   </div>
-</div>
-```
+  ```
 
 
-- Google Maps infoWindow not showing on iPhone
+- Google Maps info windows did not show on mobile devices. Initially, the info window was set to appear on the markers on mouseover and to disappear on mouseout events. Since hover styles basically don't really exist on touch devices this function didn't work.
+
+  **Fixed** by adopting solution from the following [Stack Overflow](https://stackoverflow.com/questions/2946165/google-map-api-v3-simply-close-an-infowindow) post.
+
+  ```
+  // Open info window when clicked on it
+  google.maps.event.addListener(marker, 'click', function() {
+    if(!marker.open) {
+      infowindow.open(map, marker);
+      marker.open = true;
+    }
+    // Close info window when clicked on it
+    else {
+      infowindow.close();
+      marker.open = false;
+    }
+    // Close info window when clicked anywhere on the map and the info window was opened
+    google.maps.event.addListener(map, 'click', function() {
+      infowindow.close();
+      marker.open = false;
+        });
+  ```
 
 - For devices with smaller screen size (i.e., iPhone5) the header section elements were too close together which was causing a bad UX.
 
-<h2 align="center"><img src="readme-files/img-readme/iphone5.jpg" alt="iPhone 3 detected issue" target="_blank" width="60%" height="60%"></h2>
+  <h2 align="center"><img src="readme-files/img-readme/iphone5.jpg" alt="iPhone 3 detected issue" target="_blank" width="60%" height="60%"></h2>
 
-**Fixed** by adding the media query for screen size min-width of 320px and by adding the following CSS code:
+  **Fixed** by adding the media query for screen size min-width of 320px and by adding the following CSS code:
 
-```
+  ```
     @media only screen 
       and (min-device-width: 320px) 
       and (max-width: 568px)
@@ -316,32 +339,32 @@ Initially I have planned to use Bootstrap dropdown button with `<ul>` and `<li>`
     }
   ```
 
-Media queries for the iPhone5 were found on the following article: [Coderwall](https://coderwall.com/).
+  Media queries for the iPhone5 were found on the following article: [Coderwall](https://coderwall.com/).
 
 - The bounce arrow positioned on the bottom of the hero background image was not showing on device iPad Pro 12.9"
 
-<h2 align="center"><img src="readme-files/img-readme/arrow-bounce-ipad-pro.jpg" alt="iPhone 3 detected issue" target="_blank" width="60%" height="60%"></h2>
+  <h2 align="center"><img src="readme-files/img-readme/arrow-bounce-ipad-pro.jpg" alt="iPhone 3 detected issue" target="_blank" width="60%" height="60%"></h2>
 
-**Fixed** by adding the following CSS code:
+  **Fixed** by adding the following CSS code:
 
-```
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  ```
+  @media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px)
+    and (-webkit-min-device-pixel-ratio: 2) {
 
-    .arrow {
-       bottom: 6rem;
-    }
-}
-```
+      .arrow {
+        bottom: 6rem;
+      }
+  }
+  ```
 
 # Performance Testing
 Performance was tested using [Lighthouse](https://developers.google.com/web/tools/lighthouse) tool.
 
 ## Desktop
 
-<h2 align="center"><img src="readme-files/img-readme/lighthouse.jpg" alt="lighthouse performance for home page" target="_blank" width="45%" height="45%"></h2>
+<h2 align="center"><img src="readme-files/img-readme/lighthouse-desktop.jpg" alt="lighthouse performance for home page" target="_blank" width="45%" height="45%"></h2>
 
 The results were somewhat different every time. Following article [Why are my Lighthouse scores different from my other test results?](https://support.speedcurve.com/en/articles/4088236-why-are-my-lighthouse-scores-different-from-my-other-test-results#:~:text=The%20performance%20score%20is%20strongly,cause%20variability%20in%20your%20scores.) gives an explanation on Lighthouse that "the performance score is strongly influenced by Time to Interactive (TTI) and Total Blocking Time (TBT), which can be quite different depending on the test environment and runtime settings."
 
