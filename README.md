@@ -306,7 +306,7 @@ To create a local copy of the repository please follow the below steps:
 - [Coderwall](https://coderwall.com/) was used for media queries for iPhone 5
 - Tooltip functionality was sourced from [Bootstrap](https://getbootstrap.com/docs/5.0/components/tooltips/)
 - A solution for changing tooltips arrow color was found on the following [Stack Overflow](https://stackoverflow.com/questions/44955201/bootstrap-4-change-tooltip-arrow-color) post.
-- Info window feature for Google Maps for adopted from the following [Stack Overflow](https://stackoverflow.com/questions/2946165/google-map-api-v3-simply-close-an-infowindow) post
+- Info window feature for Google Maps was adopted from the following [Stack Overflow](https://stackoverflow.com/questions/2946165/google-map-api-v3-simply-close-an-infowindow) post
 
 ## Media
 
