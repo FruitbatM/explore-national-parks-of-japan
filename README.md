@@ -188,7 +188,7 @@ The website will be a single page website separated in four sections: Explore, M
     - Will be used to display national parks weather forecast.
     - The user will select a national park from the dropdown menu list. Upon the selection, the weather information will get displayed with the current and today's weather data.
 - Tooltips
-    - Tooltips were not initially planned but were added later as a helper tool to indicated the users about the feature functionality under the map and weather sections. Tooltip text appears when the user hovers over the 'i' icon located next to the Map and Weather headings.
+    - Tooltips were not initially planned but were added later as a helper tool to indicate the users about the feature functionality under the map and weather sections. Tooltip text appears when the user hovers over the 'i' icon located next to the Map and Weather headings.
 - Contact form
     - Contact form is connected using EmailJS which allows users to send emails directly without using the server.
     - SweetAlert2 will be used to add an interactive custom modal popup window when the user submits a contact form.
@@ -213,7 +213,7 @@ The website will be a single page website separated in four sections: Explore, M
 ## Frameworks, Libraries and Programs
 
 - [Bootstrap v.4.6.](https://getbootstrap.com/docs/4.6/getting-started/introduction/) was used to create the contact form and footer section as well to make the website responsive.
-- [jQuery](https://jquery.com/) was usded for tooltip functionality.
+- [jQuery](https://jquery.com/) was used for tooltip functionality.
 - [Balsamiq](https://balsamiq.com/) was used to create the wireframes for the website.
 - [Font Awesome](https://fontawesome.com/) icons were used in the header section and throughout the website for better user experience.
 - [Google Fonts](https://fonts.google.com/) was used to import the fonts to the website.
