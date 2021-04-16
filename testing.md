@@ -236,7 +236,7 @@ I didn't encounter any issue; the website is fully functioning and fully respons
   - Lenovo ThinkBook 13S (Chrome, Microsoft Edge & Firefox)
 
 The results were consistent, the website is platform-cross compatible and responsive.
-Furthermore, using DevTools I checked responsiveness for different screen sizes for mobile and tablet devices. Couple of issues were found and fixed all described under [Encountered Issues](#encountered-issues) section.
+Furthermore, using DevTools I checked responsiveness for different screen sizes for mobile and tablet devices. Several issues were found and fixed all described under [Encountered Issues](#encountered-issues) section.
 
 # Encountered Issues
 
@@ -289,7 +289,7 @@ Initially I have planned to use Bootstrap dropdown button with `<ul>` and `<li>`
 
 - Google Maps info windows did not show on mobile devices. Initially, the info window was set to appear on the markers on mouseover and to disappear on mouseout events. Since hover styles basically don't really exist on touch devices this function didn't work.
 
-  **Fixed** by adopting solution from the following [Stack Overflow](https://stackoverflow.com/questions/2946165/google-map-api-v3-simply-close-an-infowindow) post.
+  **Fixed** by adding below code:
 
   ```
   // Open info window when clicked on it
@@ -309,6 +309,8 @@ Initially I have planned to use Bootstrap dropdown button with `<ul>` and `<li>`
       marker.open = false;
         });
   ```
+
+  The solution was adopted from the following [Stack Overflow](https://stackoverflow.com/questions/2946165/google-map-api-v3-simply-close-an-infowindow) post.
 
 - For devices with smaller screen size (i.e., iPhone5) the header section elements were too close together which was causing a bad UX.
 
