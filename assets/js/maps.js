@@ -246,13 +246,13 @@ function initMap() {
         content:props.content
       });
 
-      // Open info window when clicked on it
+      // Open info window when clicked on the marker
       google.maps.event.addListener(marker, 'click', function() {
         if(!marker.open) {
           infowindow.open(map, marker);
           marker.open = true;
         }
-        // Close info window when clicked on it
+        // Close info window when clicked on the marker
         else {
           infowindow.close();
           marker.open = false;
